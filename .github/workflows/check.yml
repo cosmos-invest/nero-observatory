@@ -24,6 +24,7 @@ jobs:
           node --check analysis-core.mjs
           node --check observatory-core.mjs
           node --check scripts/sync-observatory.mjs
+          node --check scripts/complete-dashboard.mjs
           node --check scripts/finalize-observation.mjs
           node --check scripts/mobile-smoke.mjs
 
