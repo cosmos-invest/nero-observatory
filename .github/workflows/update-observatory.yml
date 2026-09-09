@@ -12,6 +12,7 @@ on:
     branches: [main]
     paths:
       - scripts/sync-observatory.mjs
+      - scripts/finalize-observation.mjs
       - .github/workflows/update-observatory.yml
 
 permissions:
@@ -53,6 +54,9 @@ jobs:
         env:
           NOTE_SESSION_COOKIE: ${{ secrets.NOTE_SESSION_COOKIE }}
         run: node scripts/sync-observatory.mjs
+
+      - name: Select official daily cut
+        run: node scripts/finalize-observation.mjs
 
       - name: Validate generated public data
         run: |
