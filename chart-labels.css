@@ -5,39 +5,56 @@
 }
 
 .rate-chart-wrap {
-  min-height: 330px;
+  min-height: 350px;
 }
 
 .rate-chart svg {
-  min-height: 285px;
+  min-height: 300px;
+  overflow: visible;
 }
 
 .axis-article-number {
-  fill: rgba(232,196,96,.92);
+  fill: rgba(238,202,101,.96);
   font: 700 10px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  transform-box: fill-box;
+  transform-origin: center;
+  transform: scale(1.2);
 }
 
 .axis-article-vertical {
-  fill: #d0c9bb;
-  font: 600 10.5px -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Yu Gothic", sans-serif;
+  fill: #ded7c9;
+  font: 650 10.5px -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Yu Gothic", sans-serif;
+  transform-box: fill-box;
+  transform-origin: top center;
+  transform: scale(1.45);
 }
 
 .axis-article-tick {
-  stroke: rgba(216,179,77,.28);
+  stroke: rgba(216,179,77,.32);
   stroke-width: 1;
 }
 
 @media (max-width: 620px) {
-  .rate-chart-wrap { min-height: 320px; }
-  .rate-chart svg { min-height: 280px; }
+  .rate-chart-wrap {
+    min-height: 370px;
+  }
+
+  .rate-chart svg {
+    min-height: 315px;
+    overflow: visible;
+  }
+
   .axis-article-number {
     font-size: 10px;
     font-weight: 700;
-    fill: rgba(238,202,101,.96);
+    fill: #f0cb65;
+    transform: scale(1.3);
   }
+
   .axis-article-vertical {
     font-size: 10.5px;
-    font-weight: 600;
-    fill: #d8d1c3;
+    font-weight: 650;
+    fill: #e3dccf;
+    transform: scale(1.65);
   }
 }
