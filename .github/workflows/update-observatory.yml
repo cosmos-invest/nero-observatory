@@ -12,6 +12,7 @@ on:
     branches: [main]
     paths:
       - scripts/sync-observatory.mjs
+      - scripts/complete-dashboard.mjs
       - scripts/finalize-observation.mjs
       - .github/workflows/update-observatory.yml
 
@@ -50,10 +51,15 @@ jobs:
           fi
           echo "CHROME_PATH=$CHROME_PATH" >> "$GITHUB_ENV"
 
-      - name: Collect note data
+      - name: Collect public and first-page note data
         env:
           NOTE_SESSION_COOKIE: ${{ secrets.NOTE_SESSION_COOKIE }}
         run: node scripts/sync-observatory.mjs
+
+      - name: Complete all dashboard pages
+        env:
+          NOTE_SESSION_COOKIE: ${{ secrets.NOTE_SESSION_COOKIE }}
+        run: node scripts/complete-dashboard.mjs
 
       - name: Select official daily cut
         run: node scripts/finalize-observation.mjs
