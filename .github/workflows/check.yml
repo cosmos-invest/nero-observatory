@@ -1,0 +1,32 @@
+name: Check public observatory
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Check JavaScript syntax
+        run: |
+          node --check app.js
+          node --check analysis-core.mjs
+          node --check observatory-core.mjs
+      - name: Check JSON data
+        run: |
+          node -e "for (const f of ['data/public_dashboard.json','data/article_metrics.json','data/articles.json','data/mentions.json']) JSON.parse(require('fs').readFileSync(f,'utf8')); console.log('json ok')"
+      - name: Guard sensitive fields
+        run: |
+          if grep -R -E 'sales_yen|purchase_count|purchase_summary|buyer_email|order_id|gmail_message_id|NOTE_SESSION_COOKIE' data; then
+            echo 'Sensitive field detected in public data.'
+            exit 1
+          fi
