@@ -16,6 +16,7 @@ on:
       - scripts/finalize-observation.mjs
       - .github/workflows/update-observatory.yml
 
+# manual kick marker: 2026-09-09
 permissions:
   contents: write
 
