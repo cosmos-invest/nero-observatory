@@ -27,3 +27,30 @@
     grid-template-rows: auto auto auto minmax(310px, 1fr) auto;
   }
 }
+
+@media (max-width: 380px) {
+  .topbar-inner {
+    flex-wrap: wrap;
+    padding-block: 5px;
+    gap: 5px;
+  }
+  .title {
+    width: 100%;
+    font-size: 14px;
+  }
+  .top-actions {
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+    gap: 5px;
+  }
+  .top-actions select {
+    flex: 1 1 0;
+    min-width: 0;
+    max-width: none;
+  }
+  .top-actions button {
+    flex: 0 0 auto;
+    padding-inline: 7px;
+  }
+}
