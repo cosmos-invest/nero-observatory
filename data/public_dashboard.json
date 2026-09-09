@@ -1,11 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-09T14:14:06+09:00",
+  "generated_at": "2026-09-09T17:13:32+09:00",
   "snapshot_policy": {
     "timezone": "Asia/Tokyo",
     "target_publish_time": "21:00",
     "first_fetch_time": "19:35",
-    "retry_times": ["19:50", "20:05", "20:20"],
+    "retry_times": [
+      "19:50",
+      "20:05",
+      "20:20"
+    ],
     "rule": "19:35以降に再取得し、noteの記事別集計時刻が18:00〜20:30 JSTに入る最も新しい断面を当日公式値として採用する。"
   },
   "latest": {
@@ -73,18 +77,24 @@
     }
   ],
   "public_profile": {
-    "observed_at": "2026-09-08T22:06:59+09:00",
+    "observed_at": "2026-09-09T17:13:32+09:00",
     "creator_id": "nero_notelover",
-    "nickname": "ネロ🌙│AIとnoteで実験中│フォロバ100",
-    "followers": 734,
+    "nickname": "ネロ🌙｜王子｜楽しくnote収益化",
+    "followers": 767,
     "note_count": 23,
-    "total_public_likes": 2507,
-    "total_public_comments": 420
+    "total_public_likes": 2626,
+    "total_public_comments": 447
   },
   "follower_snapshots": [
     {
       "observed_at": "2026-09-08T22:06:59+09:00",
       "followers": 734,
+      "articles": 23,
+      "source": "note_public_creator_api"
+    },
+    {
+      "observed_at": "2026-09-09T17:13:32+09:00",
+      "followers": 767,
       "articles": 23,
       "source": "note_public_creator_api"
     }
