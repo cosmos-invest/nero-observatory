@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#070707">
+  <title>王子の観測室🌙</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./chart-labels.css">
+  <link rel="stylesheet" href="./public-overrides.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <a class="title" href="#top">王子の観測室🌙</a>
+      <nav class="top-actions" aria-label="表示操作">
+        <select id="article-type" aria-label="記事種別">
+          <option value="all">全部</option>
+          <option value="free">無料</option>
+          <option value="paid">有料</option>
+        </select>
+        <button id="toggle-outliers" type="button" aria-pressed="false">爆発2記事 含む</button>
+        <button id="toggle-capture" class="gold" type="button" aria-pressed="false">スクショ</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top" class="shell page">
+    <section id="observation-board" class="observation-board" aria-label="王子の観測データ">
+      <header class="board-head">
+        <div>
+          <h1>王子の観測室🌙</h1>
+          <p><span id="metric-period">--</span><b id="filter-label">全記事</b></p>
+        </div>
+        <div class="cut">
+          <span id="snapshot-date">--</span>
+          <strong id="snapshot-time">--:--</strong>
+        </div>
+      </header>
+
+      <div class="primary-grid" aria-label="主要指標">
+        <div class="metric"><span>IMP</span><strong id="metric-impressions">--</strong><small id="delta-impressions">--</small></div>
+        <div class="metric"><span>PV</span><strong id="metric-pageviews">--</strong><small id="delta-pageviews">--</small></div>
+        <div class="metric"><span>フォロワー</span><strong id="metric-followers">--</strong><small id="delta-followers">--</small></div>
+        <div class="metric"><span>スキ</span><strong id="metric-likes">--</strong><small id="delta-likes">--</small></div>
+        <div class="metric"><span>コメント</span><strong id="metric-comments">--</strong><small id="delta-comments">--</small></div>
+        <div class="metric"><span>紹介</span><strong id="metric-mentions">--</strong><small id="delta-mentions">--</small></div>
+      </div>
+
+      <div class="derived-grid" aria-label="独自KPI">
+        <div><span>開封率</span><strong id="kpi-open-rate">--</strong></div>
+        <div><span>スキ率</span><strong id="kpi-like-rate">--</strong></div>
+        <div><span>コメント率</span><strong id="kpi-comment-rate">--</strong></div>
+        <div><span>PV / 記事</span><strong id="kpi-pv-per-article">--</strong></div>
+      </div>
+
+      <div class="rate-chart-wrap">
+        <header class="rate-chart-head">
+          <span>直近10記事の反応率</span>
+          <div class="legend"><i class="like-line"></i>スキ率 <i class="comment-line"></i>コメント率</div>
+        </header>
+        <div id="article-rate-chart" class="rate-chart" role="img" aria-label="直近10記事のスキ率とコメント率"></div>
+      </div>
+
+      <footer class="board-foot">
+        <span id="comparison-label">前回比</span>
+        <span><b id="metric-articles">--</b>記事 · <span id="followers-observed">--</span></span>
+      </footer>
+    </section>
+    <button id="capture-exit" class="capture-exit" type="button">戻る</button>
+
+    <section id="hashtags" class="analysis-panel hashtag-panel">
+      <header class="panel-head">
+        <h2>ハッシュタグ</h2>
+        <select id="hashtag-sort" aria-label="ハッシュタグの並び順">
+          <option value="avgPageviews">PV / 記事</option>
+          <option value="avgLikes">スキ / 記事</option>
+          <option value="likeRate">スキ率</option>
+          <option value="commentRate">コメント率</option>
+          <option value="articleCount">使用記事数</option>
+        </select>
+      </header>
+      <div class="hashtag-table" id="hashtag-table"></div>
+    </section>
+
+    <section id="mentions" class="analysis-panel mentions-panel">
+      <header class="panel-head">
+        <h2>紹介記事 <span id="mention-count">--</span></h2>
+        <button id="copy-note-block" class="gold" type="button">note用コピー</button>
+      </header>
+      <div class="mention-filters">
+        <select id="mention-range" aria-label="紹介記事の期間">
+          <option value="all">全期間</option>
+          <option value="7">7日</option>
+          <option value="today">今日</option>
+          <option value="yesterday">昨日</option>
+          <option value="month">今月</option>
+        </select>
+        <label><input type="checkbox" id="mention-unused"> 未掲載のみ</label>
+      </div>
+      <pre id="note-copy-preview"></pre>
+      <div id="mention-list" class="mention-list"></div>
+      <p id="copy-status" class="status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
