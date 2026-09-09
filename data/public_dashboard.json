@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-09T20:24:46+09:00",
+  "generated_at": "2026-09-10T00:13:56+09:00",
   "snapshot_policy": {
     "timezone": "Asia/Tokyo",
     "target_publish_time": "21:00",
@@ -90,13 +90,13 @@
     }
   ],
   "public_profile": {
-    "observed_at": "2026-09-09T20:23:57+09:00",
+    "observed_at": "2026-09-10T00:13:56+09:00",
     "creator_id": "nero_notelover",
     "nickname": "ネロ🌙｜王子｜楽しくnote収益化",
-    "followers": 770,
-    "note_count": 23,
-    "total_public_likes": 2633,
-    "total_public_comments": 447
+    "followers": 781,
+    "note_count": 24,
+    "total_public_likes": 2679,
+    "total_public_comments": 464
   },
   "follower_snapshots": [
     {
@@ -115,6 +115,12 @@
       "observed_at": "2026-09-09T20:10:21+09:00",
       "followers": 770,
       "articles": 23,
+      "source": "note_public_creator_api"
+    },
+    {
+      "observed_at": "2026-09-10T00:13:56+09:00",
+      "followers": 781,
+      "articles": 24,
       "source": "note_public_creator_api"
     }
   ]
