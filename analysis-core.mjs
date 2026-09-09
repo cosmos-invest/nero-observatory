@@ -102,7 +102,7 @@ export function summarizeArticleRows(rows) {
 export function articleRateSeries(rows) {
   const context = rows?.[FILTER_CONTEXT] ?? null;
   const sourceRows = context?.sourceRows ?? (rows ?? []);
-  let series = sourceRows
+  const toSeries = (input) => input
     .filter((row) => finite(row.pageviews) && row.pageviews > 0 && row.published_at)
     .map((row) => ({
       key: row.key,
@@ -117,12 +117,17 @@ export function articleRateSeries(rows) {
     }))
     .sort((a, b) => Date.parse(a.published_at) - Date.parse(b.published_at));
 
-  if (context) {
-    const visibleKeys = new Set((rows ?? []).map((row) => row.key));
-    series = series.slice(-10).filter((row) => visibleKeys.has(row.key));
+  if (!context) return toSeries(sourceRows);
+
+  if (context.articleType === 'paid') {
+    return toSeries(sourceRows.filter((row) => {
+      if (context.excludeOutliers && row.outlier) return false;
+      return row.is_paid === true;
+    })).slice(-10);
   }
 
-  return series;
+  const visibleKeys = new Set((rows ?? []).map((row) => row.key));
+  return toSeries(sourceRows).slice(-10).filter((row) => visibleKeys.has(row.key));
 }
 
 export function aggregateHashtags(rows) {
