@@ -1,0 +1,69 @@
+name: Deploy Nero Observatory
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - app.js
+      - observatory-core.mjs
+      - analysis-core.mjs
+      - styles.css
+      - chart-labels.css
+      - public-overrides.css
+      - .nojekyll
+      - data/**
+      - .github/workflows/deploy-pages.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+environment:
+  name: github-pages
+  url: ${{ steps.deployment.outputs.page_url }}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate public files
+        run: |
+          node --check app.js
+          node --check observatory-core.mjs
+          node --check analysis-core.mjs
+          node -e "for (const f of ['data/public_dashboard.json','data/article_metrics.json','data/articles.json','data/mentions.json']) JSON.parse(require('fs').readFileSync(f,'utf8')); console.log('json ok')"
+          if grep -R -E 'sales_yen|purchase_count|purchase_summary|buyer_email|order_id|gmail_message_id|NOTE_SESSION_COOKIE' data; then
+            echo 'Sensitive field detected in public data.'
+            exit 1
+          fi
+
+      - name: Stage public site only
+        run: |
+          mkdir -p _site/data
+          cp index.html app.js observatory-core.mjs analysis-core.mjs styles.css chart-labels.css public-overrides.css .nojekyll _site/
+          cp data/public_dashboard.json data/article_metrics.json data/articles.json data/mentions.json _site/data/
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
