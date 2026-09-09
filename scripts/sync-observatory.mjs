@@ -221,6 +221,16 @@ function collectMetricCandidates(payload, output, updatedTimes, depth = 0) {
   for (const value of Object.values(payload)) if (value && typeof value === 'object') collectMetricCandidates(value, output, updatedTimes, depth + 1);
 }
 
+function collectFieldHints(payload, output = new Set(), depth = 0) {
+  if (!payload || typeof payload !== 'object' || depth > 8 || output.size >= 80) return output;
+  for (const [key, value] of Object.entries(payload)) {
+    if (/(impress|page|view|like|comment|metric|stat|access|analytic|note|content|article|aggregate|updated)/i.test(key)) output.add(key);
+    if (value && typeof value === 'object') collectFieldHints(value, output, depth + 1);
+    if (output.size >= 80) break;
+  }
+  return output;
+}
+
 async function collectLegacyViews(cookie) {
   const map = new Map();
   if (!cookie) return map;
@@ -252,15 +262,31 @@ async function collectDashboard(cookie) {
     await context.addCookies([{ name: '_note_session_v5', value: cookie, domain: '.note.com', path: '/', secure: true, httpOnly: true, sameSite: 'Lax' }]);
     const page = await context.newPage();
     const captures = [];
+    const captureMeta = [];
     page.on('response', async (response) => {
-      const url = response.url();
-      if (!/graphql\.note\.com\/graphql|note\.com\/api\//.test(url)) return;
       const contentType = response.headers()['content-type'] ?? '';
       if (!contentType.includes('json')) return;
+      let parsedUrl;
+      try { parsedUrl = new URL(response.url()); } catch { return; }
+      if (!(parsedUrl.hostname === 'note.com' || parsedUrl.hostname.endsWith('.note.com'))) return;
       try {
         const json = await response.json();
         captures.push(json);
         collectMetricCandidates(json, metricMap, updatedTimes);
+        let operationName = null;
+        try {
+          const body = response.request().postDataJSON();
+          operationName = body?.operationName ?? (Array.isArray(body) ? body.map((item) => item?.operationName).filter(Boolean).join(',') : null);
+        } catch {}
+        captureMeta.push({
+          host: parsedUrl.hostname,
+          path: parsedUrl.pathname,
+          method: response.request().method(),
+          operationName,
+          topKeys: json && typeof json === 'object' && !Array.isArray(json) ? Object.keys(json).slice(0, 20) : [],
+          dataKeys: json?.data && typeof json.data === 'object' && !Array.isArray(json.data) ? Object.keys(json.data).slice(0, 30) : [],
+          fieldHints: [...collectFieldHints(json)].slice(0, 80),
+        });
       } catch {}
     });
     await page.goto(DASHBOARD_URL, { waitUntil: 'domcontentloaded', timeout: 60_000 });
@@ -270,6 +296,7 @@ async function collectDashboard(cookie) {
     if (!/インプレッション|ページビュー|アクセス/.test(body)) console.warn('dashboard marker text was not found');
     await page.waitForTimeout(4_000);
     console.log(`dashboard network captures: ${captures.length}; metric candidates: ${metricMap.size}`);
+    console.log(`dashboard response shapes: ${JSON.stringify(captureMeta)}`);
     return { metricMap, updatedTimes, source: 'note_dashboard_browser' };
   } finally {
     await browser?.close().catch(() => {});
