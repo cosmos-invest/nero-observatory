@@ -1,5 +1,6 @@
 export const OUTLIER_NOTE_KEYS = new Set(['n46c95069af22', 'ne4843208abbe']);
 
+const FILTER_CONTEXT = Symbol('articleFilterContext');
 const finite = (value) => typeof value === 'number' && Number.isFinite(value);
 
 const SHORT_TITLE_RULES = [
@@ -73,12 +74,18 @@ export function joinArticleRows(articleMetrics, articles) {
 }
 
 export function filterArticleRows(rows, excludeOutliers, articleType = 'all') {
-  return (rows ?? []).filter((row) => {
+  const sourceRows = rows?.[FILTER_CONTEXT]?.sourceRows ?? (rows ?? []);
+  const filtered = sourceRows.filter((row) => {
     if (excludeOutliers && row.outlier) return false;
     if (articleType === 'paid') return row.is_paid === true;
     if (articleType === 'free') return row.is_paid !== true;
     return true;
   });
+  Object.defineProperty(filtered, FILTER_CONTEXT, {
+    value: { sourceRows, excludeOutliers: Boolean(excludeOutliers), articleType },
+    enumerable: false,
+  });
+  return filtered;
 }
 
 export function summarizeArticleRows(rows) {
@@ -93,7 +100,9 @@ export function summarizeArticleRows(rows) {
 }
 
 export function articleRateSeries(rows) {
-  return (rows ?? [])
+  const context = rows?.[FILTER_CONTEXT] ?? null;
+  const sourceRows = context?.sourceRows ?? (rows ?? []);
+  let series = sourceRows
     .filter((row) => finite(row.pageviews) && row.pageviews > 0 && row.published_at)
     .map((row) => ({
       key: row.key,
@@ -107,6 +116,13 @@ export function articleRateSeries(rows) {
       is_paid: row.is_paid === true,
     }))
     .sort((a, b) => Date.parse(a.published_at) - Date.parse(b.published_at));
+
+  if (context) {
+    const visibleKeys = new Set((rows ?? []).map((row) => row.key));
+    series = series.slice(-10).filter((row) => visibleKeys.has(row.key));
+  }
+
+  return series;
 }
 
 export function aggregateHashtags(rows) {
