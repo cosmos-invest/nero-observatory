@@ -14,6 +14,9 @@ on:
       - .nojekyll
       - data/**
       - .github/workflows/deploy-pages.yml
+  workflow_run:
+    workflows: ["Update Nero Observatory"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -27,6 +30,7 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     environment:
@@ -35,6 +39,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Validate public files
         run: |
