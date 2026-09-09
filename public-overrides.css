@@ -1,0 +1,29 @@
+.top-actions select {
+  min-height: 38px;
+  padding: 0 28px 0 10px;
+  border: 1px solid rgba(255,255,255,.09);
+  border-radius: 3px;
+  background: #0d0d0d;
+  color: #c6c0b2;
+}
+
+.observation-board {
+  grid-template-rows: auto auto auto minmax(330px, 1fr) auto;
+}
+
+.board-foot b {
+  color: var(--gold-2);
+  font-weight: 700;
+}
+
+@media (max-width: 620px) {
+  .top-actions select {
+    min-height: 34px;
+    max-width: 76px;
+    padding: 0 22px 0 7px;
+    font-size: 10px;
+  }
+  .observation-board {
+    grid-template-rows: auto auto auto minmax(310px, 1fr) auto;
+  }
+}
