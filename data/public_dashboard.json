@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-09T17:24:36+09:00",
+  "generated_at": "2026-09-09T17:26:48+09:00",
   "snapshot_policy": {
     "timezone": "Asia/Tokyo",
     "target_publish_time": "21:00",
@@ -77,7 +77,7 @@
     }
   ],
   "public_profile": {
-    "observed_at": "2026-09-09T17:24:36+09:00",
+    "observed_at": "2026-09-09T17:26:48+09:00",
     "creator_id": "nero_notelover",
     "nickname": "ネロ🌙｜王子｜楽しくnote収益化",
     "followers": 767,
