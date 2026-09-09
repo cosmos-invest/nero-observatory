@@ -19,6 +19,7 @@ on:
     types: [completed]
   workflow_dispatch:
 
+# deployment refresh: paid trend fix 2026-09-09
 permissions:
   contents: read
   pages: write
