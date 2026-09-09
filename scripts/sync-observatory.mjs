@@ -196,21 +196,50 @@ function findKey(object, depth = 3) {
   return null;
 }
 
+function mergeMetricRow(output, key, values = {}) {
+  if (!key) return;
+  const current = output.get(key) ?? { key };
+  for (const name of ['impressions', 'pageviews', 'likes', 'comments']) {
+    if (values[name] !== null && values[name] !== undefined) current[name] = values[name];
+  }
+  if (values.title) current.title ||= values.title;
+  if (values.published_at) current.published_at ||= values.published_at;
+  output.set(key, current);
+}
+
 function collectMetricCandidates(payload, output, updatedTimes, depth = 0) {
-  if (!payload || typeof payload !== 'object' || depth > 12) return;
+  if (!payload || typeof payload !== 'object' || depth > 14) return;
   if (!Array.isArray(payload)) {
+    if (payload.note && payload.metrics && typeof payload.note === 'object' && typeof payload.metrics === 'object') {
+      const note = payload.note;
+      const metrics = payload.metrics;
+      const key = findKey(note, 5) ?? keyFromAnything(note?.key) ?? keyFromAnything(note?.noteKey);
+      mergeMetricRow(output, key, {
+        impressions: num(metrics?.impressionCount ?? metrics?.impressions),
+        pageviews: num(metrics?.pageViewCount ?? metrics?.pageviewCount ?? metrics?.pageviews),
+        likes: num(metrics?.likeCount ?? metrics?.likes),
+        comments: num(metrics?.commentCount ?? metrics?.comments),
+        title: findString(note, [/^title$/i, /^name$/i], 4),
+        published_at: findString(note, [/publish/i], 4),
+      });
+    }
+
     const key = findKey(payload, 2);
     const impressions = scanImmediate(payload, [/impression/i]);
     const pageviews = scanImmediate(payload, [/page.?view/i, /^pv$/i, /read.?count/i]);
     const likes = scanImmediate(payload, [/^likes?$/i, /like.?count/i]);
     const comments = scanImmediate(payload, [/^comments?$/i, /comment.?count/i]);
     if (key && [impressions, pageviews, likes, comments].some((value) => value !== null)) {
-      const current = output.get(key) ?? { key };
-      for (const [name, value] of Object.entries({ impressions, pageviews, likes, comments })) if (value !== null) current[name] = value;
-      current.title ||= findString(payload, [/^title$/i, /^name$/i], 2);
-      current.published_at ||= findString(payload, [/publish/i], 2);
-      output.set(key, current);
+      mergeMetricRow(output, key, {
+        impressions,
+        pageviews,
+        likes,
+        comments,
+        title: findString(payload, [/^title$/i, /^name$/i], 2),
+        published_at: findString(payload, [/publish/i], 2),
+      });
     }
+
     for (const [field, value] of Object.entries(payload)) {
       if (typeof value === 'string' && /(last.*updated|aggregate.*at|updated.*at|calculated.*at)/i.test(field)) {
         const t = Date.parse(value);
@@ -219,16 +248,6 @@ function collectMetricCandidates(payload, output, updatedTimes, depth = 0) {
     }
   }
   for (const value of Object.values(payload)) if (value && typeof value === 'object') collectMetricCandidates(value, output, updatedTimes, depth + 1);
-}
-
-function collectFieldHints(payload, output = new Set(), depth = 0) {
-  if (!payload || typeof payload !== 'object' || depth > 8 || output.size >= 80) return output;
-  for (const [key, value] of Object.entries(payload)) {
-    if (/(impress|page|view|like|comment|metric|stat|access|analytic|note|content|article|aggregate|updated)/i.test(key)) output.add(key);
-    if (value && typeof value === 'object') collectFieldHints(value, output, depth + 1);
-    if (output.size >= 80) break;
-  }
-  return output;
 }
 
 async function collectLegacyViews(cookie) {
@@ -261,8 +280,7 @@ async function collectDashboard(cookie) {
     const context = await browser.newContext({ userAgent: USER_AGENT, locale: 'ja-JP', timezoneId: TIME_ZONE });
     await context.addCookies([{ name: '_note_session_v5', value: cookie, domain: '.note.com', path: '/', secure: true, httpOnly: true, sameSite: 'Lax' }]);
     const page = await context.newPage();
-    const captures = [];
-    const captureMeta = [];
+    let captures = 0;
     page.on('response', async (response) => {
       const contentType = response.headers()['content-type'] ?? '';
       if (!contentType.includes('json')) return;
@@ -271,33 +289,23 @@ async function collectDashboard(cookie) {
       if (!(parsedUrl.hostname === 'note.com' || parsedUrl.hostname.endsWith('.note.com'))) return;
       try {
         const json = await response.json();
-        captures.push(json);
+        captures += 1;
         collectMetricCandidates(json, metricMap, updatedTimes);
-        let operationName = null;
-        try {
-          const body = response.request().postDataJSON();
-          operationName = body?.operationName ?? (Array.isArray(body) ? body.map((item) => item?.operationName).filter(Boolean).join(',') : null);
-        } catch {}
-        captureMeta.push({
-          host: parsedUrl.hostname,
-          path: parsedUrl.pathname,
-          method: response.request().method(),
-          operationName,
-          topKeys: json && typeof json === 'object' && !Array.isArray(json) ? Object.keys(json).slice(0, 20) : [],
-          dataKeys: json?.data && typeof json.data === 'object' && !Array.isArray(json.data) ? Object.keys(json.data).slice(0, 30) : [],
-          fieldHints: [...collectFieldHints(json)].slice(0, 80),
-        });
       } catch {}
     });
     await page.goto(DASHBOARD_URL, { waitUntil: 'domcontentloaded', timeout: 60_000 });
-    await page.waitForTimeout(10_000);
+    await page.waitForTimeout(8_000);
     if (/login|signin/.test(page.url())) throw new Error('note session redirected to login');
     const body = await page.locator('body').innerText().catch(() => '');
     if (!/インプレッション|ページビュー|アクセス/.test(body)) console.warn('dashboard marker text was not found');
-    await page.waitForTimeout(4_000);
-    console.log(`dashboard network captures: ${captures.length}; metric candidates: ${metricMap.size}`);
-    console.log(`dashboard response shapes: ${JSON.stringify(captureMeta)}`);
-    return { metricMap, updatedTimes, source: 'note_dashboard_browser' };
+
+    for (let i = 0; i < 5; i += 1) {
+      await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+      await page.waitForTimeout(800);
+    }
+    await page.waitForTimeout(2_000);
+    console.log(`dashboard network captures: ${captures}; metric candidates: ${metricMap.size}`);
+    return { metricMap, updatedTimes, source: 'note_dashboard_graphql' };
   } finally {
     await browser?.close().catch(() => {});
   }
@@ -322,7 +330,6 @@ function withinOfficialWindow(iso) {
   return minutes >= 18 * 60 && minutes <= 20 * 60 + 30;
 }
 
-const previousArticles = await readJson(ARTICLES_FILE, { articles: [] });
 const previousMetrics = await readJson(METRICS_FILE, { articles: [] });
 const previousDashboard = await readJson(DASHBOARD_FILE, { snapshots: [], follower_snapshots: [] });
 const previousMetricByKey = new Map((previousMetrics.articles ?? []).map((row) => [keyFromAnything(row.url), row]));
@@ -374,6 +381,7 @@ for (const article of publicResult.articles) {
 }
 
 const dashboardAt = bestDashboardAt(dashboardResult.updatedTimes);
+const officialWindow = withinOfficialWindow(dashboardAt);
 const period = period28Days();
 const totals = metricRows.reduce((sum, row) => {
   for (const key of ['impressions', 'pageviews', 'likes', 'comments']) if (finite(row[key])) sum[key] += row[key];
@@ -381,7 +389,8 @@ const totals = metricRows.reduce((sum, row) => {
 }, { impressions: 0, pageviews: 0, likes: 0, comments: 0 });
 
 const hasFreshDashboard = cookie && impressionRows >= Math.min(5, publicResult.articles.length) && pvRows >= Math.min(5, publicResult.articles.length);
-if (hasFreshDashboard) {
+const hasOfficialDashboard = hasFreshDashboard && officialWindow;
+if (hasOfficialDashboard) {
   await writeJson(METRICS_FILE, {
     schema_version: 1,
     generated_at: generatedAt,
@@ -391,7 +400,7 @@ if (hasFreshDashboard) {
     articles: metricRows,
   });
 } else {
-  console.warn(`dashboard metrics preserved: fresh IMP rows=${impressionRows}, fresh PV rows=${pvRows}`);
+  console.warn(`dashboard metrics preserved: fresh IMP rows=${impressionRows}, fresh PV rows=${pvRows}, officialWindow=${officialWindow}`);
 }
 
 const followerSnapshots = [...(previousDashboard.follower_snapshots ?? [])];
@@ -406,7 +415,7 @@ if (!lastFollower || lastFollower.followers !== followerSnapshot.followers || js
 
 const snapshots = [...(previousDashboard.snapshots ?? [])];
 let latest = previousDashboard.latest ?? null;
-if (hasFreshDashboard) {
+if (hasOfficialDashboard) {
   const snapshot = {
     dashboard_at: dashboardAt,
     fetched_at: generatedAt,
@@ -460,8 +469,9 @@ console.log(JSON.stringify({
   generatedAt,
   publicArticles: publicResult.articles.length,
   freshDashboard: hasFreshDashboard,
+  officialDashboard: hasOfficialDashboard,
   dashboardAt,
-  officialWindow: withinOfficialWindow(dashboardAt),
+  officialWindow,
   impressionRows,
   pvRows,
   followers: publicResult.profile.followers,
