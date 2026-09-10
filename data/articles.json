@@ -1,9 +1,32 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-10T00:13:56+09:00",
+  "generated_at": "2026-09-10T20:37:39+09:00",
   "creator_id": "nero_notelover",
-  "count": 24,
+  "count": 25,
   "articles": [
+    {
+      "key": "n5114f087128b",
+      "title": "【王子の初企画】王子ごっこで遊ぼう🌙",
+      "url": "https://note.com/nero_notelover/n/n5114f087128b",
+      "published_at": "2026-09-10T18:00:00+09:00",
+      "price_yen": 0,
+      "is_paid": false,
+      "hashtags": [
+        "#生成AI",
+        "#ChatGPT",
+        "#note初心者",
+        "#イベント",
+        "#プロンプト",
+        "#noteでよかったこと",
+        "#アカリウム",
+        "#王子",
+        "#ChatGPTCreativeClub",
+        "#ＡＩイラスト",
+        "#ＡＩアート",
+        "#大喜利企画",
+        "#王子ごっこ"
+      ]
+    },
     {
       "key": "nc1a0aea867a9",
       "title": "🌙急上昇ランキング74位。でも王子がいない。",
