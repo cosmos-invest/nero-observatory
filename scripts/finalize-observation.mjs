@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 
+// watchdog kick marker: 2026-09-10 20:35 JST
 const FILE = 'data/public_dashboard.json';
 const TIME_ZONE = 'Asia/Tokyo';
 const dashboard = JSON.parse(await fs.readFile(FILE, 'utf8'));
