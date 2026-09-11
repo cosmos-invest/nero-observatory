@@ -51,7 +51,6 @@ try {
   const periodSelect = page.locator('select').filter({ hasText: 'カスタム' }).first();
   if (!await periodSelect.isVisible().catch(() => false)) throw new Error('period select was not found');
   const options = await periodSelect.locator('option').evaluateAll((nodes) => nodes.map((node) => ({ text: (node.textContent || '').trim(), value: node.value })));
-  console.log('DASHBOARD_PERIOD_OPTIONS=' + JSON.stringify(options));
   const customOption = options.find((row) => row.text === 'カスタム');
   if (!customOption) throw new Error('custom option was not found');
   await periodSelect.selectOption(customOption.value);
@@ -64,23 +63,10 @@ try {
   await end.fill('2026/09/03');
   await page.waitForTimeout(300);
 
-  const visibleButtons = await page.locator('button').evaluateAll((nodes) => nodes.filter((node) => {
-    const style = getComputedStyle(node);
-    const rect = node.getBoundingClientRect();
-    return style.visibility !== 'hidden' && style.display !== 'none' && rect.width > 0 && rect.height > 0;
-  }).map((node) => ({
-    text: (node.innerText || node.textContent || '').replace(/\s+/g, ' ').trim().slice(0, 100),
-    aria: node.getAttribute('aria-label'),
-    disabled: node.hasAttribute('disabled'),
-  })).filter((row) => /適用|決定|完了|設定|反映|検索|表示|期間|日付|キャンセル/.test(`${row.text} ${row.aria ?? ''}`)));
-  console.log('DASHBOARD_CUSTOM_BUTTONS=' + JSON.stringify(visibleButtons));
-
-  const submit = page.getByRole('button', { name: /適用|決定|完了|反映|表示/ }).first();
-  if (await submit.isVisible().catch(() => false) && !await submit.isDisabled().catch(() => true)) {
-    await submit.click();
-  } else {
-    await end.press('Enter');
-  }
+  const apply = page.locator('button').filter({ hasText: /^適用$/ }).first();
+  if (!await apply.isVisible().catch(() => false)) throw new Error('custom period apply button was not found');
+  if (await apply.isDisabled().catch(() => true)) throw new Error('custom period apply button is disabled');
+  await apply.click({ force: true });
   await page.waitForTimeout(3_000);
   console.log('DASHBOARD_RANGE_CAPTURE_COUNT=' + captures.length);
 } finally {
