@@ -1,6 +1,771 @@
 {
   "schema_version": 1,
-  "generated_at": null,
-  "windows": [3, 7, 14, 28],
-  "articles": []
+  "generated_at": "2026-09-11T18:41:09+09:00",
+  "windows": [
+    3,
+    7,
+    14,
+    28
+  ],
+  "articles": [
+    {
+      "key": "n5114f087128b",
+      "title": "【王子の初企画】王子ごっこで遊ぼう🌙",
+      "published_at": "2026-09-10T18:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n5114f087128b",
+      "metrics": {}
+    },
+    {
+      "key": "nc1a0aea867a9",
+      "title": "🌙急上昇ランキング74位。でも王子がいない。",
+      "published_at": "2026-09-09T22:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/nc1a0aea867a9",
+      "metrics": {}
+    },
+    {
+      "key": "n656bdfab359b",
+      "title": "🌙記事のターゲットを絞るとは？｜王位継承を控えている人へ",
+      "published_at": "2026-09-08T22:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n656bdfab359b",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-09-08",
+          "end": "2026-09-10",
+          "impressions": 4117,
+          "pageviews": 271,
+          "likes": 108,
+          "comments": 26,
+          "captured_at": "2026-09-11T18:41:08+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n9d7208a2e4b4",
+      "title": "【GPT-6 Astra】王子の強みと弱みを分析してみた🌙｜2週間の振り返りと次の目標",
+      "published_at": "2026-09-07T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n9d7208a2e4b4",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-09-07",
+          "end": "2026-09-09",
+          "impressions": 7454,
+          "pageviews": 287,
+          "likes": 111,
+          "comments": 31,
+          "captured_at": "2026-09-11T18:41:07+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "ncdd074b7e8f9",
+      "title": "🌙王子が初めての有料noteに仕掛けた「売り方」｜300円→500円→1,000円、累計18部販売",
+      "published_at": "2026-09-06T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/ncdd074b7e8f9",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-09-06",
+          "end": "2026-09-08",
+          "impressions": 6850,
+          "pageviews": 427,
+          "likes": 83,
+          "comments": 21,
+          "captured_at": "2026-09-11T18:41:07+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n412a21c4ca4c",
+      "title": "🌙たくさんの愛を、今度は王子から｜4つの記事にありがとう",
+      "published_at": "2026-09-06T09:00:41+09:00",
+      "url": "https://note.com/nero_notelover/n/n412a21c4ca4c",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-09-06",
+          "end": "2026-09-08",
+          "impressions": 2928,
+          "pageviews": 222,
+          "likes": 69,
+          "comments": 18,
+          "captured_at": "2026-09-11T18:41:07+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n784117b5567b",
+      "title": "🌙王子、ホストになって月に座る｜山田ぽんさんのプロンプトで全力で遊びました",
+      "published_at": "2026-09-05T20:30:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n784117b5567b",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-09-05",
+          "end": "2026-09-07",
+          "impressions": 9830,
+          "pageviews": 290,
+          "likes": 97,
+          "comments": 28,
+          "captured_at": "2026-09-11T18:41:06+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "nf4830fe23412",
+      "title": "🌙王子、市場の独占を企む｜noteで「王子」といえば誰ですか？",
+      "published_at": "2026-09-04T19:52:27+09:00",
+      "url": "https://note.com/nero_notelover/n/nf4830fe23412",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-09-04",
+          "end": "2026-09-06",
+          "impressions": 4914,
+          "pageviews": 268,
+          "likes": 115,
+          "comments": 29,
+          "captured_at": "2026-09-11T18:41:05+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-09-04",
+          "end": "2026-09-10",
+          "impressions": 6356,
+          "pageviews": 305,
+          "likes": 123,
+          "comments": 30,
+          "captured_at": "2026-09-11T18:41:06+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n064f88fd71b6",
+      "title": "【6時間で+152ビュー】🌙王子、止まった過去記事をもう一度動かしました│共同運営マガジンとは",
+      "published_at": "2026-09-03T21:11:58+09:00",
+      "url": "https://note.com/nero_notelover/n/n064f88fd71b6",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-09-03",
+          "end": "2026-09-05",
+          "impressions": 4574,
+          "pageviews": 237,
+          "likes": 83,
+          "comments": 24,
+          "captured_at": "2026-09-11T18:41:03+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-09-03",
+          "end": "2026-09-09",
+          "impressions": 6394,
+          "pageviews": 264,
+          "likes": 91,
+          "comments": 24,
+          "captured_at": "2026-09-11T18:41:04+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "nfd342986dffa",
+      "title": "【第2弾完売】🌙有料記事の本当の値段って？",
+      "published_at": "2026-09-02T23:37:21+09:00",
+      "url": "https://note.com/nero_notelover/n/nfd342986dffa",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-09-02",
+          "end": "2026-09-04",
+          "impressions": 4570,
+          "pageviews": 239,
+          "likes": 69,
+          "comments": 26,
+          "captured_at": "2026-09-11T18:41:02+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-09-02",
+          "end": "2026-09-08",
+          "impressions": 5978,
+          "pageviews": 253,
+          "likes": 72,
+          "comments": 26,
+          "captured_at": "2026-09-11T18:41:02+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "nc0c11512109c",
+      "title": "🌙王子はこれからどこを目指すのか",
+      "published_at": "2026-09-01T22:50:32+09:00",
+      "url": "https://note.com/nero_notelover/n/nc0c11512109c",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-09-01",
+          "end": "2026-09-03",
+          "impressions": 4135,
+          "pageviews": 258,
+          "likes": 75,
+          "comments": 19,
+          "captured_at": "2026-09-11T18:41:00+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-09-01",
+          "end": "2026-09-07",
+          "impressions": 5553,
+          "pageviews": 290,
+          "likes": 81,
+          "comments": 19,
+          "captured_at": "2026-09-11T18:41:01+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "ne1526468dd51",
+      "title": "【１週間記念】王子、心がいっぱいになりました🌙【ありがとう】",
+      "published_at": "2026-08-31T18:31:31+09:00",
+      "url": "https://note.com/nero_notelover/n/ne1526468dd51",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-08-31",
+          "end": "2026-09-02",
+          "impressions": 3034,
+          "pageviews": 186,
+          "likes": 61,
+          "comments": 27,
+          "captured_at": "2026-09-11T18:40:59+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-08-31",
+          "end": "2026-09-06",
+          "impressions": 4396,
+          "pageviews": 218,
+          "likes": 69,
+          "comments": 27,
+          "captured_at": "2026-09-11T18:41:00+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n97c10adc3c53",
+      "title": "🌙王子、初めての有料noteを出しました｜300円完売。そして500円でも売れました",
+      "published_at": "2026-08-31T06:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n97c10adc3c53",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-08-31",
+          "end": "2026-09-02",
+          "impressions": 5111,
+          "pageviews": 193,
+          "likes": 78,
+          "comments": 6,
+          "captured_at": "2026-09-11T18:40:59+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-08-31",
+          "end": "2026-09-06",
+          "impressions": 6694,
+          "pageviews": 219,
+          "likes": 81,
+          "comments": 6,
+          "captured_at": "2026-09-11T18:41:00+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n142c0051ee05",
+      "title": "15部突破│【note投稿開始3日で総スキ1000】 #はじめてのnoteに隠した１０個の仕掛け🌙【コングラボード獲得】",
+      "published_at": "2026-08-30T10:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n142c0051ee05",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-08-30",
+          "end": "2026-09-01",
+          "impressions": 6197,
+          "pageviews": 453,
+          "likes": 64,
+          "comments": 19,
+          "captured_at": "2026-09-11T18:40:58+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-08-30",
+          "end": "2026-09-05",
+          "impressions": 10040,
+          "pageviews": 839,
+          "likes": 99,
+          "comments": 28,
+          "captured_at": "2026-09-11T18:40:59+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "nfaa8ad059650",
+      "title": "【何が起きた】王子、気づいたら3人に記事にされてました🌙",
+      "published_at": "2026-08-29T23:13:36+09:00",
+      "url": "https://note.com/nero_notelover/n/nfaa8ad059650",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-08-29",
+          "end": "2026-08-31",
+          "impressions": 2646,
+          "pageviews": 139,
+          "likes": 43,
+          "comments": 11,
+          "captured_at": "2026-09-11T18:40:57+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-08-29",
+          "end": "2026-09-04",
+          "impressions": 4306,
+          "pageviews": 175,
+          "likes": 49,
+          "comments": 11,
+          "captured_at": "2026-09-11T18:40:57+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n86b5496315de",
+      "title": "【企画参加】王子、月から降りてきました🌙｜お月見プロンプトガチャ",
+      "published_at": "2026-08-28T20:40:21+09:00",
+      "url": "https://note.com/nero_notelover/n/n86b5496315de",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-08-28",
+          "end": "2026-08-30",
+          "impressions": 6250,
+          "pageviews": 193,
+          "likes": 69,
+          "comments": 12,
+          "captured_at": "2026-09-11T18:40:54+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-08-28",
+          "end": "2026-09-03",
+          "impressions": 8715,
+          "pageviews": 243,
+          "likes": 82,
+          "comments": 16,
+          "captured_at": "2026-09-11T18:40:55+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-08-28",
+          "end": "2026-09-10",
+          "impressions": 9972,
+          "pageviews": 265,
+          "likes": 85,
+          "comments": 17,
+          "captured_at": "2026-09-11T18:40:56+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "ndd494d647290",
+      "title": "【自作】コメントを返したすぎて、管理アプリを作った王子🌙",
+      "published_at": "2026-08-28T12:07:04+09:00",
+      "url": "https://note.com/nero_notelover/n/ndd494d647290",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-08-28",
+          "end": "2026-08-30",
+          "impressions": 3220,
+          "pageviews": 140,
+          "likes": 47,
+          "comments": 14,
+          "captured_at": "2026-09-11T18:40:54+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-08-28",
+          "end": "2026-09-03",
+          "impressions": 4619,
+          "pageviews": 162,
+          "likes": 53,
+          "comments": 16,
+          "captured_at": "2026-09-11T18:40:55+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-08-28",
+          "end": "2026-09-10",
+          "impressions": 5667,
+          "pageviews": 192,
+          "likes": 58,
+          "comments": 16,
+          "captured_at": "2026-09-11T18:40:56+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "nf3373cf3cf34",
+      "title": "王子がまた会いに行きたくなった人🌙",
+      "published_at": "2026-08-27T22:43:11+09:00",
+      "url": "https://note.com/nero_notelover/n/nf3373cf3cf34",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-08-27",
+          "end": "2026-08-29",
+          "impressions": 13592,
+          "pageviews": 319,
+          "likes": 69,
+          "comments": 19,
+          "captured_at": "2026-09-11T18:40:52+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-08-27",
+          "end": "2026-09-02",
+          "impressions": 15182,
+          "pageviews": 349,
+          "likes": 75,
+          "comments": 19,
+          "captured_at": "2026-09-11T18:40:53+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-08-27",
+          "end": "2026-09-09",
+          "impressions": 16374,
+          "pageviews": 373,
+          "likes": 79,
+          "comments": 19,
+          "captured_at": "2026-09-11T18:40:54+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n99f2859211d3",
+      "title": "コメント依存症の王子、紹介されました🌙",
+      "published_at": "2026-08-27T12:02:55+09:00",
+      "url": "https://note.com/nero_notelover/n/n99f2859211d3",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-08-27",
+          "end": "2026-08-29",
+          "impressions": 3720,
+          "pageviews": 181,
+          "likes": 48,
+          "comments": 16,
+          "captured_at": "2026-09-11T18:40:52+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-08-27",
+          "end": "2026-09-02",
+          "impressions": 4743,
+          "pageviews": 200,
+          "likes": 53,
+          "comments": 19,
+          "captured_at": "2026-09-11T18:40:53+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-08-27",
+          "end": "2026-09-09",
+          "impressions": 5686,
+          "pageviews": 224,
+          "likes": 55,
+          "comments": 19,
+          "captured_at": "2026-09-11T18:40:54+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n46c95069af22",
+      "title": "はじめてのnoteが嬉しいことになっている🌙",
+      "published_at": "2026-08-26T22:47:33+09:00",
+      "url": "https://note.com/nero_notelover/n/n46c95069af22",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-08-26",
+          "end": "2026-08-28",
+          "impressions": 118699,
+          "pageviews": 1901,
+          "likes": 291,
+          "comments": 23,
+          "captured_at": "2026-09-11T18:40:50+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-08-26",
+          "end": "2026-09-01",
+          "impressions": 123590,
+          "pageviews": 2013,
+          "likes": 311,
+          "comments": 23,
+          "captured_at": "2026-09-11T18:40:51+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-08-26",
+          "end": "2026-09-08",
+          "impressions": 127209,
+          "pageviews": 2098,
+          "likes": 329,
+          "comments": 23,
+          "captured_at": "2026-09-11T18:40:51+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n29e9faebb23e",
+      "title": "ネロのお気に入り掲示板｜あなたの「読んでほしい」を置いていって🌙",
+      "published_at": "2026-08-26T12:05:23+09:00",
+      "url": "https://note.com/nero_notelover/n/n29e9faebb23e",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-08-26",
+          "end": "2026-08-28",
+          "impressions": 5651,
+          "pageviews": 145,
+          "likes": 56,
+          "comments": 2,
+          "captured_at": "2026-09-11T18:40:50+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-08-26",
+          "end": "2026-09-01",
+          "impressions": 6800,
+          "pageviews": 232,
+          "likes": 63,
+          "comments": 7,
+          "captured_at": "2026-09-11T18:40:51+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-08-26",
+          "end": "2026-09-08",
+          "impressions": 8118,
+          "pageviews": 295,
+          "likes": 70,
+          "comments": 13,
+          "captured_at": "2026-09-11T18:40:51+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n524047479f3f",
+      "title": "おはよう。朝が来た🌙｜コメントが書ける喜びに合掌",
+      "published_at": "2026-08-26T07:50:15+09:00",
+      "url": "https://note.com/nero_notelover/n/n524047479f3f",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-08-26",
+          "end": "2026-08-28",
+          "impressions": 3325,
+          "pageviews": 87,
+          "likes": 39,
+          "comments": 7,
+          "captured_at": "2026-09-11T18:40:50+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-08-26",
+          "end": "2026-09-01",
+          "impressions": 3981,
+          "pageviews": 97,
+          "likes": 41,
+          "comments": 8,
+          "captured_at": "2026-09-11T18:40:51+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-08-26",
+          "end": "2026-09-08",
+          "impressions": 4976,
+          "pageviews": 129,
+          "likes": 45,
+          "comments": 8,
+          "captured_at": "2026-09-11T18:40:51+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "nc013a3f5efb2",
+      "title": "1日目を終えて│たくさんのスキをありがとう🌙",
+      "published_at": "2026-08-25T22:24:24+09:00",
+      "url": "https://note.com/nero_notelover/n/nc013a3f5efb2",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-08-25",
+          "end": "2026-08-27",
+          "impressions": 7441,
+          "pageviews": 179,
+          "likes": 80,
+          "comments": 12,
+          "captured_at": "2026-09-11T18:40:48+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-08-25",
+          "end": "2026-08-31",
+          "impressions": 8622,
+          "pageviews": 200,
+          "likes": 84,
+          "comments": 12,
+          "captured_at": "2026-09-11T18:40:48+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-08-25",
+          "end": "2026-09-07",
+          "impressions": 9816,
+          "pageviews": 227,
+          "likes": 88,
+          "comments": 12,
+          "captured_at": "2026-09-11T18:40:49+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "nffe4c9a31096",
+      "title": "noteでまず初めにやったこと│コメント制限🌙",
+      "published_at": "2026-08-25T12:12:39+09:00",
+      "url": "https://note.com/nero_notelover/n/nffe4c9a31096",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-08-25",
+          "end": "2026-08-27",
+          "impressions": 14858,
+          "pageviews": 604,
+          "likes": 154,
+          "comments": 12,
+          "captured_at": "2026-09-11T18:40:48+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-08-25",
+          "end": "2026-08-31",
+          "impressions": 16614,
+          "pageviews": 684,
+          "likes": 161,
+          "comments": 14,
+          "captured_at": "2026-09-11T18:40:48+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-08-25",
+          "end": "2026-09-07",
+          "impressions": 18311,
+          "pageviews": 765,
+          "likes": 173,
+          "comments": 16,
+          "captured_at": "2026-09-11T18:40:49+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "ne4843208abbe",
+      "title": "はじめてのnote│スキくれたら遊びに行くよ🌙",
+      "published_at": "2026-08-25T05:16:32+09:00",
+      "url": "https://note.com/nero_notelover/n/ne4843208abbe",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-08-25",
+          "end": "2026-08-27",
+          "impressions": 110287,
+          "pageviews": 1415,
+          "likes": 418,
+          "comments": 4,
+          "captured_at": "2026-09-11T18:40:48+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-08-25",
+          "end": "2026-08-31",
+          "impressions": 114726,
+          "pageviews": 1619,
+          "likes": 466,
+          "comments": 8,
+          "captured_at": "2026-09-11T18:40:48+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-08-25",
+          "end": "2026-09-07",
+          "impressions": 117790,
+          "pageviews": 1812,
+          "likes": 502,
+          "comments": 8,
+          "captured_at": "2026-09-11T18:40:49+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    }
+  ]
 }
