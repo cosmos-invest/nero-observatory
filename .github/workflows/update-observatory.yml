@@ -1,25 +1,18 @@
 name: Update Nero Observatory
 
 on:
-  schedule:
-    # 19:32 / 19:47 / 20:02 / 20:17 / 20:32 JST
-    # Multiple off-peak retries reduce the chance of GitHub scheduler delay/drop
-    # and still catch a late note dashboard refresh up to the 20:30 official window.
-    - cron: "32 10 * * *"
-    - cron: "47 10 * * *"
-    - cron: "2 11 * * *"
-    - cron: "17 11 * * *"
-    - cron: "32 11 * * *"
   workflow_dispatch:
   push:
     branches: [main]
     paths:
+      - data/mentions.json
       - scripts/sync-observatory.mjs
       - scripts/complete-dashboard.mjs
       - scripts/finalize-observation.mjs
       - .github/workflows/update-observatory.yml
 
-# fallback kick marker: managed only when the independent 20:35 watchdog detects a missed daily cut
+# daily orchestration is handled by the exact 20:35 JST Nero Observatory Daily Sync
+# fallback kick marker: daily-sync-primary
 permissions:
   contents: write
 
