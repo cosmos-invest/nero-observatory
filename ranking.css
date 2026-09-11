@@ -1,0 +1,107 @@
+.ranking-caption {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.ranking-panel .panel-head > div { min-width: 0; }
+.ranking-panel .panel-head select { flex: 0 0 auto; }
+
+.article-ranking-table {
+  margin-top: 12px;
+  overflow-x: auto;
+  border: 1px solid rgba(255,255,255,.055);
+  background: #090909;
+}
+
+.article-ranking-table table {
+  width: 100%;
+  min-width: 800px;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+
+.article-ranking-table th,
+.article-ranking-table td {
+  padding: 11px 10px;
+  border-bottom: 1px solid rgba(255,255,255,.045);
+  text-align: right;
+  font-size: 11px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.article-ranking-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  color: #777269;
+  font-size: 9px;
+  letter-spacing: .05em;
+  font-weight: 600;
+  background: #0a0a0a;
+}
+
+.article-ranking-table th:nth-child(2),
+.article-ranking-table tbody th {
+  text-align: left;
+}
+
+.article-ranking-table tbody th {
+  width: 100%;
+  min-width: 330px;
+  max-width: 470px;
+  color: #d8d2c5;
+  font-weight: 650;
+  white-space: normal;
+  line-height: 1.45;
+}
+
+.article-ranking-table tbody th a:hover {
+  color: var(--gold-2);
+}
+
+.article-ranking-table tbody th small {
+  display: block;
+  margin-top: 4px;
+  color: #6f6a60;
+  font-size: 9px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.article-ranking-table tbody td {
+  color: #aaa397;
+}
+
+.article-ranking-table .ranking-rank {
+  width: 36px;
+  color: #716b60;
+  text-align: center;
+  font-family: Georgia, serif;
+}
+
+.article-ranking-table .ranking-active-metric {
+  color: var(--gold-2);
+  font-weight: 800;
+  background: rgba(216,179,77,.045);
+}
+
+.article-ranking-table .ranking-top .ranking-rank,
+.article-ranking-table .ranking-top th {
+  color: var(--gold-2);
+}
+
+.article-ranking-table tbody tr:hover {
+  background: rgba(255,255,255,.018);
+}
+
+@media (max-width: 620px) {
+  .ranking-panel .panel-head { align-items: flex-end; }
+  .ranking-panel .panel-head h2 { font-size: 20px; }
+  .ranking-panel .panel-head select { min-height: 36px; font-size: 11px; }
+  .article-ranking-table table { min-width: 740px; }
+  .article-ranking-table th,
+  .article-ranking-table td { padding: 9px 8px; font-size: 10px; }
+  .article-ranking-table tbody th { min-width: 280px; max-width: 380px; }
+}
