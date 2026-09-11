@@ -9,7 +9,7 @@ on:
       - scripts/sync-observatory.mjs
       - scripts/complete-dashboard.mjs
       - scripts/finalize-observation.mjs
-      - scripts/inspect-dashboard-range.mjs
+      - scripts/collect-window-metrics.mjs
       - .github/workflows/update-observatory.yml
 
 # daily orchestration is handled by the exact 19:32 JST Nero Observatory Daily Sync
@@ -49,11 +49,6 @@ jobs:
           fi
           echo "CHROME_PATH=$CHROME_PATH" >> "$GITHUB_ENV"
 
-      - name: Inspect dashboard range variables
-        env:
-          NOTE_SESSION_COOKIE: ${{ secrets.NOTE_SESSION_COOKIE }}
-        run: node scripts/inspect-dashboard-range.mjs
-
       - name: Collect public and first-page note data
         env:
           NOTE_SESSION_COOKIE: ${{ secrets.NOTE_SESSION_COOKIE }}
@@ -64,12 +59,17 @@ jobs:
           NOTE_SESSION_COOKIE: ${{ secrets.NOTE_SESSION_COOKIE }}
         run: node scripts/complete-dashboard.mjs
 
+      - name: Collect fixed article-age windows
+        env:
+          NOTE_SESSION_COOKIE: ${{ secrets.NOTE_SESSION_COOKIE }}
+        run: node scripts/collect-window-metrics.mjs
+
       - name: Select official daily cut
         run: node scripts/finalize-observation.mjs
 
       - name: Validate generated public data
         run: |
-          node -e "for (const f of ['data/public_dashboard.json','data/article_metrics.json','data/articles.json','data/mentions.json']) JSON.parse(require('fs').readFileSync(f,'utf8')); console.log('json ok')"
+          node -e "for (const f of ['data/public_dashboard.json','data/article_metrics.json','data/article_window_metrics.json','data/articles.json','data/mentions.json']) JSON.parse(require('fs').readFileSync(f,'utf8')); console.log('json ok')"
           if grep -R -E 'sales_yen|purchase_count|purchase_summary|buyer_email|order_id|gmail_message_id|NOTE_SESSION_COOKIE' data; then
             echo 'Sensitive field detected in public data.'
             exit 1
@@ -80,7 +80,7 @@ jobs:
         run: |
           git config user.name "nero-observatory[bot]"
           git config user.email "nero-observatory[bot]@users.noreply.github.com"
-          git add data/articles.json data/article_metrics.json data/public_dashboard.json
+          git add data/articles.json data/article_metrics.json data/article_window_metrics.json data/public_dashboard.json
           if git diff --cached --quiet; then
             echo "No observation changes."
             exit 0
