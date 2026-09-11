@@ -1,9 +1,10 @@
 import { joinArticleRows, filterArticleRows } from './analysis-core.mjs';
 
-const ARTICLE_METRICS_URL = './data/article_metrics.json';
+const WINDOW_METRICS_URL = './data/article_window_metrics.json';
 const ARTICLES_URL = './data/articles.json';
 const nf = new Intl.NumberFormat('ja-JP');
 const dateFormat = new Intl.DateTimeFormat('ja-JP', { timeZone: 'Asia/Tokyo', month: 'numeric', day: 'numeric' });
+const validWindows = new Set(['3', '7', '14', '28']);
 
 const metrics = {
   openRate: { label: '開封率', calc: (row) => rate(row.pageviews, row.impressions), format: percent },
@@ -12,8 +13,10 @@ const metrics = {
   pageviews: { label: 'PV / 記事', calc: (row) => finite(row.pageviews) ? row.pageviews : null, format: integer },
 };
 
-let rows = [];
+let windowData = null;
+let articlesData = null;
 let sortMetric = localStorage.getItem('nero-article-ranking-sort') || 'openRate';
+let windowDays = localStorage.getItem('nero-article-ranking-window') || '3';
 
 function finite(value) { return typeof value === 'number' && Number.isFinite(value); }
 function rate(num, den) { return finite(num) && finite(den) && den > 0 ? num / den * 100 : null; }
@@ -26,22 +29,53 @@ function articleType() {
 function excludeOutliers() {
   return document.getElementById('toggle-outliers')?.getAttribute('aria-pressed') === 'true';
 }
-function publishedLabel(value) {
+function dateLabel(value) {
   const date = new Date(value);
   return value && !Number.isNaN(date.getTime()) ? dateFormat.format(date) : '—';
 }
+function periodLabel(row) {
+  return row?.window_start && row?.window_end ? `${row.window_start.replaceAll('-', '/')}〜${row.window_end.replaceAll('-', '/')}` : '—';
+}
 function valueFor(row, key) { return metrics[key]?.calc(row) ?? null; }
+
+function rowsForWindow() {
+  const days = validWindows.has(windowDays) ? windowDays : '3';
+  const pseudoMetrics = {
+    articles: (windowData?.articles ?? []).flatMap((article) => {
+      const window = article.metrics?.[days];
+      if (!window) return [];
+      return [{
+        title: article.title,
+        published_at: article.published_at,
+        url: article.url,
+        impressions: window.impressions,
+        pageviews: window.pageviews,
+        likes: window.likes,
+        comments: window.comments,
+        window_start: window.start,
+        window_end: window.end,
+        window_days: Number(days),
+      }];
+    }),
+  };
+  const joined = joinArticleRows(pseudoMetrics, articlesData);
+  const windowByKey = new Map((pseudoMetrics.articles ?? []).map((row) => [row.url?.split('/').at(-1), row]));
+  return joined.map((row) => ({ ...row, ...(windowByKey.get(row.key) ?? {}) }));
+}
 
 function render() {
   const container = document.getElementById('article-ranking-table');
-  const select = document.getElementById('article-ranking-sort');
+  const sortSelect = document.getElementById('article-ranking-sort');
+  const windowSelect = document.getElementById('article-ranking-window');
   const caption = document.getElementById('article-ranking-caption');
-  if (!container || !select) return;
+  if (!container || !sortSelect || !windowSelect) return;
 
   if (!metrics[sortMetric]) sortMetric = 'openRate';
-  select.value = sortMetric;
+  if (!validWindows.has(windowDays)) windowDays = '3';
+  sortSelect.value = sortMetric;
+  windowSelect.value = windowDays;
 
-  const visible = filterArticleRows(rows, excludeOutliers(), articleType())
+  const visible = filterArticleRows(rowsForWindow(), excludeOutliers(), articleType())
     .map((row) => ({ ...row, sortValue: valueFor(row, sortMetric) }))
     .filter((row) => finite(row.sortValue))
     .sort((a, b) => b.sortValue - a.sortValue || (b.pageviews ?? 0) - (a.pageviews ?? 0));
@@ -62,6 +96,16 @@ function render() {
   `;
   const tbody = document.createElement('tbody');
 
+  if (!visible.length) {
+    const tr = document.createElement('tr');
+    const td = document.createElement('td');
+    td.colSpan = 6;
+    td.className = 'ranking-empty';
+    td.textContent = `${windowDays}日間を完走した記事はまだありません`;
+    tr.appendChild(td);
+    tbody.appendChild(tr);
+  }
+
   visible.forEach((row, index) => {
     const tr = document.createElement('tr');
     if (index < 3) tr.classList.add('ranking-top');
@@ -80,7 +124,7 @@ function render() {
     link.textContent = row.title || '無題';
     article.appendChild(link);
     const meta = document.createElement('small');
-    meta.textContent = `${publishedLabel(row.published_at)} · IMP ${integer(row.impressions)}${row.is_paid ? ' · 有料' : ''}`;
+    meta.textContent = `${dateLabel(row.published_at)}公開 · ${periodLabel(row)} · IMP ${integer(row.impressions)}${row.is_paid ? ' · 有料' : ''}`;
     article.appendChild(meta);
     tr.appendChild(article);
 
@@ -101,18 +145,17 @@ function render() {
 
   table.appendChild(tbody);
   container.appendChild(table);
-  if (caption) caption.textContent = `${metrics[sortMetric].label}の高い順 · ${visible.length}記事`;
+  if (caption) caption.textContent = `公開後${windowDays}日間 · ${metrics[sortMetric].label}の高い順 · ${visible.length}記事`;
 }
 
 async function load() {
-  const [metricsResponse, articlesResponse] = await Promise.all([
-    fetch(ARTICLE_METRICS_URL),
+  const [windowResponse, articlesResponse] = await Promise.all([
+    fetch(WINDOW_METRICS_URL),
     fetch(ARTICLES_URL),
   ]);
-  if (!metricsResponse.ok || !articlesResponse.ok) throw new Error('ranking data load failed');
-  const articleMetrics = await metricsResponse.json();
-  const articles = await articlesResponse.json();
-  rows = joinArticleRows(articleMetrics, articles);
+  if (!windowResponse.ok || !articlesResponse.ok) throw new Error('ranking data load failed');
+  windowData = await windowResponse.json();
+  articlesData = await articlesResponse.json();
   render();
 }
 
@@ -120,6 +163,11 @@ function bind() {
   document.getElementById('article-ranking-sort')?.addEventListener('change', (event) => {
     sortMetric = metrics[event.target.value] ? event.target.value : 'openRate';
     localStorage.setItem('nero-article-ranking-sort', sortMetric);
+    render();
+  });
+  document.getElementById('article-ranking-window')?.addEventListener('change', (event) => {
+    windowDays = validWindows.has(event.target.value) ? event.target.value : '3';
+    localStorage.setItem('nero-article-ranking-window', windowDays);
     render();
   });
   document.getElementById('article-type')?.addEventListener('change', () => queueMicrotask(render));
