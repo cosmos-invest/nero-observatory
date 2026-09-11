@@ -1,8 +1,36 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T00:05:00.000Z",
-  "total_count": 48,
+  "generated_at": "2026-09-11T10:31:40.000Z",
+  "total_count": 52,
   "records": [
+    {
+      "actor": "ひゅー｜挑戦と思考整理を楽しむ。note",
+      "article_title": "共同マガジンに加わった素敵なクリエイターのご紹介　その10",
+      "article_url": "https://note.com/notes/n6aceb3ee2fc4",
+      "introduced_at": "2026-09-11T09:45:26.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "すい＠夜型のエンジニア⭐️",
+      "article_title": "魔王も王子ごっこがしたい！！",
+      "article_url": "https://note.com/notes/ncca031c7c2ad",
+      "introduced_at": "2026-09-11T07:58:36.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "しらたまうさぎ🐰HSP作家",
+      "article_title": "#王子ごっこ#やってみた🐰でるか？魔改造しらたまうさぎ！！",
+      "article_url": "https://note.com/notes/nc7c577edec04",
+      "introduced_at": "2026-09-11T06:25:36.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "ぱっちー｜暮らしと挑戦の記録",
+      "article_title": "【王子ごっこ】3.1415926535…",
+      "article_url": "https://note.com/notes/nc0fdd48dc933",
+      "introduced_at": "2026-09-11T04:58:52.000Z",
+      "used_in_note_at": null
+    },
     {
       "actor": "福来モネ",
       "article_title": "#王子ごっこ参戦してみた",
