@@ -5,7 +5,14 @@
 }
 
 .ranking-panel .panel-head > div { min-width: 0; }
-.ranking-panel .panel-head select { flex: 0 0 auto; }
+.ranking-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 7px;
+  flex: 0 0 auto;
+}
+.ranking-controls select { flex: 0 0 auto; }
 
 .article-ranking-table {
   margin-top: 12px;
@@ -57,9 +64,7 @@
   line-height: 1.45;
 }
 
-.article-ranking-table tbody th a:hover {
-  color: var(--gold-2);
-}
+.article-ranking-table tbody th a:hover { color: var(--gold-2); }
 
 .article-ranking-table tbody th small {
   display: block;
@@ -70,9 +75,7 @@
   white-space: nowrap;
 }
 
-.article-ranking-table tbody td {
-  color: #aaa397;
-}
+.article-ranking-table tbody td { color: #aaa397; }
 
 .article-ranking-table .ranking-rank {
   width: 36px;
@@ -88,18 +91,20 @@
 }
 
 .article-ranking-table .ranking-top .ranking-rank,
-.article-ranking-table .ranking-top th {
-  color: var(--gold-2);
-}
+.article-ranking-table .ranking-top th { color: var(--gold-2); }
 
-.article-ranking-table tbody tr:hover {
-  background: rgba(255,255,255,.018);
+.article-ranking-table tbody tr:hover { background: rgba(255,255,255,.018); }
+.article-ranking-table .ranking-empty {
+  padding: 24px 12px;
+  color: var(--muted);
+  text-align: center;
 }
 
 @media (max-width: 620px) {
   .ranking-panel .panel-head { align-items: flex-end; }
   .ranking-panel .panel-head h2 { font-size: 20px; }
-  .ranking-panel .panel-head select { min-height: 36px; font-size: 11px; }
+  .ranking-controls { flex-direction: column; align-items: stretch; gap: 5px; }
+  .ranking-controls select { min-height: 34px; padding-left: 8px; font-size: 10px; }
   .article-ranking-table table { min-width: 740px; }
   .article-ranking-table th,
   .article-ranking-table td { padding: 9px 8px; font-size: 10px; }
