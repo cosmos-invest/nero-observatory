@@ -9,9 +9,10 @@ on:
       - scripts/sync-observatory.mjs
       - scripts/complete-dashboard.mjs
       - scripts/finalize-observation.mjs
+      - scripts/inspect-dashboard-range.mjs
       - .github/workflows/update-observatory.yml
 
-# daily orchestration is handled by the exact 20:35 JST Nero Observatory Daily Sync
+# daily orchestration is handled by the exact 19:32 JST Nero Observatory Daily Sync
 # fallback kick marker: daily-sync-primary
 permissions:
   contents: write
@@ -47,6 +48,11 @@ jobs:
             exit 1
           fi
           echo "CHROME_PATH=$CHROME_PATH" >> "$GITHUB_ENV"
+
+      - name: Inspect dashboard range variables
+        env:
+          NOTE_SESSION_COOKIE: ${{ secrets.NOTE_SESSION_COOKIE }}
+        run: node scripts/inspect-dashboard-range.mjs
 
       - name: Collect public and first-page note data
         env:
