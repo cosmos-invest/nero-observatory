@@ -7,7 +7,7 @@
   <title>王子の観測室🌙</title>
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="./chart-labels.css?v=20260909-1958">
-  <link rel="stylesheet" href="./ranking.css?v=20260911-kpi-ranking">
+  <link rel="stylesheet" href="./ranking.css?v=20260911-age-windows">
   <link rel="stylesheet" href="./public-overrides.css">
   <script type="importmap">
     {
@@ -81,14 +81,22 @@
       <header class="panel-head">
         <div>
           <h2>記事ランキング</h2>
-          <p id="article-ranking-caption" class="ranking-caption">開封率の高い順</p>
+          <p id="article-ranking-caption" class="ranking-caption">公開後3日間 · 開封率の高い順</p>
         </div>
-        <select id="article-ranking-sort" aria-label="記事ランキングの並び順">
-          <option value="openRate">開封率</option>
-          <option value="likeRate">スキ率</option>
-          <option value="commentRate">コメント率</option>
-          <option value="pageviews">PV / 記事</option>
-        </select>
+        <div class="ranking-controls">
+          <select id="article-ranking-window" aria-label="記事ランキングの集計期間">
+            <option value="3">3日</option>
+            <option value="7">7日</option>
+            <option value="14">14日</option>
+            <option value="28">28日</option>
+          </select>
+          <select id="article-ranking-sort" aria-label="記事ランキングの並び順">
+            <option value="openRate">開封率</option>
+            <option value="likeRate">スキ率</option>
+            <option value="commentRate">コメント率</option>
+            <option value="pageviews">PV / 記事</option>
+          </select>
+        </div>
       </header>
       <div id="article-ranking-table" class="article-ranking-table"></div>
     </section>
@@ -129,6 +137,6 @@
   </main>
 
   <script type="module" src="./app.js?v=20260909-paid-trend"></script>
-  <script type="module" src="./article-ranking.js?v=20260911-kpi-ranking"></script>
+  <script type="module" src="./article-ranking.js?v=20260911-age-windows"></script>
 </body>
 </html>
