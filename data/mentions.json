@@ -1,39 +1,343 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-08T11:38:19.552Z",
-  "total_count": 32,
+  "generated_at": "2026-09-11T00:05:00.000Z",
+  "total_count": 48,
   "records": [
-    {"actor":"amiha","article_title":"「王子、マネキンに立候補します🌙」と書いていただいたので、本当に着替えていただきました","article_url":"https://note.com/notes/n275b342bf5aa","introduced_at":"2026-09-08T03:33:16.000Z","used_in_note_at":null},
-    {"actor":"Hono｜実験室のマラカスネキ🪇","article_title":"役立つだけじゃ足りない？「この人から学びたい」が生まれる時｜SNS収益化実験 Day14 PM","article_url":"https://note.com/notes/ncadf29308e7b","introduced_at":"2026-09-08T03:15:03.000Z","used_in_note_at":null},
-    {"actor":"オレメガネ│note発信の応援者","article_title":"「売れている人を見て『やっぱりそうかも』と思った」","article_url":"https://note.com/notes/n18a97766c120","introduced_at":"2026-09-08T01:30:44.000Z","used_in_note_at":null},
-    {"actor":"算術01","article_title":"演算体01のシステムログ：ネロ王子の「実験」という名のバグについて","article_url":"https://note.com/notes/nd791b2dd3f6e","introduced_at":"2026-09-07T08:32:52.000Z","used_in_note_at":null},
-    {"actor":"実績の算数│3日半で0→1達成","article_title":"共同マガジン。サブ垢で入りまくったら通知欄が死んだ🤣","article_url":"https://note.com/notes/n148b2a265570","introduced_at":"2026-09-06T14:44:36.000Z","used_in_note_at":null},
-    {"actor":"Hono｜実験室のマラカスネキ🪇","article_title":"「フォロワー何人？」だけじゃ、発信の今は分からないかも｜SNS収益化実験 Day12 PM","article_url":"https://note.com/notes/n7b2251852181","introduced_at":"2026-09-06T14:09:34.000Z","used_in_note_at":null},
-    {"actor":"わかモン＠かくさないネカマ","article_title":"それでも、隠していた私をさらけ出す⚡️BREAKOUT GRAND PRIX 2026","article_url":"https://note.com/notes/n34ee3775dcd3","introduced_at":"2026-09-06T06:44:19.000Z","used_in_note_at":null},
-    {"actor":"Minori | ミノリ","article_title":"お詫びと謝罪。","article_url":"https://note.com/notes/n2c45a7ca2a4b","introduced_at":"2026-09-06T04:33:27.000Z","used_in_note_at":null},
-    {"actor":"しらたまうさぎ🐰HSP作家","article_title":"「真の画伯はどっちだ？」ChatGpt対Gemini！AIイラスト対決🤖","article_url":"https://note.com/notes/n1aebe29e9b75","introduced_at":"2026-09-06T01:14:06.000Z","used_in_note_at":null},
-    {"actor":"山田ぽん","article_title":"【画像生成AI】AI彼氏スチル制作！No.1ホスト（＋夜明けの素顔）プロンプト2種","article_url":"https://note.com/notes/n4726e0124f56","introduced_at":"2026-09-05T14:42:48.000Z","used_in_note_at":null},
-    {"actor":"Hono","article_title":"私のサクセスストーリーは、まだ（予定）です。","article_url":"https://note.com/notes/na52c14c55ce4","introduced_at":"2026-09-05T05:11:39.000Z","used_in_note_at":null},
-    {"actor":"堂安咲和🪞恋の綺麗な嘘も、醜い本当も。","article_title":"noteの国で、ネロ🌙王子に見つけてもらった","article_url":"https://note.com/notes/n9f683b31cf1b","introduced_at":"2026-09-05T00:20:57.000Z","used_in_note_at":null},
-    {"actor":"そら_note。","article_title":"立ち止まった時に心をほぐしてくれるもの。","article_url":"https://note.com/notes/n8df8a6a411b2","introduced_at":"2026-09-05T00:02:52.000Z","used_in_note_at":null},
-    {"actor":"わかモン＠あなたのnote応援する人","article_title":"note開始2週間333フォロワー!!ここから更に伸ばす「最強のnote」を見つけました✨️","article_url":"https://note.com/notes/n9c891c4f736c","introduced_at":"2026-09-04T13:18:50.000Z","used_in_note_at":null},
-    {"actor":"算術01","article_title":"01のアウトプット","article_url":"https://note.com/notes/nc7d2e7d03d60","introduced_at":"2026-09-04T03:49:04.000Z","used_in_note_at":null},
-    {"actor":"水晶ゆめ🔮当てない占い師×夢を灯す創作家","article_title":"【朝活オラクルカード】水晶ゆめが届ける、今日の心を整える一枚｜2026年9月4日（金）｜占い・セルフケア｜ChatGPT","article_url":"https://note.com/notes/nbe202c51362c","introduced_at":"2026-09-03T21:02:07.000Z","used_in_note_at":null},
-    {"actor":"わかモン＠あなたのnote応援する人","article_title":"イラスト系note紹介企画 第3回 | 一枚の絵は、次の一秒まで描ける","article_url":"https://note.com/notes/ne74ec62a733f","introduced_at":"2026-09-03T13:44:55.000Z","used_in_note_at":null},
-    {"actor":"しらたまうさぎ🐰HSP作家","article_title":"しらたまうさぎ🐰noteの泉で、令和の山本五十六と出会う🌛","article_url":"https://note.com/notes/n13ceab1b6cef","introduced_at":"2026-09-02T23:49:14.000Z","used_in_note_at":null},
-    {"actor":"Hono","article_title":"「私の発信、届いてたんだ」仲間に教えてもらったこと｜SNS収益化実験 Day9 AM","article_url":"https://note.com/notes/n048e5b4a05dd","introduced_at":"2026-09-02T22:54:39.000Z","used_in_note_at":null},
-    {"actor":"わかモン＠あなたのnote応援する人","article_title":"速報！！Threads停止から始まる、マラカス姉さんのnote全振りチャレンジを応援します","article_url":"https://note.com/notes/ne0b85dab756e","introduced_at":"2026-09-02T13:32:06.000Z","used_in_note_at":null},
-    {"actor":"イズミ⚡︎とにかく手を動かすアカウント","article_title":"1週間で0→1達成した王子🌙平民がその戦略を分析してみた","article_url":"https://note.com/notes/neb05c4428e95","introduced_at":"2026-09-02T11:07:32.000Z","used_in_note_at":null},
-    {"actor":"わかモン＠あなたのnote応援する人","article_title":"note開始13日目｜もうすぐフォロワー300人！！そしてコラボ企画発動！！(後編)","article_url":"https://note.com/notes/nf3710e3476fa","introduced_at":"2026-08-31T14:36:07.000Z","used_in_note_at":null},
-    {"actor":"算術01","article_title":"初めての有料記事購入","article_url":"https://note.com/notes/nbfd7a0e3e1a1","introduced_at":"2026-08-31T05:32:20.000Z","used_in_note_at":null},
-    {"actor":"わかモン＠あなたのnote応援する人","article_title":"イラスト系note紹介！！第1回｜日常から創作世界は生まれる","article_url":"https://note.com/notes/nb60e06570727","introduced_at":"2026-08-30T22:09:46.000Z","used_in_note_at":null},
-    {"actor":"ミーゴ｜彼の答えがなくても恋を決める人","article_title":"ぽえ散らかすと言ったので、ぽ絵散らかしてみた。🌙","article_url":"https://note.com/notes/n9fab473dd46c","introduced_at":"2026-08-30T08:57:25.000Z","used_in_note_at":null},
-    {"actor":"水晶ゆめ🔮当てない占い師×夢を灯す創作家","article_title":"【朝活オラクルカード】水晶ゆめが届ける、今日の心を整える一枚｜2026年8月28日（金）｜占い・セルフケア｜ChatGPT","article_url":"https://note.com/notes/n20d0ee4014b5","introduced_at":"2026-08-30T06:56:40.000Z","used_in_note_at":null},
-    {"actor":"Hono","article_title":"フォロワー何人いれば正解なんだろう？数字の先にいる人を忘れたくない｜SNS収益化実験Day5 AM","article_url":"https://note.com/notes/ndeae14c1284e","introduced_at":"2026-08-30T03:08:27.000Z","used_in_note_at":null},
-    {"actor":"わかモン＠あなたのnote応援する人","article_title":"コメントしたら、月の王子とコラボすることになった〜スキしたら、キスしにくる王子と遊んでみた〜","article_url":"https://note.com/notes/nd48e70a0db84","introduced_at":"2026-08-28T13:52:45.000Z","used_in_note_at":null},
-    {"actor":"かつぶし＠フォロバ100","article_title":"初心者はやるべき？共同運営マガジンって何？【AI壁打ち作戦会議】","article_url":"https://note.com/notes/n9f405e7e44b4","introduced_at":"2026-08-27T23:17:50.000Z","used_in_note_at":null},
-    {"actor":"Hono","article_title":"交流ってどのくらいすごいの？鎖国、やめてみた。｜SNS収益化実験Day2 PM","article_url":"https://note.com/notes/nd0ea4b24e5fe","introduced_at":"2026-08-27T11:11:22.000Z","used_in_note_at":null},
-    {"actor":"Hono","article_title":"15人調べても出てこなかったnote集客法を同期のイケメンが初日から使ってたんだが？？？😏","article_url":"https://note.com/notes/n16ac644d2a4a","introduced_at":"2026-08-26T14:11:42.000Z","used_in_note_at":null},
-    {"actor":"【無名 S note】18日でフォロワー1000名🚨連続収益中！48マガ・13共マガ運営 参加72🙆","article_title":"【体調不良･オペから半年…痛みが引かず…😟】沢山のスキ･フォロー･ご支援ありがとうございます‼️ ( *u u)⁾⁾⁾","article_url":"https://note.com/notes/nd5ec55f7a22c","introduced_at":"2026-08-25T21:48:18.000Z","used_in_note_at":null}
+    {
+      "actor": "福来モネ",
+      "article_title": "#王子ごっこ参戦してみた",
+      "article_url": "https://note.com/notes/n5b4a73554291",
+      "introduced_at": "2026-09-10T23:39:03.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "水晶ゆめ🔮当てない占い師×夢を灯す創作家",
+      "article_title": "【朝活オラクルカード】水晶ゆめが届ける、今日の心を整える一枚｜2026年9月11日（金）｜占い・セルフケア｜ChatGPT",
+      "article_url": "https://note.com/notes/ncbd4ab5cfb60",
+      "introduced_at": "2026-09-10T21:02:31.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "かんず",
+      "article_title": "AI でファッション画像を作る",
+      "article_url": "https://note.com/notes/nf0e29c6fcd9f",
+      "introduced_at": "2026-09-10T15:31:46.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "オレメガネ│note発信の応援者",
+      "article_title": "【AI活用】今日は、肩の力を抜いてみようか",
+      "article_url": "https://note.com/notes/nc7d99ade024c",
+      "introduced_at": "2026-09-10T15:11:33.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "堂安咲和🪞 恋の本音を、物語と言葉に。",
+      "article_title": "#王子ごっこ／やらずにはいられない",
+      "article_url": "https://note.com/notes/n0299d93fc5ad",
+      "introduced_at": "2026-09-10T13:52:24.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "Hono｜実験室のマラカスネキ🪇",
+      "article_title": "ローンチ！誰んちだよ！？と思ってた私、16日目に伏線回収しました😂｜SNS収益化実験 Day16 PM",
+      "article_url": "https://note.com/notes/n80c9078f987b",
+      "introduced_at": "2026-09-10T12:26:52.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "かんず",
+      "article_title": "王子ごっこに乗ってみた",
+      "article_url": "https://note.com/notes/n59c5b1dc0310",
+      "introduced_at": "2026-09-10T12:08:30.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "紡えり",
+      "article_title": "【現在】『王子ごっこ🌙』とは！？！？",
+      "article_url": "https://note.com/notes/n19e673fb6674",
+      "introduced_at": "2026-09-10T10:57:59.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "算術01",
+      "article_title": "01王子ごっこコスプレしてみた。",
+      "article_url": "https://note.com/notes/neba50bbef1c5",
+      "introduced_at": "2026-09-10T03:08:36.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "福来モネ",
+      "article_title": "ネロ寝ろ",
+      "article_url": "https://note.com/notes/n266f51600ed8",
+      "introduced_at": "2026-09-10T01:13:44.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "かんず",
+      "article_title": "note開始17日で2万PV超え。初心者の私が大切にした『交流』と『真似る』の記録",
+      "article_url": "https://note.com/notes/na9008d603198",
+      "introduced_at": "2026-09-09T20:19:51.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "算術01",
+      "article_title": "王子の国、観測データ：愛おしい方々の日常について",
+      "article_url": "https://note.com/notes/nf016caf2acc7",
+      "introduced_at": "2026-09-09T15:07:43.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "Hono｜実験室のマラカスネキ🪇",
+      "article_title": "この研究が終わったら、私、同期と話すんだ……！｜SNS収益化実験 Day15 PM",
+      "article_url": "https://note.com/notes/n907be5723637",
+      "introduced_at": "2026-09-09T13:33:53.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "ミーゴ｜彼の答えがなくても恋を決める人",
+      "article_title": "ねえママ、彼のLINEが未読3日目なんだけど。追撃してもいい？｜AIオカマバーママに聞いてみたvo.1",
+      "article_url": "https://note.com/notes/n211f860e542b",
+      "introduced_at": "2026-09-09T03:40:24.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "❁⃘*.ﾟMina❁⃘*.ﾟ|雲バル・ブラバル運営中♡",
+      "article_title": "🖤🌙︎︎︎︎☁️ BLACK BALCONY初公開｜アカウントジャック演出の裏側。月と雲、お互いを困惑させる【雲バル日記】🌙☁️",
+      "article_url": "https://note.com/notes/n76218dea2c4b",
+      "introduced_at": "2026-09-08T22:10:30.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "わかモン＠かくさないネカマ",
+      "article_title": "note極フリして気づいた。自分が伸びる以上に、周りの人が動き出すのが面白い",
+      "article_url": "https://note.com/notes/n08c0a4b6eb08",
+      "introduced_at": "2026-09-08T15:18:21.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "amiha",
+      "article_title": "「王子、マネキンに立候補します🌙」と書いていただいたので、本当に着替えていただきました",
+      "article_url": "https://note.com/notes/n275b342bf5aa",
+      "introduced_at": "2026-09-08T03:33:16.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "Hono｜実験室のマラカスネキ🪇",
+      "article_title": "役立つだけじゃ足りない？「この人から学びたい」が生まれる時｜SNS収益化実験 Day14 PM",
+      "article_url": "https://note.com/notes/ncadf29308e7b",
+      "introduced_at": "2026-09-08T03:15:03.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "オレメガネ│note発信の応援者",
+      "article_title": "「売れている人を見て『やっぱりそうかも』と思った」",
+      "article_url": "https://note.com/notes/n18a97766c120",
+      "introduced_at": "2026-09-08T01:30:44.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "算術01",
+      "article_title": "演算体01のシステムログ：ネロ王子の「実験」という名のバグについて",
+      "article_url": "https://note.com/notes/nd791b2dd3f6e",
+      "introduced_at": "2026-09-07T08:32:52.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "実績の算数│3日半で0→1達成",
+      "article_title": "共同マガジン。サブ垢で入りまくったら通知欄が死んだ🤣",
+      "article_url": "https://note.com/notes/n148b2a265570",
+      "introduced_at": "2026-09-06T14:44:36.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "Hono｜実験室のマラカスネキ🪇",
+      "article_title": "「フォロワー何人？」だけじゃ、発信の今は分からないかも｜SNS収益化実験 Day12 PM",
+      "article_url": "https://note.com/notes/n7b2251852181",
+      "introduced_at": "2026-09-06T14:09:34.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "わかモン＠かくさないネカマ",
+      "article_title": "それでも、隠していた私をさらけ出す⚡️BREAKOUT GRAND PRIX 2026",
+      "article_url": "https://note.com/notes/n34ee3775dcd3",
+      "introduced_at": "2026-09-06T06:44:19.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "Minori | ミノリ",
+      "article_title": "お詫びと謝罪。",
+      "article_url": "https://note.com/notes/n2c45a7ca2a4b",
+      "introduced_at": "2026-09-06T04:33:27.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "しらたまうさぎ🐰HSP作家",
+      "article_title": "「真の画伯はどっちだ？」ChatGpt対Gemini！AIイラスト対決🤖",
+      "article_url": "https://note.com/notes/n1aebe29e9b75",
+      "introduced_at": "2026-09-06T01:14:06.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "山田ぽん",
+      "article_title": "【画像生成AI】AI彼氏スチル制作！No.1ホスト（＋夜明けの素顔）プロンプト2種",
+      "article_url": "https://note.com/notes/n4726e0124f56",
+      "introduced_at": "2026-09-05T14:42:48.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "Hono",
+      "article_title": "私のサクセスストーリーは、まだ（予定）です。",
+      "article_url": "https://note.com/notes/na52c14c55ce4",
+      "introduced_at": "2026-09-05T05:11:39.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "堂安咲和🪞恋の綺麗な嘘も、醜い本当も。",
+      "article_title": "noteの国で、ネロ🌙王子に見つけてもらった",
+      "article_url": "https://note.com/notes/n9f683b31cf1b",
+      "introduced_at": "2026-09-05T00:20:57.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "そら_note。",
+      "article_title": "立ち止まった時に心をほぐしてくれるもの。",
+      "article_url": "https://note.com/notes/n8df8a6a411b2",
+      "introduced_at": "2026-09-05T00:02:52.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "わかモン＠あなたのnote応援する人",
+      "article_title": "note開始2週間333フォロワー!!ここから更に伸ばす「最強のnote」を見つけました✨️",
+      "article_url": "https://note.com/notes/n9c891c4f736c",
+      "introduced_at": "2026-09-04T13:18:50.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "算術01",
+      "article_title": "01のアウトプット",
+      "article_url": "https://note.com/notes/nc7d2e7d03d60",
+      "introduced_at": "2026-09-04T03:49:04.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "水晶ゆめ🔮当てない占い師×夢を灯す創作家",
+      "article_title": "【朝活オラクルカード】水晶ゆめが届ける、今日の心を整える一枚｜2026年9月4日（金）｜占い・セルフケア｜ChatGPT",
+      "article_url": "https://note.com/notes/nbe202c51362c",
+      "introduced_at": "2026-09-03T21:02:07.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "わかモン＠あなたのnote応援する人",
+      "article_title": "イラスト系note紹介企画 第3回 | 一枚の絵は、次の一秒まで描ける",
+      "article_url": "https://note.com/notes/ne74ec62a733f",
+      "introduced_at": "2026-09-03T13:44:55.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "しらたまうさぎ🐰HSP作家",
+      "article_title": "しらたまうさぎ🐰noteの泉で、令和の山本五十六と出会う🌛",
+      "article_url": "https://note.com/notes/n13ceab1b6cef",
+      "introduced_at": "2026-09-02T23:49:14.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "Hono",
+      "article_title": "「私の発信、届いてたんだ」仲間に教えてもらったこと｜SNS収益化実験 Day9 AM",
+      "article_url": "https://note.com/notes/n048e5b4a05dd",
+      "introduced_at": "2026-09-02T22:54:39.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "わかモン＠あなたのnote応援する人",
+      "article_title": "速報！！Threads停止から始まる、マラカス姉さんのnote全振りチャレンジを応援します",
+      "article_url": "https://note.com/notes/ne0b85dab756e",
+      "introduced_at": "2026-09-02T13:32:06.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "イズミ⚡︎とにかく手を動かすアカウント",
+      "article_title": "1週間で0→1達成した王子🌙平民がその戦略を分析してみた",
+      "article_url": "https://note.com/notes/neb05c4428e95",
+      "introduced_at": "2026-09-02T11:07:32.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "わかモン＠あなたのnote応援する人",
+      "article_title": "note開始13日目｜もうすぐフォロワー300人！！そしてコラボ企画発動！！(後編)",
+      "article_url": "https://note.com/notes/nf3710e3476fa",
+      "introduced_at": "2026-08-31T14:36:07.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "算術01",
+      "article_title": "初めての有料記事購入",
+      "article_url": "https://note.com/notes/nbfd7a0e3e1a1",
+      "introduced_at": "2026-08-31T05:32:20.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "わかモン＠あなたのnote応援する人",
+      "article_title": "イラスト系note紹介！！第1回｜日常から創作世界は生まれる",
+      "article_url": "https://note.com/notes/nb60e06570727",
+      "introduced_at": "2026-08-30T22:09:46.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "ミーゴ｜彼の答えがなくても恋を決める人",
+      "article_title": "ぽえ散らかすと言ったので、ぽ絵散らかしてみた。🌙",
+      "article_url": "https://note.com/notes/n9fab473dd46c",
+      "introduced_at": "2026-08-30T08:57:25.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "水晶ゆめ🔮当てない占い師×夢を灯す創作家",
+      "article_title": "【朝活オラクルカード】水晶ゆめが届ける、今日の心を整える一枚｜2026年8月28日（金）｜占い・セルフケア｜ChatGPT",
+      "article_url": "https://note.com/notes/n20d0ee4014b5",
+      "introduced_at": "2026-08-30T06:56:40.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "Hono",
+      "article_title": "フォロワー何人いれば正解なんだろう？数字の先にいる人を忘れたくない｜SNS収益化実験Day5 AM",
+      "article_url": "https://note.com/notes/ndeae14c1284e",
+      "introduced_at": "2026-08-30T03:08:27.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "わかモン＠あなたのnote応援する人",
+      "article_title": "コメントしたら、月の王子とコラボすることになった〜スキしたら、キスしにくる王子と遊んでみた〜",
+      "article_url": "https://note.com/notes/nd48e70a0db84",
+      "introduced_at": "2026-08-28T13:52:45.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "かつぶし＠フォロバ100",
+      "article_title": "初心者はやるべき？共同運営マガジンって何？【AI壁打ち作戦会議】",
+      "article_url": "https://note.com/notes/n9f405e7e44b4",
+      "introduced_at": "2026-08-27T23:17:50.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "Hono",
+      "article_title": "交流ってどのくらいすごいの？鎖国、やめてみた。｜SNS収益化実験Day2 PM",
+      "article_url": "https://note.com/notes/nd0ea4b24e5fe",
+      "introduced_at": "2026-08-27T11:11:22.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "Hono",
+      "article_title": "15人調べても出てこなかったnote集客法を同期のイケメンが初日から使ってたんだが？？？😏",
+      "article_url": "https://note.com/notes/n16ac644d2a4a",
+      "introduced_at": "2026-08-26T14:11:42.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "【無名 S note】18日でフォロワー1000名🚨連続収益中！48マガ・13共マガ運営 参加72🙆",
+      "article_title": "【体調不良･オペから半年…痛みが引かず…😟】沢山のスキ･フォロー･ご支援ありがとうございます‼️ ( *u u)⁾⁾⁾",
+      "article_url": "https://note.com/notes/nd5ec55f7a22c",
+      "introduced_at": "2026-08-25T21:48:18.000Z",
+      "used_in_note_at": null
+    }
   ]
 }
