@@ -48,14 +48,13 @@ try {
   await page.waitForTimeout(10_000);
   if (/login|signin/.test(page.url())) throw new Error('note session redirected to login');
 
-  const opener = page.getByRole('button', { name: /期間選択/ }).first();
-  if (!await opener.isVisible().catch(() => false)) throw new Error('period selector was not found');
-  await opener.click();
-  await page.waitForTimeout(500);
-
-  const custom = page.getByText('カスタム', { exact: true }).first();
-  if (!await custom.isVisible().catch(() => false)) throw new Error('custom period option was not found');
-  await custom.click();
+  const periodSelect = page.locator('select').filter({ hasText: 'カスタム' }).first();
+  if (!await periodSelect.isVisible().catch(() => false)) throw new Error('period select was not found');
+  const options = await periodSelect.locator('option').evaluateAll((nodes) => nodes.map((node) => ({ text: (node.textContent || '').trim(), value: node.value })));
+  console.log('DASHBOARD_PERIOD_OPTIONS=' + JSON.stringify(options));
+  const customOption = options.find((row) => row.text === 'カスタム');
+  if (!customOption) throw new Error('custom option was not found');
+  await periodSelect.selectOption(customOption.value);
   await page.waitForTimeout(700);
 
   const start = page.getByLabel('開始日を選択してください');
@@ -76,25 +75,12 @@ try {
   })).filter((row) => /適用|決定|完了|設定|反映|検索|表示|期間|日付|キャンセル/.test(`${row.text} ${row.aria ?? ''}`)));
   console.log('DASHBOARD_CUSTOM_BUTTONS=' + JSON.stringify(visibleButtons));
 
-  const submitCandidates = [
-    page.getByRole('button', { name: /適用|決定|完了|反映|表示/ }),
-    page.locator('button').filter({ hasText: /適用|決定|完了|反映|表示/ }),
-  ];
-  let submitted = false;
-  for (const locator of submitCandidates) {
-    if (!await locator.count()) continue;
-    const item = locator.first();
-    if (await item.isVisible().catch(() => false) && !await item.isDisabled().catch(() => true)) {
-      await item.click();
-      submitted = true;
-      break;
-    }
+  const submit = page.getByRole('button', { name: /適用|決定|完了|反映|表示/ }).first();
+  if (await submit.isVisible().catch(() => false) && !await submit.isDisabled().catch(() => true)) {
+    await submit.click();
+  } else {
+    await end.press('Enter');
   }
-  if (!submitted) {
-    await end.press('Enter').catch(() => {});
-    submitted = true;
-  }
-  console.log('DASHBOARD_CUSTOM_SUBMITTED=' + submitted);
   await page.waitForTimeout(3_000);
   console.log('DASHBOARD_RANGE_CAPTURE_COUNT=' + captures.length);
 } finally {
