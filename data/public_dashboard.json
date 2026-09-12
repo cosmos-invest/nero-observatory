@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T19:34:40+09:00",
+  "generated_at": "2026-09-12T19:37:50+09:00",
   "snapshot_policy": {
     "timezone": "Asia/Tokyo",
     "target_publish_time": "21:00",
@@ -13,17 +13,17 @@
     "rule": "19:35以降に再取得し、noteの記事別集計時刻が18:00〜20:30 JSTに入る最も新しい断面を当日公式値として採用する。"
   },
   "latest": {
-    "period_label": "2026/08/15〜2026/09/11",
-    "dashboard_at": "2026-09-11T09:07:00.000Z",
-    "fetched_at": "2026-09-11T19:34:40+09:00",
-    "note_stat_last_updated_at": "2026-09-11T09:07:00.000Z",
+    "period_label": "2026/08/16〜2026/09/12",
+    "dashboard_at": "2026-09-12T09:04:00.000Z",
+    "fetched_at": "2026-09-12T19:37:50+09:00",
+    "note_stat_last_updated_at": "2026-09-12T09:04:00.000Z",
     "metrics": {
-      "articles": 25,
-      "impressions": 434073,
-      "pageviews": 11997,
-      "likes": 2936,
-      "comments": 536,
-      "followers": 890
+      "articles": 26,
+      "impressions": 446453,
+      "pageviews": 12767,
+      "likes": 3078,
+      "comments": 601,
+      "followers": 914
     }
   },
   "snapshots": [
@@ -113,16 +113,29 @@
       "articles": 25,
       "source": "note_dashboard_graphql_paginated",
       "note_stat_last_updated_at": "2026-09-11T09:07:00.000Z"
+    },
+    {
+      "dashboard_at": "2026-09-12T09:04:00.000Z",
+      "fetched_at": "2026-09-12T19:37:50+09:00",
+      "period_label": "2026/08/16〜2026/09/12",
+      "impressions": 446453,
+      "pageviews": 12767,
+      "likes": 3078,
+      "comments": 601,
+      "followers": 914,
+      "articles": 26,
+      "source": "note_dashboard_graphql_paginated",
+      "note_stat_last_updated_at": "2026-09-12T09:04:00.000Z"
     }
   ],
   "public_profile": {
-    "observed_at": "2026-09-11T19:34:07+09:00",
+    "observed_at": "2026-09-12T19:37:10+09:00",
     "creator_id": "nero_notelover",
     "nickname": "ネロ🌙｜王子｜楽しくnote収益化",
-    "followers": 890,
-    "note_count": 25,
-    "total_public_likes": 2950,
-    "total_public_comments": 540
+    "followers": 914,
+    "note_count": 26,
+    "total_public_likes": 3086,
+    "total_public_comments": 606
   },
   "follower_snapshots": [
     {
@@ -195,6 +208,12 @@
       "observed_at": "2026-09-11T18:40:04+09:00",
       "followers": 890,
       "articles": 25,
+      "source": "note_public_creator_api"
+    },
+    {
+      "observed_at": "2026-09-12T19:37:10+09:00",
+      "followers": 914,
+      "articles": 26,
       "source": "note_public_creator_api"
     }
   ]

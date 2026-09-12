@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T18:41:09+09:00",
+  "generated_at": "2026-09-12T19:38:04+09:00",
   "windows": [
     3,
     7,
@@ -8,6 +8,13 @@
     28
   ],
   "articles": [
+    {
+      "key": "n4e8b02c1e1ef",
+      "title": "🌙王子ごっこ増殖中。そしてついに王子があのランキングに帰還",
+      "published_at": "2026-09-11T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n4e8b02c1e1ef",
+      "metrics": {}
+    },
     {
       "key": "n5114f087128b",
       "title": "【王子の初企画】王子ごっこで遊ぼう🌙",
@@ -20,7 +27,19 @@
       "title": "🌙急上昇ランキング74位。でも王子がいない。",
       "published_at": "2026-09-09T22:00:00+09:00",
       "url": "https://note.com/nero_notelover/n/nc1a0aea867a9",
-      "metrics": {}
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-09-09",
+          "end": "2026-09-11",
+          "impressions": 4896,
+          "pageviews": 400,
+          "likes": 103,
+          "comments": 35,
+          "captured_at": "2026-09-12T19:38:03+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
     },
     {
       "key": "n656bdfab359b",
@@ -113,6 +132,17 @@
           "likes": 97,
           "comments": 28,
           "captured_at": "2026-09-11T18:41:06+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-09-05",
+          "end": "2026-09-11",
+          "impressions": 11841,
+          "pageviews": 330,
+          "likes": 102,
+          "comments": 28,
+          "captured_at": "2026-09-12T19:38:02+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -353,6 +383,17 @@
           "likes": 49,
           "comments": 11,
           "captured_at": "2026-09-11T18:40:57+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-08-29",
+          "end": "2026-09-11",
+          "impressions": 5221,
+          "pageviews": 199,
+          "likes": 51,
+          "comments": 14,
+          "captured_at": "2026-09-12T19:38:02+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
