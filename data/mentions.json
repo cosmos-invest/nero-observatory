@@ -1,8 +1,106 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T10:31:40.000Z",
-  "total_count": 52,
+  "generated_at": "2026-09-12T10:35:56.405Z",
+  "total_count": 66,
   "records": [
+    {
+      "actor": "ミナト汐　＠光と構図のアトリエ",
+      "article_title": "【企画参加】AIイラストのnote企画で王子ごっこが流行ってるみたいなのでやってみた話|*･ω･)🌙",
+      "article_url": "https://note.com/notes/n64aba681d461",
+      "introduced_at": "2026-09-12T10:02:08.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "❁⃘*.ﾟMina❁⃘*.ﾟ|雲バル・ブラバル運営中♡",
+      "article_title": "🎞️🤖✨️ねぇ？かんちゃん、動画ってどう見えてるの？―ちょっと形の違う友人と、動画のちょっと違った見方―✨️【雲バルAI研究】",
+      "article_url": "https://note.com/notes/n87b6f0d19588",
+      "introduced_at": "2026-09-12T09:04:59.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "弁護士　岡本卓大",
+      "article_title": "【＃王子ごっこ】神武征討記外伝特別編「王子様は誰だ！？」",
+      "article_url": "https://note.com/notes/n8ed2a2072637",
+      "introduced_at": "2026-09-12T08:31:07.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "星ねこ｜ありのまま、そのまま。初心者さんに安心してもらえるひと。",
+      "article_title": "#08⭐️まずは1枚……で、終わるわけがなかった🤣",
+      "article_url": "https://note.com/notes/nccd318bb2620",
+      "introduced_at": "2026-09-12T07:16:44.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "びばって｜棒人間絵日記｜観察を楽しむ｜好奇心を応援",
+      "article_title": "【企画参加】AIがあれば棒人間は王子になれるのか？",
+      "article_url": "https://note.com/notes/ned3c078039dd",
+      "introduced_at": "2026-09-11T23:52:29.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "ぱっちー｜暮らしと挑戦の記録",
+      "article_title": "【正解発表】第1回なぞなぞでつながるnote｜ご参加ありがとうございました！",
+      "article_url": "https://note.com/notes/nc13509ca6669",
+      "introduced_at": "2026-09-11T23:12:59.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "わかモン＠かくさないネカマ",
+      "article_title": "note3週間目、500フォロワー超え！！そして、急上昇ランキング入り達成✨️感謝御礼！！初心者note伸ばす方法教えます",
+      "article_url": "https://note.com/notes/n683564e51a10",
+      "introduced_at": "2026-09-11T22:38:17.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "アメリ🐈️",
+      "article_title": "プリンスゲーム🤴　ハートボイス💘",
+      "article_url": "https://note.com/notes/n34a84834b53c",
+      "introduced_at": "2026-09-11T22:09:16.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "西条あやか｜恋愛と孤独を綴る女子大生",
+      "article_title": "話題の王子ごっこを、やってみた！",
+      "article_url": "https://note.com/notes/n5daf383359c1",
+      "introduced_at": "2026-09-11T21:07:49.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "yuki",
+      "article_title": "王子ごっこしてみたよ♡",
+      "article_url": "https://note.com/notes/n546bb64f08bc",
+      "introduced_at": "2026-09-11T15:40:30.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "KANU",
+      "article_title": "ネロ王子と面識のないnote初心者が、王子ごっこに参戦してみた。",
+      "article_url": "https://note.com/notes/n20d223b9aa46",
+      "introduced_at": "2026-09-11T14:48:17.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "ミーゴ｜彼の答えがなくても恋を決める人",
+      "article_title": "王子、AIママに愛される。｜オカマバーから熱烈オファーが届きました",
+      "article_url": "https://note.com/notes/nfafcdf237f77",
+      "introduced_at": "2026-09-11T13:09:11.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "ツムギ｜AIと仲間と、0→1の毎日",
+      "article_title": "今日はちょっと遊んでみた。そしたらツムギが世界征服を始めた。｜DAY30",
+      "article_url": "https://note.com/notes/n8148607e21bc",
+      "introduced_at": "2026-09-11T13:03:09.000Z",
+      "used_in_note_at": null
+    },
+    {
+      "actor": "☪︎夜澄マナ",
+      "article_title": "王子ごっこ",
+      "article_url": "https://note.com/notes/nd1cc44f39e69",
+      "introduced_at": "2026-09-11T12:43:34.000Z",
+      "used_in_note_at": null
+    },
     {
       "actor": "ひゅー｜挑戦と思考整理を楽しむ。note",
       "article_title": "共同マガジンに加わった素敵なクリエイターのご紹介　その10",
