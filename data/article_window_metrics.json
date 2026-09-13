@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T19:38:04+09:00",
+  "generated_at": "2026-09-13T19:36:53+09:00",
   "windows": [
     3,
     7,
@@ -8,6 +8,13 @@
     28
   ],
   "articles": [
+    {
+      "key": "n18f5eee9aeed",
+      "title": "🌙王子ごっこで遊びすぎたので今日は営業します！！",
+      "published_at": "2026-09-12T23:04:12+09:00",
+      "url": "https://note.com/nero_notelover/n/n18f5eee9aeed",
+      "metrics": {}
+    },
     {
       "key": "n4e8b02c1e1ef",
       "title": "🌙王子ごっこ増殖中。そしてついに王子があのランキングに帰還",
@@ -20,7 +27,19 @@
       "title": "【王子の初企画】王子ごっこで遊ぼう🌙",
       "published_at": "2026-09-10T18:00:00+09:00",
       "url": "https://note.com/nero_notelover/n/n5114f087128b",
-      "metrics": {}
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-09-10",
+          "end": "2026-09-12",
+          "impressions": 10557,
+          "pageviews": 753,
+          "likes": 156,
+          "comments": 64,
+          "captured_at": "2026-09-13T19:36:53+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
     },
     {
       "key": "nc1a0aea867a9",
@@ -95,6 +114,17 @@
           "comments": 21,
           "captured_at": "2026-09-11T18:41:07+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-09-06",
+          "end": "2026-09-12",
+          "impressions": 9537,
+          "pageviews": 579,
+          "likes": 92,
+          "comments": 21,
+          "captured_at": "2026-09-13T19:36:52+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -113,6 +143,17 @@
           "likes": 69,
           "comments": 18,
           "captured_at": "2026-09-11T18:41:07+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-09-06",
+          "end": "2026-09-12",
+          "impressions": 4091,
+          "pageviews": 247,
+          "likes": 74,
+          "comments": 18,
+          "captured_at": "2026-09-13T19:36:52+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -353,6 +394,17 @@
           "likes": 99,
           "comments": 28,
           "captured_at": "2026-09-11T18:40:59+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-08-30",
+          "end": "2026-09-12",
+          "impressions": 15646,
+          "pageviews": 1119,
+          "likes": 138,
+          "comments": 28,
+          "captured_at": "2026-09-13T19:36:51+09:00",
           "source": "note_dashboard_custom_range"
         }
       }

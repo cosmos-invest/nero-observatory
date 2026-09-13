@@ -1,56 +1,65 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T19:37:50+09:00",
-  "dashboard_at": "2026-09-12T09:04:00.000Z",
+  "generated_at": "2026-09-13T19:36:39+09:00",
+  "dashboard_at": "2026-09-13T09:06:00.000Z",
   "period": {
     "unit": "LAST_28_DAYS",
-    "start": "2026-08-16",
-    "end": "2026-09-12"
+    "start": "2026-08-17",
+    "end": "2026-09-13"
   },
-  "count": 26,
+  "count": 27,
   "articles": [
+    {
+      "title": "🌙王子ごっこで遊びすぎたので今日は営業します！！",
+      "published_at": "2026-09-12T23:04:12+09:00",
+      "url": "https://note.com/nero_notelover/n/n18f5eee9aeed",
+      "pageviews": 285,
+      "impressions": 3135,
+      "likes": 88,
+      "comments": 27
+    },
     {
       "title": "🌙王子ごっこ増殖中。そしてついに王子があのランキングに帰還",
       "published_at": "2026-09-11T21:00:00+09:00",
       "url": "https://note.com/nero_notelover/n/n4e8b02c1e1ef",
-      "pageviews": 365,
-      "impressions": 2815,
-      "likes": 82,
-      "comments": 49
+      "pageviews": 493,
+      "impressions": 4835,
+      "likes": 98,
+      "comments": 54
     },
     {
       "title": "【王子の初企画】王子ごっこで遊ぼう🌙",
       "published_at": "2026-09-10T18:00:00+09:00",
       "url": "https://note.com/nero_notelover/n/n5114f087128b",
-      "pageviews": 662,
-      "impressions": 9752,
-      "likes": 144,
-      "comments": 59
+      "pageviews": 882,
+      "impressions": 12411,
+      "likes": 177,
+      "comments": 70
     },
     {
       "title": "🌙急上昇ランキング74位。でも王子がいない。",
       "published_at": "2026-09-09T22:00:00+09:00",
       "url": "https://note.com/nero_notelover/n/nc1a0aea867a9",
-      "pageviews": 419,
-      "impressions": 5356,
-      "likes": 104,
-      "comments": 35
+      "pageviews": 449,
+      "impressions": 6097,
+      "likes": 106,
+      "comments": 37
     },
     {
       "title": "🌙記事のターゲットを絞るとは？｜王位継承を控えている人へ",
       "published_at": "2026-09-08T22:00:00+09:00",
       "url": "https://note.com/nero_notelover/n/n656bdfab359b",
-      "pageviews": 289,
-      "impressions": 5204,
+      "pageviews": 306,
+      "impressions": 5792,
       "likes": 114,
-      "comments": 26
+      "comments": 30
     },
     {
       "title": "【GPT-6 Astra】王子の強みと弱みを分析してみた🌙｜2週間の振り返りと次の目標",
       "published_at": "2026-09-07T21:00:00+09:00",
       "url": "https://note.com/nero_notelover/n/n9d7208a2e4b4",
-      "pageviews": 321,
-      "impressions": 9357,
+      "pageviews": 325,
+      "impressions": 9852,
       "likes": 128,
       "comments": 31
     },
@@ -58,17 +67,17 @@
       "title": "🌙王子が初めての有料noteに仕掛けた「売り方」｜300円→500円→1,000円、累計18部販売",
       "published_at": "2026-09-06T21:00:00+09:00",
       "url": "https://note.com/nero_notelover/n/ncdd074b7e8f9",
-      "pageviews": 568,
-      "impressions": 9324,
-      "likes": 91,
-      "comments": 21
+      "pageviews": 615,
+      "impressions": 9913,
+      "likes": 95,
+      "comments": 23
     },
     {
       "title": "🌙たくさんの愛を、今度は王子から｜4つの記事にありがとう",
       "published_at": "2026-09-06T09:00:41+09:00",
       "url": "https://note.com/nero_notelover/n/n412a21c4ca4c",
-      "pageviews": 243,
-      "impressions": 3999,
+      "pageviews": 249,
+      "impressions": 4265,
       "likes": 74,
       "comments": 18
     },
@@ -76,8 +85,8 @@
       "title": "🌙王子、ホストになって月に座る｜山田ぽんさんのプロンプトで全力で遊びました",
       "published_at": "2026-09-05T20:30:00+09:00",
       "url": "https://note.com/nero_notelover/n/n784117b5567b",
-      "pageviews": 330,
-      "impressions": 11958,
+      "pageviews": 338,
+      "impressions": 12230,
       "likes": 102,
       "comments": 28
     },
@@ -85,8 +94,8 @@
       "title": "🌙王子、市場の独占を企む｜noteで「王子」といえば誰ですか？",
       "published_at": "2026-09-04T19:52:27+09:00",
       "url": "https://note.com/nero_notelover/n/nf4830fe23412",
-      "pageviews": 314,
-      "impressions": 6615,
+      "pageviews": 319,
+      "impressions": 6834,
       "likes": 124,
       "comments": 30
     },
@@ -94,8 +103,8 @@
       "title": "【6時間で+152ビュー】🌙王子、止まった過去記事をもう一度動かしました│共同運営マガジンとは",
       "published_at": "2026-09-03T21:11:58+09:00",
       "url": "https://note.com/nero_notelover/n/n064f88fd71b6",
-      "pageviews": 271,
-      "impressions": 6932,
+      "pageviews": 275,
+      "impressions": 7182,
       "likes": 92,
       "comments": 24
     },
@@ -103,8 +112,8 @@
       "title": "【第2弾完売】🌙有料記事の本当の値段って？",
       "published_at": "2026-09-02T23:37:21+09:00",
       "url": "https://note.com/nero_notelover/n/nfd342986dffa",
-      "pageviews": 259,
-      "impressions": 6503,
+      "pageviews": 261,
+      "impressions": 6680,
       "likes": 72,
       "comments": 26
     },
@@ -112,17 +121,17 @@
       "title": "🌙王子はこれからどこを目指すのか",
       "published_at": "2026-09-01T22:50:32+09:00",
       "url": "https://note.com/nero_notelover/n/nc0c11512109c",
-      "pageviews": 300,
-      "impressions": 6150,
-      "likes": 82,
+      "pageviews": 306,
+      "impressions": 6339,
+      "likes": 83,
       "comments": 19
     },
     {
       "title": "【１週間記念】王子、心がいっぱいになりました🌙【ありがとう】",
       "published_at": "2026-08-31T18:31:31+09:00",
       "url": "https://note.com/nero_notelover/n/ne1526468dd51",
-      "pageviews": 239,
-      "impressions": 5199,
+      "pageviews": 242,
+      "impressions": 5406,
       "likes": 70,
       "comments": 31
     },
@@ -130,8 +139,8 @@
       "title": "🌙王子、初めての有料noteを出しました｜300円完売。そして500円でも売れました",
       "published_at": "2026-08-31T06:00:00+09:00",
       "url": "https://note.com/nero_notelover/n/n97c10adc3c53",
-      "pageviews": 231,
-      "impressions": 7623,
+      "pageviews": 234,
+      "impressions": 7809,
       "likes": 85,
       "comments": 6
     },
@@ -139,17 +148,17 @@
       "title": "15部突破│【note投稿開始3日で総スキ1000】 #はじめてのnoteに隠した１０個の仕掛け🌙【コングラボード獲得】",
       "published_at": "2026-08-30T10:00:00+09:00",
       "url": "https://note.com/nero_notelover/n/n142c0051ee05",
-      "pageviews": 1105,
-      "impressions": 15447,
-      "likes": 138,
+      "pageviews": 1138,
+      "impressions": 16034,
+      "likes": 139,
       "comments": 28
     },
     {
       "title": "【何が起きた】王子、気づいたら3人に記事にされてました🌙",
       "published_at": "2026-08-29T23:13:36+09:00",
       "url": "https://note.com/nero_notelover/n/nfaa8ad059650",
-      "pageviews": 200,
-      "impressions": 5306,
+      "pageviews": 208,
+      "impressions": 5454,
       "likes": 51,
       "comments": 14
     },
@@ -157,17 +166,17 @@
       "title": "【企画参加】王子、月から降りてきました🌙｜お月見プロンプトガチャ",
       "published_at": "2026-08-28T20:40:21+09:00",
       "url": "https://note.com/nero_notelover/n/n86b5496315de",
-      "pageviews": 268,
-      "impressions": 10247,
-      "likes": 87,
+      "pageviews": 271,
+      "impressions": 10437,
+      "likes": 88,
       "comments": 17
     },
     {
       "title": "【自作】コメントを返したすぎて、管理アプリを作った王子🌙",
       "published_at": "2026-08-28T12:07:04+09:00",
       "url": "https://note.com/nero_notelover/n/ndd494d647290",
-      "pageviews": 194,
-      "impressions": 5813,
+      "pageviews": 198,
+      "impressions": 5897,
       "likes": 60,
       "comments": 16
     },
@@ -175,8 +184,8 @@
       "title": "王子がまた会いに行きたくなった人🌙",
       "published_at": "2026-08-27T22:43:11+09:00",
       "url": "https://note.com/nero_notelover/n/nf3373cf3cf34",
-      "pageviews": 393,
-      "impressions": 16759,
+      "pageviews": 396,
+      "impressions": 16916,
       "likes": 80,
       "comments": 19
     },
@@ -184,17 +193,17 @@
       "title": "コメント依存症の王子、紹介されました🌙",
       "published_at": "2026-08-27T12:02:55+09:00",
       "url": "https://note.com/nero_notelover/n/n99f2859211d3",
-      "pageviews": 232,
-      "impressions": 5878,
-      "likes": 56,
-      "comments": 19
+      "pageviews": 241,
+      "impressions": 5948,
+      "likes": 58,
+      "comments": 21
     },
     {
       "title": "はじめてのnoteが嬉しいことになっている🌙",
       "published_at": "2026-08-26T22:47:33+09:00",
       "url": "https://note.com/nero_notelover/n/n46c95069af22",
-      "pageviews": 2123,
-      "impressions": 128117,
+      "pageviews": 2129,
+      "impressions": 128370,
       "likes": 332,
       "comments": 23
     },
@@ -202,8 +211,8 @@
       "title": "ネロのお気に入り掲示板｜あなたの「読んでほしい」を置いていって🌙",
       "published_at": "2026-08-26T12:05:23+09:00",
       "url": "https://note.com/nero_notelover/n/n29e9faebb23e",
-      "pageviews": 321,
-      "impressions": 8516,
+      "pageviews": 324,
+      "impressions": 8596,
       "likes": 72,
       "comments": 15
     },
@@ -211,17 +220,17 @@
       "title": "おはよう。朝が来た🌙｜コメントが書ける喜びに合掌",
       "published_at": "2026-08-26T07:50:15+09:00",
       "url": "https://note.com/nero_notelover/n/n524047479f3f",
-      "pageviews": 135,
-      "impressions": 5156,
-      "likes": 46,
-      "comments": 8
+      "pageviews": 144,
+      "impressions": 5216,
+      "likes": 47,
+      "comments": 10
     },
     {
       "title": "1日目を終えて│たくさんのスキをありがとう🌙",
       "published_at": "2026-08-25T22:24:24+09:00",
       "url": "https://note.com/nero_notelover/n/nc013a3f5efb2",
-      "pageviews": 251,
-      "impressions": 10334,
+      "pageviews": 256,
+      "impressions": 10474,
       "likes": 91,
       "comments": 12
     },
@@ -229,19 +238,19 @@
       "title": "noteでまず初めにやったこと│コメント制限🌙",
       "published_at": "2026-08-25T12:12:39+09:00",
       "url": "https://note.com/nero_notelover/n/nffe4c9a31096",
-      "pageviews": 806,
-      "impressions": 19033,
+      "pageviews": 821,
+      "impressions": 19210,
       "likes": 180,
-      "comments": 17
+      "comments": 18
     },
     {
       "title": "はじめてのnote│スキくれたら遊びに行くよ🌙",
       "published_at": "2026-08-25T05:16:32+09:00",
       "url": "https://note.com/nero_notelover/n/ne4843208abbe",
-      "pageviews": 1928,
-      "impressions": 119060,
-      "likes": 521,
-      "comments": 10
+      "pageviews": 1964,
+      "impressions": 119286,
+      "likes": 525,
+      "comments": 15
     }
   ]
 }
