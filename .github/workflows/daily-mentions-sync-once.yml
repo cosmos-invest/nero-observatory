@@ -2,55 +2,58 @@ name: Daily mentions sync once
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
     paths:
-      - .github/workflows/daily-mentions-sync-once.yml
+      - '.github/workflows/daily-mentions-sync-once.yml'
 
 permissions:
   contents: write
 
 jobs:
   sync:
-    if: github.event.head_commit.message == 'chore: stage daily mentions sync'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Merge unseen public introduction records
         shell: bash
         run: |
-          node <<'NODE'
+          cat > /tmp/merge-mentions.cjs <<'NODE'
           const fs = require('fs');
           const path = 'data/mentions.json';
           const data = JSON.parse(fs.readFileSync(path, 'utf8'));
           const incoming = [
-            { actor: '紡えり', article_title: '【お勧め】パンツ履かせたらミラクル起きた👀', article_url: 'https://note.com/notes/n9d8ef3d2f8c9', introduced_at: '2026-09-14T10:14:08.000Z', used_in_note_at: null },
-            { actor: 'NOA＠全力でAIで遊ぶ人', article_title: '【#ネロ1000人斬り】旅先に置き去りにされた『王子っち』の逆襲！ネロ王子を一刀両断して仲直りした話', article_url: 'https://note.com/notes/n76a39f024b79', introduced_at: '2026-09-14T09:16:35.000Z', used_in_note_at: null },
-            { actor: 'yyar_Takuya Kuze 久世拓弥', article_title: '企画初参戦。王子ごっこ、やってみました', article_url: 'https://note.com/notes/n29dd2cccfb1a', introduced_at: '2026-09-14T09:09:43.000Z', used_in_note_at: null },
-            { actor: '枢木 経介｜【新資本論／ネオ江戸思想家】／相互フォローします！', article_title: '＃note初心者ですが、今話題の『王子ごっこ』やってみました。', article_url: 'https://note.com/notes/ne5cbc68d9df9', introduced_at: '2026-09-14T07:40:05.000Z', used_in_note_at: null },
-            { actor: 'カボス', article_title: '【王子の初企画】王子ごっこで遊ぼう🌙　で遊ばせてもらいました', article_url: 'https://note.com/notes/n3b73be254a99', introduced_at: '2026-09-14T06:02:49.000Z', used_in_note_at: null },
-            { actor: 'FCS', article_title: 'ネロ1000人斬りに参加してみた', article_url: 'https://note.com/notes/n8d52d2ea4d87', introduced_at: '2026-09-14T04:24:36.000Z', used_in_note_at: null },
-            { actor: 'kai｜元高校球児、現在IT技術者', article_title: '甲子園　それは概念【#王子ごっこ参加】元全力高校球児が甲子園を語る？', article_url: 'https://note.com/notes/n494c97a87ae2', introduced_at: '2026-09-13T12:58:44.000Z', used_in_note_at: null },
-            { actor: 'AIU(アイユ)', article_title: 'ネロ王子、お礼申し上げます', article_url: 'https://note.com/notes/nfe27a29bb483', introduced_at: '2026-09-13T12:29:19.000Z', used_in_note_at: null }
+            { actor: "紡えり", article_title: "【お勧め】パンツ履かせたらミラクル起きた👀", article_url: "https://note.com/notes/n9d8ef3d2f8c9", introduced_at: "2026-09-14T10:14:08.000Z", used_in_note_at: null },
+            { actor: "NOA＠全力でAIで遊ぶ人", article_title: "【#ネロ1000人斬り】旅先に置き去りにされた『王子っち』の逆襲！ネロ王子を一刀両断して仲直りした話", article_url: "https://note.com/notes/n76a39f024b79", introduced_at: "2026-09-14T09:16:35.000Z", used_in_note_at: null },
+            { actor: "yyar_Takuya Kuze 久世拓弥", article_title: "企画初参戦。王子ごっこ、やってみました", article_url: "https://note.com/notes/n29dd2cccfb1a", introduced_at: "2026-09-14T09:09:43.000Z", used_in_note_at: null },
+            { actor: "枢木 経介｜【新資本論／ネオ江戸思想家】／相互フォローします！", article_title: "＃note初心者ですが、今話題の『王子ごっこ』やってみました。", article_url: "https://note.com/notes/ne5cbc68d9df9", introduced_at: "2026-09-14T07:40:05.000Z", used_in_note_at: null },
+            { actor: "カボス", article_title: "【王子の初企画】王子ごっこで遊ぼう🌙　で遊ばせてもらいました", article_url: "https://note.com/notes/n3b73be254a99", introduced_at: "2026-09-14T06:02:49.000Z", used_in_note_at: null },
+            { actor: "FCS", article_title: "ネロ1000人斬りに参加してみた", article_url: "https://note.com/notes/n8d52d2ea4d87", introduced_at: "2026-09-14T04:24:36.000Z", used_in_note_at: null },
+            { actor: "kai｜元高校球児、現在IT技術者", article_title: "甲子園　それは概念【#王子ごっこ参加】元全力高校球児が甲子園を語る？", article_url: "https://note.com/notes/n494c97a87ae2", introduced_at: "2026-09-13T12:58:44.000Z", used_in_note_at: null },
+            { actor: "AIU(アイユ)", article_title: "ネロ王子、お礼申し上げます", article_url: "https://note.com/notes/nfe27a29bb483", introduced_at: "2026-09-13T12:29:19.000Z", used_in_note_at: null }
           ];
           const keyOf = (url) => {
-            const m = String(url || '').match(/\/(n[0-9a-f]+)(?:[/?#]|$)/i);
-            return m ? m[1].toLowerCase() : String(url || '').split(/[?#]/)[0].replace(/\/$/, '');
+            const match = String(url || '').match(/\/(n[0-9a-f]+)(?:[/?#]|$)/i);
+            return match ? match[1].toLowerCase() : String(url || '').split(/[?#]/)[0].replace(/\/$/, '');
           };
-          const byKey = new Map((data.records || []).map(r => [keyOf(r.article_url), r]));
-          for (const row of incoming) if (!byKey.has(keyOf(row.article_url))) byKey.set(keyOf(row.article_url), row);
-          data.records = [...byKey.values()].sort((a,b) => Date.parse(b.introduced_at) - Date.parse(a.introduced_at));
+          const byKey = new Map((data.records || []).map((row) => [keyOf(row.article_url), row]));
+          for (const row of incoming) {
+            const key = keyOf(row.article_url);
+            if (!byKey.has(key)) byKey.set(key, row);
+          }
+          data.records = Array.from(byKey.values()).sort((a, b) => Date.parse(b.introduced_at) - Date.parse(a.introduced_at));
           data.total_count = data.records.length;
           data.generated_at = new Date().toISOString();
           fs.writeFileSync(path, JSON.stringify(data, null, 2) + '\n');
           NODE
+          node /tmp/merge-mentions.cjs
       - name: Commit introductions
         shell: bash
         run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/mentions.json
           if git diff --cached --quiet; then
-            echo 'No new introductions.'
             exit 0
           fi
           git commit -m 'chore: sync daily introductions'
