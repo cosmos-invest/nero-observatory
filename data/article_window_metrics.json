@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T20:53:06+09:00",
+  "generated_at": "2026-09-15T19:33:23+09:00",
   "windows": [
     3,
     7,
@@ -8,6 +8,13 @@
     28
   ],
   "articles": [
+    {
+      "key": "nef253b031e87",
+      "title": "🌙フォロワー1000人より嬉しかったこと",
+      "published_at": "2026-09-14T22:05:06+09:00",
+      "url": "https://note.com/nero_notelover/n/nef253b031e87",
+      "metrics": {}
+    },
     {
       "key": "nd418c58dd805",
       "title": "🌙｢パンツ｣と｢600」の運命の出会いに感謝を込めて、御祝儀を包みました｜#600note祭り",
@@ -20,7 +27,19 @@
       "title": "🌙王子ごっこで遊びすぎたので今日は営業します！！",
       "published_at": "2026-09-12T23:04:12+09:00",
       "url": "https://note.com/nero_notelover/n/n18f5eee9aeed",
-      "metrics": {}
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-09-12",
+          "end": "2026-09-14",
+          "impressions": 5403,
+          "pageviews": 381,
+          "likes": 102,
+          "comments": 35,
+          "captured_at": "2026-09-15T19:33:23+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
     },
     {
       "key": "n4e8b02c1e1ef",
@@ -94,6 +113,17 @@
           "likes": 108,
           "comments": 26,
           "captured_at": "2026-09-11T18:41:08+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-09-08",
+          "end": "2026-09-14",
+          "impressions": 6663,
+          "pageviews": 335,
+          "likes": 119,
+          "comments": 32,
+          "captured_at": "2026-09-15T19:33:22+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -334,6 +364,17 @@
           "likes": 81,
           "comments": 19,
           "captured_at": "2026-09-11T18:41:01+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-09-01",
+          "end": "2026-09-14",
+          "impressions": 6529,
+          "pageviews": 309,
+          "likes": 84,
+          "comments": 19,
+          "captured_at": "2026-09-15T19:33:22+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
