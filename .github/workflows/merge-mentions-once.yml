@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - '.github/workflows/merge-mentions-once.yml'
+      - 'data/mentions_pending.json'
 permissions:
   contents: write
 jobs:
