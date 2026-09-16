@@ -1,9 +1,29 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T19:32:38+09:00",
+  "generated_at": "2026-09-16T19:35:46+09:00",
   "creator_id": "nero_notelover",
-  "count": 29,
+  "count": 30,
   "articles": [
+    {
+      "key": "neb1acdcd5049",
+      "title": "🌙24記事に王子が登場│王子ごっこだけじゃなかった。",
+      "url": "https://note.com/nero_notelover/n/neb1acdcd5049",
+      "published_at": "2026-09-15T23:53:10+09:00",
+      "price_yen": 0,
+      "is_paid": false,
+      "hashtags": [
+        "#note",
+        "#note初心者",
+        "#イベント",
+        "#noteの書き方",
+        "#アカリウム",
+        "#王子",
+        "#好きなnoteクリエイター",
+        "#ChatGPTCreativeClub",
+        "#王子ごっこ",
+        "#ネロ寝ろ"
+      ]
+    },
     {
       "key": "nef253b031e87",
       "title": "🌙フォロワー1000人より嬉しかったこと",
