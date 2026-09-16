@@ -1,0 +1,55 @@
+name: Sync Nero Mentions Once
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/sync-mentions-once.yml']
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Merge public introduction records
+        shell: python
+        run: |
+          import json, re
+          from datetime import datetime, timezone, timedelta
+          from pathlib import Path
+
+          path = Path('data/mentions.json')
+          data = json.loads(path.read_text(encoding='utf-8'))
+          new = [
+            {"actor":"宇宙人かあさん","article_title":"もしかして、あなたが噂の王子ですか？","article_url":"https://note.com/notes/n92535e706ffd","introduced_at":"2026-09-16T10:00:37.000Z"},
+            {"actor":"きっこ","article_title":"【王子ごっこ】いくつになっても、ごっこ遊びは楽しい。","article_url":"https://note.com/notes/necf80b0ba7cf","introduced_at":"2026-09-16T00:25:36.000Z"},
+            {"actor":"セツ｜note転生した侍（相互フォロー、色々制限中）","article_title":"【初企画】敗北上等 セツごっこ｜負けた話を書けば、それで参加","article_url":"https://note.com/notes/n20471bac1287","introduced_at":"2026-09-15T21:02:18.000Z"},
+            {"actor":"ノルノル","article_title":"ー新未来型モビリティー 司書と司書教諭の会話（Kei-3000誕生秘話） ＋ 王子ごっこで遊ぼう！","article_url":"https://note.com/notes/n0b20becc0ab0","introduced_at":"2026-09-15T15:49:28.000Z"},
+            {"actor":"かんず","article_title":"【第33回】すまんが、その者たちをしまってくれんか。わしにはまぶしすぎる。","article_url":"https://note.com/notes/n61f0f8a63dfc","introduced_at":"2026-09-15T15:44:25.000Z"},
+            {"actor":"算術01","article_title":"【スクープ】緊急で動画まわしてます。","article_url":"https://note.com/notes/n433feff6c42a","introduced_at":"2026-09-15T15:43:03.000Z"},
+            {"actor":"ぐれんの おにぎり@ あなたを人生の主人公にする心理家","article_title":"note内のキャラ立ち5傑を個人的に考えてみる。","article_url":"https://note.com/notes/nc963d1c90de4","introduced_at":"2026-09-15T15:25:51.000Z"},
+            {"actor":"弁護士 岡本卓大","article_title":"【進め家康くん（ ・ω・）「神武征討記」を語れ！】イケメン勢揃いの王子ごっこ！？関ヶ原決戦直前＆メンバーシップ特別号！","article_url":"https://note.com/notes/nf5899536dc7c","introduced_at":"2026-09-15T13:59:01.000Z"},
+            {"actor":"ねこまる😸","article_title":"今夜は、「🌙⚔️👑#ネロ1000人斬り🌙⚔️👑 勝手に応援イベント」に勝手に参加して遊ぶぞー🤣🤣","article_url":"https://note.com/notes/na169bb2fcf0f","introduced_at":"2026-09-15T13:26:24.000Z"},
+            {"actor":"わかモン＠かくさないネカマ","article_title":"アカリウム深層 新種発見したら、制服着て、魔界で祝杯！！最後は上質な布団で眠ってしまえ！！","article_url":"https://note.com/notes/n700826830073","introduced_at":"2026-09-15T13:05:34.000Z"},
+            {"actor":"算術01","article_title":"【速報】カレー小僧現る。","article_url":"https://note.com/notes/n389521ed3feb","introduced_at":"2026-09-15T12:29:04.000Z"},
+            {"actor":"しらたまうさぎ🐰HSP作家","article_title":"ネロ王子🌙フォロワー1000人達成おめでとうございます🐰","article_url":"https://note.com/notes/n66656d5153fe","introduced_at":"2026-09-15T12:15:44.000Z"}
+          ]
+          def key(r):
+            m = re.search(r'/notes/(n[0-9a-f]+)', r.get('article_url',''))
+            return m.group(1) if m else r.get('article_url','').split('#')[0].split('?')[0].rstrip('/')
+          seen = {key(r) for r in data.get('records', [])}
+          for r in new:
+            if key(r) not in seen:
+              data.setdefault('records', []).append(r)
+              seen.add(key(r))
+          data['records'].sort(key=lambda r:r.get('introduced_at',''), reverse=True)
+          data['total_count'] = len(data['records'])
+          data['generated_at'] = datetime.now(timezone(timedelta(hours=9))).isoformat(timespec='seconds')
+          path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+      - name: Commit mentions
+        run: |
+          git config user.name 'nero-observatory[bot]'
+          git config user.email 'nero-observatory[bot]@users.noreply.github.com'
+          git add data/mentions.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'data: sync note introductions'
+          git push
