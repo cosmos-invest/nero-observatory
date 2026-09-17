@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T19:37:38+09:00",
+  "generated_at": "2026-09-17T19:55:49+09:00",
   "dashboard_at": "2026-09-17T09:00:00.000Z",
   "period": {
     "unit": "LAST_28_DAYS",
@@ -40,9 +40,9 @@
       "title": "🌙24記事に王子が登場│王子ごっこだけじゃなかった。",
       "published_at": "2026-09-15T23:53:10+09:00",
       "url": "https://note.com/nero_notelover/n/neb1acdcd5049",
-      "pageviews": 293,
-      "impressions": 3826,
-      "likes": 107,
+      "pageviews": 298,
+      "impressions": 4182,
+      "likes": 115,
       "comments": 41
     },
     {
@@ -58,9 +58,9 @@
       "title": "🌙｢パンツ｣と｢600」の運命の出会いに感謝を込めて、御祝儀を包みました｜#600note祭り",
       "published_at": "2026-09-13T23:59:18+09:00",
       "url": "https://note.com/nero_notelover/n/nd418c58dd805",
-      "pageviews": 438,
-      "impressions": 7736,
-      "likes": 108,
+      "pageviews": 440,
+      "impressions": 7774,
+      "likes": 109,
       "comments": 50
     },
     {
@@ -68,7 +68,7 @@
       "published_at": "2026-09-12T23:04:12+09:00",
       "url": "https://note.com/nero_notelover/n/n18f5eee9aeed",
       "pageviews": 404,
-      "impressions": 6590,
+      "impressions": 6609,
       "likes": 107,
       "comments": 37
     },
@@ -113,7 +113,7 @@
       "published_at": "2026-09-07T21:00:00+09:00",
       "url": "https://note.com/nero_notelover/n/n9d7208a2e4b4",
       "pageviews": 339,
-      "impressions": 11005,
+      "impressions": 11026,
       "likes": 131,
       "comments": 31
     },
@@ -257,7 +257,7 @@
       "published_at": "2026-08-26T22:47:33+09:00",
       "url": "https://note.com/nero_notelover/n/n46c95069af22",
       "pageviews": 2138,
-      "impressions": 129026,
+      "impressions": 129036,
       "likes": 336,
       "comments": 23
     },
@@ -284,7 +284,7 @@
       "published_at": "2026-08-25T22:24:24+09:00",
       "url": "https://note.com/nero_notelover/n/nc013a3f5efb2",
       "pageviews": 264,
-      "impressions": 10857,
+      "impressions": 10863,
       "likes": 91,
       "comments": 12
     },

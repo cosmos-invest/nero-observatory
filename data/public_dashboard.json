@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T19:37:38+09:00",
+  "generated_at": "2026-09-17T19:55:49+09:00",
   "snapshot_policy": {
     "timezone": "Asia/Tokyo",
     "target_publish_time": "21:00",
@@ -15,15 +15,15 @@
   "latest": {
     "period_label": "2026/08/21〜2026/09/17",
     "dashboard_at": "2026-09-17T09:00:00.000Z",
-    "fetched_at": "2026-09-17T19:37:38+09:00",
+    "fetched_at": "2026-09-17T19:55:49+09:00",
     "note_stat_last_updated_at": "2026-09-17T09:00:00.000Z",
     "metrics": {
       "articles": 33,
-      "impressions": 510408,
-      "pageviews": 16797,
-      "likes": 3908,
+      "impressions": 510858,
+      "pageviews": 16804,
+      "likes": 3917,
       "comments": 950,
-      "followers": 1037
+      "followers": 1038
     }
   },
   "snapshots": [
@@ -181,25 +181,25 @@
     },
     {
       "dashboard_at": "2026-09-17T09:00:00.000Z",
-      "fetched_at": "2026-09-17T19:37:38+09:00",
+      "fetched_at": "2026-09-17T19:55:49+09:00",
       "period_label": "2026/08/21〜2026/09/17",
-      "impressions": 510408,
-      "pageviews": 16797,
-      "likes": 3908,
+      "impressions": 510858,
+      "pageviews": 16804,
+      "likes": 3917,
       "comments": 950,
-      "followers": 1037,
+      "followers": 1038,
       "articles": 33,
       "source": "note_dashboard_graphql_paginated",
       "note_stat_last_updated_at": "2026-09-17T09:00:00.000Z"
     }
   ],
   "public_profile": {
-    "observed_at": "2026-09-17T19:36:58+09:00",
+    "observed_at": "2026-09-17T19:55:10+09:00",
     "creator_id": "nero_notelover",
     "nickname": "ネロ🌙｜王子｜楽しくnote収益化",
-    "followers": 1037,
+    "followers": 1038,
     "note_count": 33,
-    "total_public_likes": 3930,
+    "total_public_likes": 3933,
     "total_public_comments": 951
   },
   "follower_snapshots": [
@@ -308,6 +308,12 @@
     {
       "observed_at": "2026-09-17T19:36:58+09:00",
       "followers": 1037,
+      "articles": 33,
+      "source": "note_public_creator_api"
+    },
+    {
+      "observed_at": "2026-09-17T19:55:10+09:00",
+      "followers": 1038,
       "articles": 33,
       "source": "note_public_creator_api"
     }
