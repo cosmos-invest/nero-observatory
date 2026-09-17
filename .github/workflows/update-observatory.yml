@@ -36,6 +36,9 @@ jobs:
         with:
           node-version: "22"
 
+      - name: Sync pending introductions
+        run: node scripts/sync-pending-mentions-once.mjs
+
       - name: Install browser client
         run: npm install --no-save --ignore-scripts playwright-core
 
@@ -80,7 +83,7 @@ jobs:
         run: |
           git config user.name "nero-observatory[bot]"
           git config user.email "nero-observatory[bot]@users.noreply.github.com"
-          git add data/articles.json data/article_metrics.json data/article_window_metrics.json data/public_dashboard.json
+          git add data/articles.json data/article_metrics.json data/article_window_metrics.json data/public_dashboard.json data/mentions.json
           if git diff --cached --quiet; then
             echo "No observation changes."
             exit 0
