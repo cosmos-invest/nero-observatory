@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-16T19:36:31+09:00",
+  "generated_at": "2026-09-17T19:37:52+09:00",
   "windows": [
     3,
     7,
@@ -8,6 +8,27 @@
     28
   ],
   "articles": [
+    {
+      "key": "nda23af11753a",
+      "title": "敗北上等 セツごっこ｜王子ごっこ、敗北",
+      "published_at": "2026-09-17T07:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/nda23af11753a",
+      "metrics": {}
+    },
+    {
+      "key": "n77c012b59807",
+      "title": "🌙500円分、完売しました。ありがとうございます。",
+      "published_at": "2026-09-16T23:20:38+09:00",
+      "url": "https://note.com/nero_notelover/n/n77c012b59807",
+      "metrics": {}
+    },
+    {
+      "key": "n3f3d1a8de329",
+      "title": "【10部突破】🌙王子が言葉に込めた思い｜記事とコメントの書き方",
+      "published_at": "2026-09-16T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n3f3d1a8de329",
+      "metrics": {}
+    },
     {
       "key": "neb1acdcd5049",
       "title": "🌙24記事に王子が登場│王子ごっこだけじゃなかった。",
@@ -20,7 +41,19 @@
       "title": "🌙フォロワー1000人より嬉しかったこと",
       "published_at": "2026-09-14T22:05:06+09:00",
       "url": "https://note.com/nero_notelover/n/nef253b031e87",
-      "metrics": {}
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-09-14",
+          "end": "2026-09-16",
+          "impressions": 5224,
+          "pageviews": 568,
+          "likes": 147,
+          "comments": 75,
+          "captured_at": "2026-09-17T19:37:52+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
     },
     {
       "key": "nd418c58dd805",
@@ -94,6 +127,17 @@
           "likes": 156,
           "comments": 64,
           "captured_at": "2026-09-13T19:36:53+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-09-10",
+          "end": "2026-09-16",
+          "impressions": 15448,
+          "pageviews": 1349,
+          "likes": 235,
+          "comments": 99,
+          "captured_at": "2026-09-17T19:37:51+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -335,6 +379,17 @@
           "comments": 24,
           "captured_at": "2026-09-11T18:41:04+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-09-03",
+          "end": "2026-09-16",
+          "impressions": 7724,
+          "pageviews": 279,
+          "likes": 92,
+          "comments": 24,
+          "captured_at": "2026-09-17T19:37:51+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -504,7 +559,7 @@
     },
     {
       "key": "n142c0051ee05",
-      "title": "15部突破│【note投稿開始3日で総スキ1000】 #はじめてのnoteに隠した１０個の仕掛け🌙【コングラボード獲得】",
+      "title": "20部突破│【note投稿開始3日で総スキ1000】 #はじめてのnoteに隠した１０個の仕掛け🌙【コングラボード獲得】",
       "published_at": "2026-08-30T10:00:00+09:00",
       "url": "https://note.com/nero_notelover/n/n142c0051ee05",
       "metrics": {
