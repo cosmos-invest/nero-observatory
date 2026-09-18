@@ -13,7 +13,7 @@ on:
       - .github/workflows/update-observatory.yml
 
 # daily orchestration is handled by the exact 19:32 JST Nero Observatory Daily Sync
-# fallback kick marker: 2026-09-18T22:39:00+09:00
+# fallback kick marker: 2026-09-18T22:51:00+09:00
 permissions:
   contents: write
 
@@ -86,5 +86,14 @@ jobs:
             exit 0
           fi
           git commit -m "data: refresh Nero Observatory"
-          git pull --rebase origin main
-          git push origin HEAD:main
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push raced with another main update; retrying from latest main (attempt $attempt)."
+            git fetch origin main
+            git reset --soft origin/main
+            git commit -m "data: refresh Nero Observatory" || true
+          done
+          echo "Failed to push refreshed observations after retries."
+          exit 1
