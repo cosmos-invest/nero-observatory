@@ -23,7 +23,7 @@ function minutesInTokyo(iso) {
 function qualifies(row) {
   if (!row?.dashboard_at) return false;
   const minutes = minutesInTokyo(row.dashboard_at);
-  if (minutes < 18 * 60 || minutes > 20 * 60 + 30) return false;
+  if (minutes < 18 * 60 || minutes > 23 * 60 + 59) return false;
   if (!['impressions', 'pageviews', 'likes', 'comments', 'articles'].every((key) => finite(row[key]))) return false;
   if (row.source === 'note_dashboard_browser' && row.fetched_at) {
     const age = Date.parse(row.fetched_at) - Date.parse(row.dashboard_at);
