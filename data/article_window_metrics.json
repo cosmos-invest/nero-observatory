@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T19:37:52+09:00",
+  "generated_at": "2026-09-18T22:35:50+09:00",
   "windows": [
     3,
     7,
@@ -8,6 +8,20 @@
     28
   ],
   "articles": [
+    {
+      "key": "nb83d60ff76e2",
+      "title": "アカリウム深層 新種発見｜タンケンカノカタワレ",
+      "published_at": "2026-09-18T06:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/nb83d60ff76e2",
+      "metrics": {}
+    },
+    {
+      "key": "n36212bf7056f",
+      "title": "【#ネロ魔界祝杯】王子、魔界に招待されました🌙",
+      "published_at": "2026-09-17T23:30:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n36212bf7056f",
+      "metrics": {}
+    },
     {
       "key": "nda23af11753a",
       "title": "敗北上等 セツごっこ｜王子ごっこ、敗北",
@@ -34,7 +48,19 @@
       "title": "🌙24記事に王子が登場│王子ごっこだけじゃなかった。",
       "published_at": "2026-09-15T23:53:10+09:00",
       "url": "https://note.com/nero_notelover/n/neb1acdcd5049",
-      "metrics": {}
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-09-15",
+          "end": "2026-09-17",
+          "impressions": 5350,
+          "pageviews": 305,
+          "likes": 118,
+          "comments": 41,
+          "captured_at": "2026-09-18T22:35:50+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
     },
     {
       "key": "nef253b031e87",
@@ -108,6 +134,17 @@
           "likes": 99,
           "comments": 54,
           "captured_at": "2026-09-14T20:53:06+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-09-11",
+          "end": "2026-09-17",
+          "impressions": 7338,
+          "pageviews": 531,
+          "likes": 103,
+          "comments": 54,
+          "captured_at": "2026-09-18T22:35:49+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -348,6 +385,17 @@
           "likes": 123,
           "comments": 30,
           "captured_at": "2026-09-11T18:41:06+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-09-04",
+          "end": "2026-09-17",
+          "impressions": 7439,
+          "pageviews": 328,
+          "likes": 124,
+          "comments": 30,
+          "captured_at": "2026-09-18T22:35:49+09:00",
           "source": "note_dashboard_custom_range"
         }
       }

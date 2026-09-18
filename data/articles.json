@@ -1,9 +1,46 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T19:56:28+09:00",
+  "generated_at": "2026-09-18T22:34:53+09:00",
   "creator_id": "nero_notelover",
-  "count": 33,
+  "count": 35,
   "articles": [
+    {
+      "key": "nb83d60ff76e2",
+      "title": "アカリウム深層 新種発見｜タンケンカノカタワレ",
+      "url": "https://note.com/nero_notelover/n/nb83d60ff76e2",
+      "published_at": "2026-09-18T06:00:00+09:00",
+      "price_yen": 0,
+      "is_paid": false,
+      "hashtags": [
+        "#新種発見",
+        "#アカリウム深層"
+      ]
+    },
+    {
+      "key": "n36212bf7056f",
+      "title": "【#ネロ魔界祝杯】王子、魔界に招待されました🌙",
+      "url": "https://note.com/nero_notelover/n/n36212bf7056f",
+      "published_at": "2026-09-17T23:30:00+09:00",
+      "price_yen": 0,
+      "is_paid": false,
+      "hashtags": [
+        "#note",
+        "#note初心者",
+        "#AI画像生成",
+        "#noteのつづけ方",
+        "#有料記事",
+        "#コメント",
+        "#Note収益化",
+        "#note運用",
+        "#アカリウム",
+        "#王子",
+        "#ChatGPTCreativeClub",
+        "#王子ごっこ",
+        "#ネロ1000人斬り",
+        "#セツごっこ",
+        "#ネロ魔界祝杯"
+      ]
+    },
     {
       "key": "nda23af11753a",
       "title": "敗北上等 セツごっこ｜王子ごっこ、敗北",
