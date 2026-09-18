@@ -166,7 +166,7 @@ function jstMinutes(iso) {
 
 function officialWindow(iso) {
   const minutes = jstMinutes(iso);
-  return minutes >= 18 * 60 && minutes <= 20 * 60 + 30;
+  return minutes >= 18 * 60 && minutes <= 23 * 60 + 59;
 }
 
 function bestDashboardAt(times) {
