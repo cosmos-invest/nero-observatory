@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T22:46:45+09:00",
+  "generated_at": "2026-09-18T22:56:04+09:00",
   "snapshot_policy": {
     "timezone": "Asia/Tokyo",
     "target_publish_time": "21:00",
@@ -13,17 +13,17 @@
     "rule": "19:35以降に再取得し、noteの記事別集計時刻が18:00〜20:30 JSTに入る最も新しい断面を当日公式値として採用する。"
   },
   "latest": {
-    "period_label": "2026/08/21〜2026/09/17",
-    "dashboard_at": "2026-09-17T09:00:00.000Z",
-    "fetched_at": "2026-09-17T19:57:08+09:00",
-    "note_stat_last_updated_at": "2026-09-17T09:00:00.000Z",
+    "period_label": "2026/08/22〜2026/09/18",
+    "dashboard_at": "2026-09-18T13:03:00.000Z",
+    "fetched_at": "2026-09-18T22:56:04+09:00",
+    "note_stat_last_updated_at": "2026-09-18T13:03:00.000Z",
     "metrics": {
-      "articles": 33,
-      "impressions": 510940,
-      "pageviews": 16808,
-      "likes": 3917,
-      "comments": 950,
-      "followers": 1038
+      "articles": 35,
+      "impressions": 525289,
+      "pageviews": 17486,
+      "likes": 4113,
+      "comments": 1004,
+      "followers": 1054
     }
   },
   "snapshots": [
@@ -194,7 +194,7 @@
     },
     {
       "dashboard_at": "2026-09-18T13:03:00.000Z",
-      "fetched_at": "2026-09-18T22:46:45+09:00",
+      "fetched_at": "2026-09-18T22:56:04+09:00",
       "period_label": "2026/08/22〜2026/09/18",
       "impressions": 525289,
       "pageviews": 17486,
@@ -207,7 +207,7 @@
     }
   ],
   "public_profile": {
-    "observed_at": "2026-09-18T22:46:04+09:00",
+    "observed_at": "2026-09-18T22:55:31+09:00",
     "creator_id": "nero_notelover",
     "nickname": "ネロ🌙｜王子｜楽しくnote収益化",
     "followers": 1054,
