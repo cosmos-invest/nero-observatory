@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T22:35:50+09:00",
+  "generated_at": "2026-09-19T19:36:31+09:00",
   "windows": [
     3,
     7,
@@ -8,6 +8,13 @@
     28
   ],
   "articles": [
+    {
+      "key": "n7ddf9e8a58b9",
+      "title": "【ミナトハロウィン🦔】フォロワー1000人おめでとうございます🌙 王子も仮装します",
+      "published_at": "2026-09-18T23:01:24+09:00",
+      "url": "https://note.com/nero_notelover/n/n7ddf9e8a58b9",
+      "metrics": {}
+    },
     {
       "key": "nb83d60ff76e2",
       "title": "アカリウム深層 新種発見｜タンケンカノカタワレ",
@@ -34,14 +41,38 @@
       "title": "🌙500円分、完売しました。ありがとうございます。",
       "published_at": "2026-09-16T23:20:38+09:00",
       "url": "https://note.com/nero_notelover/n/n77c012b59807",
-      "metrics": {}
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-09-16",
+          "end": "2026-09-18",
+          "impressions": 3519,
+          "pageviews": 178,
+          "likes": 63,
+          "comments": 4,
+          "captured_at": "2026-09-19T19:36:30+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
     },
     {
       "key": "n3f3d1a8de329",
       "title": "【10部突破】🌙王子が言葉に込めた思い｜記事とコメントの書き方",
       "published_at": "2026-09-16T21:00:00+09:00",
       "url": "https://note.com/nero_notelover/n/n3f3d1a8de329",
-      "metrics": {}
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-09-16",
+          "end": "2026-09-18",
+          "impressions": 5742,
+          "pageviews": 386,
+          "likes": 59,
+          "comments": 39,
+          "captured_at": "2026-09-19T19:36:30+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
     },
     {
       "key": "neb1acdcd5049",
@@ -115,6 +146,17 @@
           "likes": 102,
           "comments": 35,
           "captured_at": "2026-09-15T19:33:23+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-09-12",
+          "end": "2026-09-18",
+          "impressions": 6859,
+          "pageviews": 406,
+          "likes": 108,
+          "comments": 37,
+          "captured_at": "2026-09-19T19:36:30+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -355,6 +397,17 @@
           "likes": 102,
           "comments": 28,
           "captured_at": "2026-09-12T19:38:02+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-09-05",
+          "end": "2026-09-18",
+          "impressions": 13218,
+          "pageviews": 359,
+          "likes": 105,
+          "comments": 30,
+          "captured_at": "2026-09-19T19:36:29+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
