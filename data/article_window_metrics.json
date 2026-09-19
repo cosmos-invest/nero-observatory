@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T19:36:31+09:00",
+  "generated_at": "2026-09-19T20:04:37+09:00",
   "windows": [
     3,
     7,
@@ -50,7 +50,7 @@
           "pageviews": 178,
           "likes": 63,
           "comments": 4,
-          "captured_at": "2026-09-19T19:36:30+09:00",
+          "captured_at": "2026-09-19T20:04:37+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -69,7 +69,7 @@
           "pageviews": 386,
           "likes": 59,
           "comments": 39,
-          "captured_at": "2026-09-19T19:36:30+09:00",
+          "captured_at": "2026-09-19T20:04:37+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -156,7 +156,7 @@
           "pageviews": 406,
           "likes": 108,
           "comments": 37,
-          "captured_at": "2026-09-19T19:36:30+09:00",
+          "captured_at": "2026-09-19T20:04:36+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -407,7 +407,7 @@
           "pageviews": 359,
           "likes": 105,
           "comments": 30,
-          "captured_at": "2026-09-19T19:36:29+09:00",
+          "captured_at": "2026-09-19T20:04:36+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
