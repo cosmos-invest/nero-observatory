@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T20:04:37+09:00",
+  "generated_at": "2026-09-20T19:41:13+09:00",
   "windows": [
     3,
     7,
@@ -8,6 +8,13 @@
     28
   ],
   "articles": [
+    {
+      "key": "n559f720708b8",
+      "title": "マラカス振って、魔法少女になって、最後はパンツ🌙",
+      "published_at": "2026-09-19T23:59:23+09:00",
+      "url": "https://note.com/nero_notelover/n/n559f720708b8",
+      "metrics": {}
+    },
     {
       "key": "n7ddf9e8a58b9",
       "title": "【ミナトハロウィン🦔】フォロワー1000人おめでとうございます🌙 王子も仮装します",
@@ -27,14 +34,38 @@
       "title": "【#ネロ魔界祝杯】王子、魔界に招待されました🌙",
       "published_at": "2026-09-17T23:30:00+09:00",
       "url": "https://note.com/nero_notelover/n/n36212bf7056f",
-      "metrics": {}
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-09-17",
+          "end": "2026-09-19",
+          "impressions": 2834,
+          "pageviews": 271,
+          "likes": 69,
+          "comments": 30,
+          "captured_at": "2026-09-20T19:41:13+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
     },
     {
       "key": "nda23af11753a",
       "title": "敗北上等 セツごっこ｜王子ごっこ、敗北",
       "published_at": "2026-09-17T07:00:00+09:00",
       "url": "https://note.com/nero_notelover/n/nda23af11753a",
-      "metrics": {}
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-09-17",
+          "end": "2026-09-19",
+          "impressions": 2929,
+          "pageviews": 218,
+          "likes": 98,
+          "comments": 36,
+          "captured_at": "2026-09-20T19:41:13+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
     },
     {
       "key": "n77c012b59807",
@@ -127,6 +158,17 @@
           "likes": 104,
           "comments": 50,
           "captured_at": "2026-09-16T19:36:31+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-09-13",
+          "end": "2026-09-19",
+          "impressions": 8461,
+          "pageviews": 469,
+          "likes": 112,
+          "comments": 55,
+          "captured_at": "2026-09-20T19:41:12+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -338,6 +380,17 @@
           "comments": 21,
           "captured_at": "2026-09-13T19:36:52+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-09-06",
+          "end": "2026-09-19",
+          "impressions": 12263,
+          "pageviews": 753,
+          "likes": 100,
+          "comments": 28,
+          "captured_at": "2026-09-20T19:41:11+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -367,6 +420,17 @@
           "likes": 74,
           "comments": 18,
           "captured_at": "2026-09-13T19:36:52+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-09-06",
+          "end": "2026-09-19",
+          "impressions": 4811,
+          "pageviews": 256,
+          "likes": 74,
+          "comments": 18,
+          "captured_at": "2026-09-20T19:41:11+09:00",
           "source": "note_dashboard_custom_range"
         }
       }

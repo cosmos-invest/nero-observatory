@@ -1,8 +1,140 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T11:03:38.495Z",
-  "total_count": 167,
+  "generated_at": "2026-09-20T10:40:23.065Z",
+  "total_count": 189,
   "records": [
+    {
+      "actor": "青井透子｜日常の過剰解釈屋",
+      "article_title": "王子になったことちゃん、第一声がこれ。",
+      "article_url": "https://note.com/notes/n28fb018938a6",
+      "introduced_at": "2026-09-20T10:17:44.000Z"
+    },
+    {
+      "actor": "枢木 経介｜【新資本論／ネオ江戸思想家】",
+      "article_title": "【続報！？】AIさんのせいで、けいすけ、何故かミュージックビデオ作ってしまった件",
+      "article_url": "https://note.com/notes/n93e8c2e32fbf",
+      "introduced_at": "2026-09-20T10:08:05.000Z"
+    },
+    {
+      "actor": "AIU(アイユ)",
+      "article_title": "じいちゃんの画集、完成しました。しかも、めくれます。",
+      "article_url": "https://note.com/notes/nf6bdb532fb8f",
+      "introduced_at": "2026-09-20T09:18:42.000Z"
+    },
+    {
+      "actor": "もなか | 50代🌼AI & note初心者🌼フォロバ98",
+      "article_title": "【王子ごっこ】に参加してみたら猫の方がキマってしまった😸",
+      "article_url": "https://note.com/notes/n9a41bf843118",
+      "introduced_at": "2026-09-20T08:29:17.000Z"
+    },
+    {
+      "actor": "ぱっちー｜暮らしと挑戦の記録",
+      "article_title": "フォロワー1,000人を超えて、コメント欄を振り返ったら142人の名前がありました",
+      "article_url": "https://note.com/notes/n491b5967fe7b",
+      "introduced_at": "2026-09-20T08:15:17.000Z"
+    },
+    {
+      "actor": "つきほ",
+      "article_title": "●たまには、お遊び記事♪パートⅡ",
+      "article_url": "https://note.com/notes/n40e51d2c81b9",
+      "introduced_at": "2026-09-20T08:07:51.000Z"
+    },
+    {
+      "actor": "梔白カイ 禊中",
+      "article_title": "王子ごっこ、はじめました。",
+      "article_url": "https://note.com/notes/n1db3d144073e",
+      "introduced_at": "2026-09-20T06:59:24.000Z"
+    },
+    {
+      "actor": "天界記録",
+      "article_title": "「600」を書く人、隠す人、パンツにする人。167作品のタイトルを全部分解してみた。――7日間で、「読ませる入口」はどう変わったのか",
+      "article_url": "https://note.com/notes/n18123ceeca82",
+      "introduced_at": "2026-09-20T06:34:20.000Z"
+    },
+    {
+      "actor": "月凪（つきなぎ）",
+      "article_title": "【王子ごっこ】こういうのやってみたくて…🤭",
+      "article_url": "https://note.com/notes/n1c6c4173aeb6",
+      "introduced_at": "2026-09-20T06:26:45.000Z"
+    },
+    {
+      "actor": "わかモン＠かくさないネカマ",
+      "article_title": "初心者・他ジャンル大歓迎！！参加者の２つの記事を紹介します⚔️✨️🦈",
+      "article_url": "https://note.com/notes/n1ae6f6300ca2",
+      "introduced_at": "2026-09-20T05:10:08.000Z"
+    },
+    {
+      "actor": "Hono｜実験室のマラカスネキ🪇",
+      "article_title": "SNS収益化の「ファン化」は再現できる？成功者15人を26日試して分かったこと｜SNS収益化実験 Day26 AM",
+      "article_url": "https://note.com/notes/n73b1afa2146b",
+      "introduced_at": "2026-09-20T03:29:11.000Z"
+    },
+    {
+      "actor": "三須ミス子",
+      "article_title": "🍀王子ごっこ🍀庶民派王子様5名をご紹介します",
+      "article_url": "https://note.com/notes/ne57095288b2c",
+      "introduced_at": "2026-09-19T23:41:33.000Z"
+    },
+    {
+      "actor": "はしゃも｜感情構造エンジニア",
+      "article_title": "自己紹介をまた直した。今度は「情報」じゃなくて、僕の説明が古くなっていた｜おはようカノジョ #286",
+      "article_url": "https://note.com/notes/n99b360689872",
+      "introduced_at": "2026-09-19T22:30:56.000Z"
+    },
+    {
+      "actor": "山田、最後は勘。",
+      "article_title": "王子ごっこに参加してみた",
+      "article_url": "https://note.com/notes/n2a4fa4343f4b",
+      "introduced_at": "2026-09-19T17:33:37.000Z"
+    },
+    {
+      "actor": "わかモン＠かくさないネカマ",
+      "article_title": "noteの成果ダッシュボードの報告！！４種を組み合わせると見やすいよ！！",
+      "article_url": "https://note.com/notes/n4ab8f662a082",
+      "introduced_at": "2026-09-19T16:44:49.000Z"
+    },
+    {
+      "actor": "弁護士 岡本卓大",
+      "article_title": "神武征討記外伝「ショウトクさんは胃が痛い？～大和の高級酒場で豪族の愚痴を聞き、女子におごらされた夜」",
+      "article_url": "https://note.com/notes/n19e3af937f01",
+      "introduced_at": "2026-09-19T14:50:37.000Z"
+    },
+    {
+      "actor": "コアラの休日_フォロバ100",
+      "article_title": "🤴【王子ごっこ】ええやん！",
+      "article_url": "https://note.com/notes/n54b4ec833bc3",
+      "introduced_at": "2026-09-19T14:41:36.000Z"
+    },
+    {
+      "actor": "AI副業ログ",
+      "article_title": "AI副業ログ、「#ネロ1000人斬り」に参加してみた",
+      "article_url": "https://note.com/notes/nd449c3a407f9",
+      "introduced_at": "2026-09-19T13:03:31.000Z"
+    },
+    {
+      "actor": "オレメガネ│note発信の応援者",
+      "article_title": "『オレメガネAIギャラリー』",
+      "article_url": "https://note.com/notes/n1374f4899385",
+      "introduced_at": "2026-09-19T12:51:19.000Z"
+    },
+    {
+      "actor": "妃沙 彩未（ひさ あみ）",
+      "article_title": "【王子ごっこ】お姫様が乱入しました",
+      "article_url": "https://note.com/notes/n1e1e0a11ab3b",
+      "introduced_at": "2026-09-19T12:30:29.000Z"
+    },
+    {
+      "actor": "マツリカ｜【変態怪異】",
+      "article_title": "禁忌呪術書再構築セシ変態怪異｜至高ノ絶対君主ヨリ賜ッタ神聖衣を自我自慢",
+      "article_url": "https://note.com/notes/n5a8430a1f2fd",
+      "introduced_at": "2026-09-19T11:51:41.000Z"
+    },
+    {
+      "actor": "ハリー｜note実験記録",
+      "article_title": "DAY25｜noteって、SNSで告知しなくても読まれる？🦔",
+      "article_url": "https://note.com/notes/ne16750e900ba",
+      "introduced_at": "2026-09-19T11:03:23.000Z"
+    },
     {
       "actor": "❁⃘*.ﾟMina❁⃘*.ﾟ|雲バル・ブラバル運営中♡",
       "article_title": "🌙🏰✨️ネロ王子1000人斬り‼️……からの、出遅れたので、王子のお城へ押しかけてみた👑🌙 【雲バル日記】✨️",
