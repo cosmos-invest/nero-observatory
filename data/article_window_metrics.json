@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T19:41:13+09:00",
+  "generated_at": "2026-09-21T20:06:16+09:00",
   "windows": [
     3,
     7,
@@ -8,6 +8,13 @@
     28
   ],
   "articles": [
+    {
+      "key": "n5b494509c23e",
+      "title": "【中間報告】#王子の侵略状況はどうなってる？",
+      "published_at": "2026-09-20T23:11:26+09:00",
+      "url": "https://note.com/nero_notelover/n/n5b494509c23e",
+      "metrics": {}
+    },
     {
       "key": "n559f720708b8",
       "title": "マラカス振って、魔法少女になって、最後はパンツ🌙",
@@ -20,14 +27,38 @@
       "title": "【ミナトハロウィン🦔】フォロワー1000人おめでとうございます🌙 王子も仮装します",
       "published_at": "2026-09-18T23:01:24+09:00",
       "url": "https://note.com/nero_notelover/n/n7ddf9e8a58b9",
-      "metrics": {}
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-09-18",
+          "end": "2026-09-20",
+          "impressions": 3433,
+          "pageviews": 318,
+          "likes": 81,
+          "comments": 48,
+          "captured_at": "2026-09-21T20:06:16+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
     },
     {
       "key": "nb83d60ff76e2",
       "title": "アカリウム深層 新種発見｜タンケンカノカタワレ",
       "published_at": "2026-09-18T06:00:00+09:00",
       "url": "https://note.com/nero_notelover/n/nb83d60ff76e2",
-      "metrics": {}
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-09-18",
+          "end": "2026-09-20",
+          "impressions": 2377,
+          "pageviews": 113,
+          "likes": 67,
+          "comments": 17,
+          "captured_at": "2026-09-21T20:06:16+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
     },
     {
       "key": "n36212bf7056f",
@@ -140,6 +171,17 @@
           "comments": 75,
           "captured_at": "2026-09-17T19:37:52+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-09-14",
+          "end": "2026-09-20",
+          "impressions": 6299,
+          "pageviews": 612,
+          "likes": 156,
+          "comments": 75,
+          "captured_at": "2026-09-21T20:06:15+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -235,7 +277,7 @@
     },
     {
       "key": "n5114f087128b",
-      "title": "【王子の初企画】王子ごっこで遊ぼう🌙",
+      "title": "王子ごっこで遊ぼう🌙【王子の初企画】",
       "published_at": "2026-09-10T18:00:00+09:00",
       "url": "https://note.com/nero_notelover/n/n5114f087128b",
       "metrics": {
@@ -349,6 +391,17 @@
           "likes": 128,
           "comments": 31,
           "captured_at": "2026-09-14T20:53:05+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-09-07",
+          "end": "2026-09-20",
+          "impressions": 11456,
+          "pageviews": 344,
+          "likes": 133,
+          "comments": 31,
+          "captured_at": "2026-09-21T20:06:15+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
