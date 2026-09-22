@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T20:06:16+09:00",
+  "generated_at": "2026-09-22T20:09:38+09:00",
   "windows": [
     3,
     7,
@@ -8,6 +8,13 @@
     28
   ],
   "articles": [
+    {
+      "key": "na1ca6b70c11a",
+      "title": "【企画参加】イケメングランプリ  宵空カップ🏆",
+      "published_at": "2026-09-21T22:22:04+09:00",
+      "url": "https://note.com/nero_notelover/n/na1ca6b70c11a",
+      "metrics": {}
+    },
     {
       "key": "n5b494509c23e",
       "title": "【中間報告】#王子の侵略状況はどうなってる？",
@@ -20,7 +27,19 @@
       "title": "マラカス振って、魔法少女になって、最後はパンツ🌙",
       "published_at": "2026-09-19T23:59:23+09:00",
       "url": "https://note.com/nero_notelover/n/n559f720708b8",
-      "metrics": {}
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-09-19",
+          "end": "2026-09-21",
+          "impressions": 3506,
+          "pageviews": 349,
+          "likes": 84,
+          "comments": 52,
+          "captured_at": "2026-09-22T20:09:37+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
     },
     {
       "key": "n7ddf9e8a58b9",
@@ -151,6 +170,17 @@
           "likes": 118,
           "comments": 41,
           "captured_at": "2026-09-18T22:35:50+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-09-15",
+          "end": "2026-09-21",
+          "impressions": 7337,
+          "pageviews": 316,
+          "likes": 131,
+          "comments": 41,
+          "captured_at": "2026-09-22T20:09:37+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -361,6 +391,17 @@
           "likes": 119,
           "comments": 32,
           "captured_at": "2026-09-15T19:33:22+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-09-08",
+          "end": "2026-09-21",
+          "impressions": 8412,
+          "pageviews": 354,
+          "likes": 126,
+          "comments": 32,
+          "captured_at": "2026-09-22T20:09:36+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -1182,6 +1223,17 @@
           "comments": 12,
           "captured_at": "2026-09-11T18:40:49+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-08-25",
+          "end": "2026-09-21",
+          "impressions": 11210,
+          "pageviews": 268,
+          "likes": 91,
+          "comments": 12,
+          "captured_at": "2026-09-22T20:09:35+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -1223,6 +1275,17 @@
           "comments": 16,
           "captured_at": "2026-09-11T18:40:49+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-08-25",
+          "end": "2026-09-21",
+          "impressions": 20055,
+          "pageviews": 861,
+          "likes": 185,
+          "comments": 18,
+          "captured_at": "2026-09-22T20:09:35+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -1263,6 +1326,17 @@
           "likes": 502,
           "comments": 8,
           "captured_at": "2026-09-11T18:40:49+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-08-25",
+          "end": "2026-09-21",
+          "impressions": 120708,
+          "pageviews": 2049,
+          "likes": 548,
+          "comments": 16,
+          "captured_at": "2026-09-22T20:09:35+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
