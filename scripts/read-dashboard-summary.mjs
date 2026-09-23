@@ -45,9 +45,82 @@ function parse(text) {
   };
 }
 
-async function readSummary(page) {
+async function cardNumber(page, label) {
+  const loc = page.getByText(label, { exact: true });
+  const count = await loc.count();
+  for (let i = 0; i < count; i += 1) {
+    const value = await loc.nth(i).evaluate((el, expected) => {
+      let node = el;
+      for (let level = 0; node && level < 7; level += 1, node = node.parentElement) {
+        const text = (node.innerText || node.textContent || '').trim().replace(/\s+/g, ' ');
+        const escaped = expected.replace(/[.*+?^$\{\}()|[\]\\]/g, '\\async function readSummary(page) {
   await page.waitForTimeout(2500);
   return parse(await page.locator('body').innerText());
+}');
+        const match = text.match(new RegExp('^' + escaped + '\\s*([\\d,]+)(?:円|件)?
+
+const cookie = cookieValue(process.env.NOTE_SESSION_COOKIE ?? '');
+if (!cookie) throw new Error('NOTE_SESSION_COOKIE is required');
+
+const browser = await chromium.launch({
+  headless: true,
+  executablePath: process.env.CHROME_PATH || '/usr/bin/google-chrome',
+  args: ['--no-sandbox'],
+});
+try {
+  const context = await browser.newContext({ locale: 'ja-JP', timezoneId: TIME_ZONE });
+  await context.addCookies([{ name:'_note_session_v5', value:cookie, domain:'.note.com', path:'/', secure:true, httpOnly:true, sameSite:'Lax' }]);
+  const page = await context.newPage();
+  await page.goto(DASHBOARD_URL, { waitUntil:'domcontentloaded', timeout:60000 });
+  await page.waitForTimeout(8000);
+  if (/login|signin/.test(page.url())) throw new Error('note session redirected to login');
+
+  const initial = await readSummary(page);
+  let allTime = null;
+
+  const periodButton = page.getByRole('button', { name: /過去28日間|全期間/ }).first();
+  if (await periodButton.count()) {
+    const name = (await periodButton.innerText()).trim();
+    if (name !== '全期間') {
+      await periodButton.click();
+      const option = page.getByText('全期間', { exact:true }).last();
+      if (await option.count()) {
+        await option.click();
+        await page.waitForTimeout(3500);
+      }
+    }
+    allTime = await readSummary(page);
+  }
+
+  console.log(JSON.stringify({ initial, all_time: allTime }, null, 2));
+} finally {
+  await browser.close();
+}
+));
+        if (match) return Number(match[1].replaceAll(',', ''));
+      }
+      return null;
+    }, label);
+    if (Number.isFinite(value)) return value;
+  }
+  return null;
+}
+
+async function readSummary(page) {
+  await page.waitForTimeout(2500);
+  const result = parse(await page.locator('body').innerText());
+  const labels = {
+    impressions: 'インプレッション',
+    pageviews: 'ページビュー',
+    likes: 'スキ',
+    comments: 'コメント',
+    sales_yen: '売上',
+  };
+  for (const [key, label] of Object.entries(labels)) {
+    const value = await cardNumber(page, label);
+    if (Number.isFinite(value)) result[key] = value;
+  }
+  return result;
 }
 
 const cookie = cookieValue(process.env.NOTE_SESSION_COOKIE ?? '');
@@ -87,3 +160,4 @@ try {
 } finally {
   await browser.close();
 }
+// live check trigger: 2026-09-24T07:31+09:00
