@@ -11,6 +11,7 @@ on:
       - scripts/finalize-observation.mjs
       - scripts/collect-window-metrics.mjs
       - scripts/collect-daily-account-metrics.mjs
+      - scripts/read-dashboard-summary.mjs
       - .github/workflows/update-observatory.yml
 
 # daily orchestration is handled by the exact 19:32 JST Nero Observatory Daily Sync
@@ -52,6 +53,11 @@ jobs:
             exit 1
           fi
           echo "CHROME_PATH=$CHROME_PATH" >> "$GITHUB_ENV"
+
+      - name: Read dashboard summary cards
+        env:
+          NOTE_SESSION_COOKIE: ${{ secrets.NOTE_SESSION_COOKIE }}
+        run: node scripts/read-dashboard-summary.mjs
 
       - name: Collect public and first-page note data
         env:
