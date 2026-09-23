@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T20:06:56+09:00",
+  "generated_at": "2026-09-24T07:07:06+09:00",
   "windows": [
     3,
     7,
@@ -8,6 +8,13 @@
     28
   ],
   "articles": [
+    {
+      "key": "n67d568364639",
+      "title": "王子ごっこで遊んでくれてありがとう🌙",
+      "published_at": "2026-09-23T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n67d568364639",
+      "metrics": {}
+    },
     {
       "key": "n5d373c663477",
       "title": "【緊急招集】わかモンさん1000人チャレンジ応援イベント🌙",
@@ -27,7 +34,19 @@
       "title": "【企画参加】イケメングランプリ  宵空カップ🏆",
       "published_at": "2026-09-21T22:22:04+09:00",
       "url": "https://note.com/nero_notelover/n/na1ca6b70c11a",
-      "metrics": {}
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-09-21",
+          "end": "2026-09-23",
+          "impressions": 4327,
+          "pageviews": 382,
+          "likes": 114,
+          "comments": 53,
+          "captured_at": "2026-09-24T07:07:06+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
     },
     {
       "key": "n5b494509c23e",
@@ -121,6 +140,17 @@
           "comments": 30,
           "captured_at": "2026-09-20T19:41:13+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-09-17",
+          "end": "2026-09-23",
+          "impressions": 3751,
+          "pageviews": 304,
+          "likes": 75,
+          "comments": 33,
+          "captured_at": "2026-09-24T07:07:05+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -139,6 +169,17 @@
           "likes": 98,
           "comments": 36,
           "captured_at": "2026-09-20T19:41:13+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-09-17",
+          "end": "2026-09-23",
+          "impressions": 3885,
+          "pageviews": 258,
+          "likes": 107,
+          "comments": 42,
+          "captured_at": "2026-09-24T07:07:05+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -379,6 +420,17 @@
           "likes": 235,
           "comments": 99,
           "captured_at": "2026-09-17T19:37:51+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-09-10",
+          "end": "2026-09-23",
+          "impressions": 19792,
+          "pageviews": 2120,
+          "likes": 309,
+          "comments": 122,
+          "captured_at": "2026-09-24T07:07:05+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -1077,6 +1129,17 @@
           "comments": 19,
           "captured_at": "2026-09-11T18:40:54+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-08-27",
+          "end": "2026-09-23",
+          "impressions": 17432,
+          "pageviews": 408,
+          "likes": 82,
+          "comments": 19,
+          "captured_at": "2026-09-24T07:07:04+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -1117,6 +1180,17 @@
           "likes": 55,
           "comments": 19,
           "captured_at": "2026-09-11T18:40:54+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-08-27",
+          "end": "2026-09-23",
+          "impressions": 6259,
+          "pageviews": 260,
+          "likes": 63,
+          "comments": 21,
+          "captured_at": "2026-09-24T07:07:04+09:00",
           "source": "note_dashboard_custom_range"
         }
       }

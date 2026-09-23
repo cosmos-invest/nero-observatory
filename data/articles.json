@@ -1,9 +1,31 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T20:06:06+09:00",
+  "generated_at": "2026-09-24T07:06:11+09:00",
   "creator_id": "nero_notelover",
-  "count": 41,
+  "count": 42,
   "articles": [
+    {
+      "key": "n67d568364639",
+      "title": "王子ごっこで遊んでくれてありがとう🌙",
+      "url": "https://note.com/nero_notelover/n/n67d568364639",
+      "published_at": "2026-09-23T21:00:00+09:00",
+      "price_yen": 0,
+      "is_paid": false,
+      "hashtags": [
+        "#振り返りnote",
+        "#プロンプト",
+        "#AIイラスト",
+        "#AIアート",
+        "#大喜利",
+        "#アカリウム",
+        "#王子",
+        "#好きなnoteクリエイター",
+        "#ChatGPTCreativeClub",
+        "#王子ごっこ",
+        "#ネロ1000人斬り",
+        "#ネロ魔界祝杯"
+      ]
+    },
     {
       "key": "n5d373c663477",
       "title": "【緊急招集】わかモンさん1000人チャレンジ応援イベント🌙",
