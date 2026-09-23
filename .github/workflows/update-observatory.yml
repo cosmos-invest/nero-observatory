@@ -12,6 +12,7 @@ on:
       - scripts/collect-window-metrics.mjs
       - scripts/collect-daily-account-metrics.mjs
       - scripts/read-dashboard-summary.mjs
+      - scripts/read-dashboard-sales-json.mjs
       - .github/workflows/update-observatory.yml
 
 # daily orchestration is handled by the exact 19:32 JST Nero Observatory Daily Sync
@@ -58,6 +59,11 @@ jobs:
         env:
           NOTE_SESSION_COOKIE: ${{ secrets.NOTE_SESSION_COOKIE }}
         run: node scripts/read-dashboard-summary.mjs
+
+      - name: Inspect dashboard metric fields
+        env:
+          NOTE_SESSION_COOKIE: ${{ secrets.NOTE_SESSION_COOKIE }}
+        run: node scripts/read-dashboard-sales-json.mjs
 
       - name: Collect public and first-page note data
         env:
