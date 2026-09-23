@@ -82,6 +82,7 @@ function collectMetrics(payload, output, depth = 0) {
         pageviews: num(metrics.pageViewCount ?? metrics.pageviewCount ?? metrics.pageviews),
         likes: num(metrics.likeCount ?? metrics.likes),
         comments: num(metrics.commentCount ?? metrics.comments),
+        sales_yen: num(metrics.salesAmount ?? metrics.salesAmountYen ?? metrics.sales),
       });
     }
   }
@@ -171,7 +172,7 @@ async function fetchDate(context, statUrl, statHeaders, statTemplate, date) {
     pages += 1;
   }
 
-  const totals = { impressions: 0, pageviews: 0, likes: 0, comments: 0 };
+  const totals = { impressions: 0, pageviews: 0, likes: 0, comments: 0, sales_yen: 0 };
   let rows = 0;
   for (const metric of metricMap.values()) {
     rows += 1;
@@ -203,7 +204,7 @@ const existing = new Map(store.days.map((row) => [row.date, row]));
 const requested = [];
 for (let d = start; d <= end; d = addDays(d, 1)) requested.push(d);
 const refreshFrom = addDays(end, -(refreshDays - 1));
-const needed = requested.filter((d) => !existing.has(d) || (refreshDays > 0 && d >= refreshFrom));
+const needed = requested.filter((d) => !existing.has(d) || existing.get(d)?.sales_yen == null || (refreshDays > 0 && d >= refreshFrom));
 
 let browser;
 try {
@@ -240,11 +241,12 @@ try {
       pageviews: totals.pageviews,
       likes: totals.likes,
       comments: totals.comments,
+      sales_yen: totals.sales_yen,
       captured_at: nowIsoJst(),
       article_rows: rows,
       source: 'note_dashboard_custom_single_day',
     });
-    console.log(`daily ${date}: IMP=${totals.impressions} PV=${totals.pageviews} likes=${totals.likes} comments=${totals.comments} rows=${rows} pages=${pages}`);
+    console.log(`daily ${date}: IMP=${totals.impressions} PV=${totals.pageviews} likes=${totals.likes} comments=${totals.comments} sales=${totals.sales_yen} rows=${rows} pages=${pages}`);
     await sleep(250);
   }
 
