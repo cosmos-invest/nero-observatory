@@ -195,7 +195,7 @@ const cookie = cookieValue(process.env.NOTE_SESSION_COOKIE ?? '');
 if (!cookie) throw new Error('NOTE_SESSION_COOKIE is required');
 
 const start = DEFAULT_START;
-const end = process.env.DAILY_END_DATE || yesterdayJst();
+const end = process.env.DAILY_END_DATE || jstDateKey();
 const refreshDays = Math.max(0, Number(process.env.DAILY_REFRESH_DAYS || 3));
 const store = await readStore();
 const existing = new Map(store.days.map((row) => [row.date, row]));
