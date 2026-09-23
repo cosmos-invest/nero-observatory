@@ -87,3 +87,4 @@ try {
 } finally {
   await browser.close();
 }
+// live check trigger: 2026-09-24T07:28+09:00
