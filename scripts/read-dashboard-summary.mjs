@@ -31,14 +31,17 @@ function parse(text) {
   const lines = text.split(/\n+/).map((v) => v.trim()).filter(Boolean);
   const agg = lines.find((v) => /^20\d{2}\/\d{1,2}\/\d{1,2}\s+\d{1,2}:\d{2}\s+集計$/.test(v)) ?? null;
   const ranges = lines.filter((v) => /^20\d{2}\/\d{1,2}\/\d{1,2}[〜~]20\d{2}\/\d{1,2}\/\d{1,2}$/.test(v));
+  const normalized = lines.join('\n');
+  const block = normalized.match(/インプレッション\n([\d,]+)\nページビュー\n([\d,]+)\nスキ\n([\d,]+)\nコメント\n([\d,]+)\n売上\n([\d,]+)円/);
   return {
-    impressions: nearestNumber(lines, 'インプレッション'),
-    pageviews: nearestNumber(lines, 'ページビュー'),
-    likes: nearestNumber(lines, 'スキ'),
-    comments: nearestNumber(lines, 'コメント'),
-    sales_yen: nearestNumber(lines, '売上'),
+    impressions: block ? Number(block[1].replaceAll(',', '')) : nearestNumber(lines, 'インプレッション'),
+    pageviews: block ? Number(block[2].replaceAll(',', '')) : nearestNumber(lines, 'ページビュー'),
+    likes: block ? Number(block[3].replaceAll(',', '')) : nearestNumber(lines, 'スキ'),
+    comments: block ? Number(block[4].replaceAll(',', '')) : null,
+    sales_yen: block ? Number(block[5].replaceAll(',', '')) : null,
     aggregated_at: agg,
     ranges: [...new Set(ranges)],
+    summary_block_found: Boolean(block),
   };
 }
 
