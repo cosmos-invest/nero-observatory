@@ -14,7 +14,7 @@ on:
       - .github/workflows/update-observatory.yml
 
 # daily orchestration is handled by the exact 19:32 JST Nero Observatory Daily Sync
-# fallback kick marker: 2026-09-23T20:05:00+09:00
+# fallback kick marker: 2026-09-24T07:20:00+09:00
 permissions:
   contents: write
 
