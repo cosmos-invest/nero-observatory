@@ -1,0 +1,37 @@
+name: Read Note Dashboard Summary
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/read-dashboard-summary.mjs
+      - .github/workflows/read-dashboard-summary.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install browser client
+        run: npm install --no-save --ignore-scripts playwright-core
+      - name: Locate Chrome
+        shell: bash
+        run: |
+          CHROME_PATH="$(command -v google-chrome || command -v chromium || command -v chromium-browser || true)"
+          if [ -z "$CHROME_PATH" ]; then
+            echo 'Chrome/Chromium was not found.'
+            exit 1
+          fi
+          echo "CHROME_PATH=$CHROME_PATH" >> "$GITHUB_ENV"
+      - name: Read dashboard summary cards
+        env:
+          NOTE_SESSION_COOKIE: ${{ secrets.NOTE_SESSION_COOKIE }}
+        run: node scripts/read-dashboard-summary.mjs
