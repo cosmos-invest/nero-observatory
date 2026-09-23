@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T20:09:38+09:00",
+  "generated_at": "2026-09-23T20:06:56+09:00",
   "windows": [
     3,
     7,
@@ -8,6 +8,20 @@
     28
   ],
   "articles": [
+    {
+      "key": "n5d373c663477",
+      "title": "【緊急招集】わかモンさん1000人チャレンジ応援イベント🌙",
+      "published_at": "2026-09-23T10:20:53+09:00",
+      "url": "https://note.com/nero_notelover/n/n5d373c663477",
+      "metrics": {}
+    },
+    {
+      "key": "nd0af429284a2",
+      "title": "【王子ごっこは明日が最後】王子ガチャガチャになってゴス祭りを見つける🌙",
+      "published_at": "2026-09-22T23:31:51+09:00",
+      "url": "https://note.com/nero_notelover/n/nd0af429284a2",
+      "metrics": {}
+    },
     {
       "key": "na1ca6b70c11a",
       "title": "【企画参加】イケメングランプリ  宵空カップ🏆",
@@ -20,7 +34,19 @@
       "title": "【中間報告】#王子の侵略状況はどうなってる？",
       "published_at": "2026-09-20T23:11:26+09:00",
       "url": "https://note.com/nero_notelover/n/n5b494509c23e",
-      "metrics": {}
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-09-20",
+          "end": "2026-09-22",
+          "impressions": 5054,
+          "pageviews": 367,
+          "likes": 111,
+          "comments": 47,
+          "captured_at": "2026-09-23T20:06:55+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
     },
     {
       "key": "n559f720708b8",
@@ -133,6 +159,17 @@
           "comments": 4,
           "captured_at": "2026-09-19T20:04:37+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-09-16",
+          "end": "2026-09-22",
+          "impressions": 4266,
+          "pageviews": 193,
+          "likes": 68,
+          "comments": 4,
+          "captured_at": "2026-09-23T20:06:55+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -151,6 +188,17 @@
           "likes": 59,
           "comments": 39,
           "captured_at": "2026-09-19T20:04:37+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-09-16",
+          "end": "2026-09-22",
+          "impressions": 6477,
+          "pageviews": 420,
+          "likes": 60,
+          "comments": 39,
+          "captured_at": "2026-09-23T20:06:55+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -361,6 +409,17 @@
           "likes": 109,
           "comments": 37,
           "captured_at": "2026-09-16T19:36:30+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-09-09",
+          "end": "2026-09-22",
+          "impressions": 8535,
+          "pageviews": 512,
+          "likes": 115,
+          "comments": 37,
+          "captured_at": "2026-09-23T20:06:54+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -1100,6 +1159,17 @@
           "comments": 23,
           "captured_at": "2026-09-11T18:40:51+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-08-26",
+          "end": "2026-09-22",
+          "impressions": 129738,
+          "pageviews": 2145,
+          "likes": 338,
+          "comments": 23,
+          "captured_at": "2026-09-23T20:06:53+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -1141,6 +1211,17 @@
           "comments": 13,
           "captured_at": "2026-09-11T18:40:51+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-08-26",
+          "end": "2026-09-22",
+          "impressions": 9124,
+          "pageviews": 377,
+          "likes": 83,
+          "comments": 22,
+          "captured_at": "2026-09-23T20:06:53+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -1181,6 +1262,17 @@
           "likes": 45,
           "comments": 8,
           "captured_at": "2026-09-11T18:40:51+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-08-26",
+          "end": "2026-09-22",
+          "impressions": 5412,
+          "pageviews": 163,
+          "likes": 52,
+          "comments": 10,
+          "captured_at": "2026-09-23T20:06:53+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
