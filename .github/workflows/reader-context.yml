@@ -6,6 +6,7 @@ on:
     paths:
       - scripts/collect-reader-context.mjs
       - .github/workflows/reader-context.yml
+      - config/reader-reference-keys.json
 permissions:
   contents: read
 concurrency:
@@ -14,7 +15,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
