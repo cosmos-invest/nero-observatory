@@ -1,0 +1,31 @@
+name: Collect Nero Reader Context
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/collect-reader-context.mjs
+      - .github/workflows/reader-context.yml
+permissions:
+  contents: read
+concurrency:
+  group: nero-reader-context
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Collect public reading contexts
+        env:
+          NOTE_SESSION_COOKIE: ${{ secrets.NOTE_SESSION_COOKIE }}
+        run: node scripts/collect-reader-context.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nero-reader-context
+          path: reader-output/context.json
+          retention-days: 3
