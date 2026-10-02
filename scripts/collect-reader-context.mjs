@@ -5,12 +5,15 @@ const cookie=raw.includes('_note_session_v5=')?raw.split(';').map(s=>s.trim()).f
 if(!raw)throw Error('NOTE_SESSION_COOKIE is not configured');
 const accounts=['nisetarzan','fcs_homecenter','orivie','akari_seaart','cave_huntress','veronica_heels'];
 const out={generated_at:new Date().toISOString(),creator,source:'note_api_via_github_actions',authenticated_urlname:null,articles:[],comments:[],reading:[],engagement:{},errors:[],coverage:{}};
+let consecutiveForbidden=0,accessBlocked=false;
 const delay=ms=>new Promise(r=>setTimeout(r,ms));
 async function api(path){
+ if(accessBlocked)throw Error('Collection stopped after repeated HTTP 403');
  const u=new URL(path,'https://note.com');if(u.origin!=='https://note.com'||!u.pathname.startsWith('/api/'))throw Error('Invalid API URL');
  for(let a=0;a<4;a++){
   const r=await fetch(u,{headers:{accept:'application/json',cookie,'user-agent':'Nero-Reader/2.0'},redirect:'error',signal:AbortSignal.timeout(25000)});
   if((r.status===429||r.status>=500)&&a<3){await delay(Math.min(30000,Math.max(1000,Number(r.headers.get('retry-after')||0)*1000,2000*2**a)));continue;}
+  if(r.status===403){consecutiveForbidden++;if(consecutiveForbidden>=5)accessBlocked=true;}else if(r.ok)consecutiveForbidden=0;
   if(!r.ok)throw Error(`API HTTP ${r.status}`);return r.json();
  }
 }
@@ -34,13 +37,13 @@ const targets=new Map();
 for(const account of [creator,...accounts]){try{const rows=await allArticles(account);out.coverage[account]={listed:rows.length,complete:true};for(const row of rows)targets.set(row.key,{row,user:account,kind:account===creator?'own':'watch'});}catch(e){out.coverage[account]={complete:false};out.errors.push({user_id:account,reason:e.message});}}
 const mentions=JSON.parse(await fs.readFile('data/mentions.json','utf8'));const additional=JSON.parse(await fs.readFile('config/reader-reference-keys.json','utf8'));
 for(const key of [...additional,...mentions.records.map(r=>r.article_url?.split('/').at(-1))])if(/^n[a-f0-9]+$/.test(key||'')&&!targets.has(key))targets.set(key,{kind:'reference'});
-let cursor=0,completed=0;const entries=[...targets];
-async function worker(){while(cursor<entries.length){const[key,t]=entries[cursor++];const s={liked_by_nero:null,commented_by_nero:null,checked_at:new Date().toISOString(),comments_complete:false};out.engagement[key]=s;try{
+let cursor=0,completed=0;const entries=[...targets].sort((a,b)=>({own:0,reference:1,watch:2}[a[1].kind])-({own:0,reference:1,watch:2}[b[1].kind]));
+async function worker(){while(cursor<entries.length&&!accessBlocked){const[key,t]=entries[cursor++];const s={liked_by_nero:null,commented_by_nero:null,checked_at:new Date().toISOString(),comments_complete:false};out.engagement[key]=s;try{
  const p=await api(`/api/v3/notes/${key}`),d=p.data?.note??p.data;if(!d||typeof d!=='object')throw Error('Unexpected note schema');if(typeof d.is_liked==='boolean')s.liked_by_nero=d.is_liked;
  const cs=await allComments(key);s.comments_complete=true;s.commented_by_nero=cs.some(c=>c.user_id===creator);if(t.kind==='own')out.comments.push(...cs);
  if(t.kind!=='reference'){const r=t.row,free=r.priceInfo?.isFree!==false&&Number(r.price||0)===0&&Number(d.price||0)===0&&d.priceInfo?.isFree!==false;const a={key,user_id:t.user,user_name:r.user?.nickname,title:r.name,url:`https://note.com/${t.user}/n/${key}`,published_at:r.publishAt,body_html:free&&typeof d.body==='string'?d.body:'',comment_count:r.commentCount,...s};(t.kind==='own'?out.articles:out.reading).push(a);}
  }catch(e){s.error=e.message;out.errors.push({key,reason:e.message});}completed++;if(completed%25===0)console.log(JSON.stringify({stage:'progress',completed,total:entries.length}));await delay(250);}}
-await Promise.all(Array.from({length:3},worker));out.generated_at=new Date().toISOString();out.coverage.targets={total:entries.length,checked:completed,failed:out.errors.filter(e=>e.key).length};
+await Promise.all(Array.from({length:3},worker));out.generated_at=new Date().toISOString();out.coverage.targets={total:entries.length,checked:completed,failed:out.errors.filter(e=>e.key).length,complete:completed===entries.length&&!accessBlocked,stopped_after_forbidden:accessBlocked};
 await fs.mkdir('reader-output',{recursive:true});await fs.writeFile('reader-output/context.json',JSON.stringify(out,null,2));console.log(JSON.stringify({articles:out.articles.length,comments:out.comments.length,reading:out.reading.length,targets:entries.length,liked:Object.values(out.engagement).filter(s=>s.liked_by_nero===true).length,errors:out.errors.length}));
 // Never export credentials, raw API responses or Gmail information.
 if(!out.articles.length)throw Error('No public article contexts collected');

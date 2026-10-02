@@ -1,12 +1,6 @@
 name: Collect Nero Reader Context
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - scripts/collect-reader-context.mjs
-      - .github/workflows/reader-context.yml
-      - config/reader-reference-keys.json
 permissions:
   contents: read
 concurrency:
