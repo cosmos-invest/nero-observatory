@@ -1,8 +1,146 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T10:38:11.348Z",
-  "total_count": 461,
+  "generated_at": "2026-10-03T10:33:37.795Z",
+  "total_count": 484,
   "records": [
+    {
+      "actor": "失敗しない旅行術／花乃（かの）",
+      "article_title": "生成AIスタンド診断やってみた！",
+      "article_url": "https://note.com/notes/n9298a9696548",
+      "introduced_at": "2026-10-03T09:43:12.000Z"
+    },
+    {
+      "actor": "マボロシプロレス",
+      "article_title": "note世界ヘビー級王座、封印。最後の王者は“勇者”だった",
+      "article_url": "https://note.com/notes/na44c203cc22a",
+      "introduced_at": "2026-10-03T09:36:49.000Z"
+    },
+    {
+      "actor": "わかモン＠フォロバ100期間限定の悪役令嬢",
+      "article_title": "本格ラノベ作家参入の秋ラノベ祭🍁✨️ますます大盛況ですの💕遊びながら一緒にnoteを伸ばす応援団✨️🌱初見さん#note初心者 大歓迎",
+      "article_url": "https://note.com/notes/n7573fb849cc7",
+      "introduced_at": "2026-10-03T09:31:02.000Z"
+    },
+    {
+      "actor": "緋室ヴィオラ🌹｜元女優の第二幕｜フォロバ100",
+      "article_title": "はじめてのnote｜拍手をくれたら、あなたの舞台も観に行くわ🌹",
+      "article_url": "https://note.com/notes/nefc79d686f75",
+      "introduced_at": "2026-10-03T09:02:58.000Z"
+    },
+    {
+      "actor": "❁⃘*.ﾟMina❁⃘*.ﾟ|雲バル・ブラバル運営中♡",
+      "article_title": "⛩✨️今年こそは、「そうだ 京都、行こう」を実行したい‼️ ――相棒AIと旅する思い出の秋🍁🍂【企画参加・雲バルからの呟き】",
+      "article_url": "https://note.com/notes/nf91bcd86288a",
+      "introduced_at": "2026-10-03T08:59:28.000Z"
+    },
+    {
+      "actor": "庭師ふろんた｜3兄弟パパ",
+      "article_title": "【参加型】謙信に言わせて、あなたは後ろで謝る。「謙信ごっこ」しませんか？",
+      "article_url": "https://note.com/notes/n10d4a50f760e",
+      "introduced_at": "2026-10-03T08:53:20.000Z"
+    },
+    {
+      "actor": "ウタ｜ゼロイチ父さん｜30代副業",
+      "article_title": "戦争を始めよう。きのこたけのこ戦争を。",
+      "article_url": "https://note.com/notes/n6fd84958bf48",
+      "introduced_at": "2026-10-03T08:51:14.000Z"
+    },
+    {
+      "actor": "ぽてむし｜相互フォローします、ぽてちください",
+      "article_title": "秋が見つからないので、読書の秋と食欲の秋とスポーツの秋と芸術の秋を全部ためした｜秋読コレクション",
+      "article_url": "https://note.com/notes/na5a1c8bfbae7",
+      "introduced_at": "2026-10-03T07:04:36.000Z"
+    },
+    {
+      "actor": "きゅうり/AIで“できること”が増える",
+      "article_title": "AI相談屋のきゅうりと、ツンデレ悪役令嬢わかモン",
+      "article_url": "https://note.com/notes/n76ade1dd4bdf",
+      "introduced_at": "2026-10-03T05:40:03.000Z"
+    },
+    {
+      "actor": "赤髪のあかり✨️創作で生きるnoteマン 相互フォロー中",
+      "article_title": "メンバーシップの伸ばし方を聞かれたので、真面目に書いてみる",
+      "article_url": "https://note.com/notes/n36826e729b42",
+      "introduced_at": "2026-10-03T03:05:59.000Z"
+    },
+    {
+      "actor": "わかモン＠フォロバ100期間限定の悪役令嬢",
+      "article_title": "note初心者39日1000人達成✨️その６日後には1200人💕note伸ばすなら紹介されたら全力で推すべきですわ！！",
+      "article_url": "https://note.com/notes/n15146f39a381",
+      "introduced_at": "2026-10-03T01:10:23.000Z"
+    },
+    {
+      "actor": "赤髪のあかり✨️創作で生きるnoteマン 相互フォロー中",
+      "article_title": "あかりの朝活日記 ネロ🌙王子さんの紹介返しと、チョコレートプリンの木の実",
+      "article_url": "https://note.com/notes/n049f092fa3e2",
+      "introduced_at": "2026-10-03T00:14:23.000Z"
+    },
+    {
+      "actor": "伊藤ポップakaFCS",
+      "article_title": "【はじめてのとうこう❤️】",
+      "article_url": "https://note.com/notes/nc7830595e6aa",
+      "introduced_at": "2026-10-02T23:44:23.000Z"
+    },
+    {
+      "actor": "みわからす",
+      "article_title": "20261003 No.13",
+      "article_url": "https://note.com/notes/na00997abf21c",
+      "introduced_at": "2026-10-02T22:50:50.000Z"
+    },
+    {
+      "actor": "トト",
+      "article_title": "読書の秋？ 食欲の秋？ 私は「プロンプトの秋」でした。",
+      "article_url": "https://note.com/notes/n20ce972f1083",
+      "introduced_at": "2026-10-02T21:16:20.000Z"
+    },
+    {
+      "actor": "柴犬とゆる暮らし",
+      "article_title": "大事件すぎる！イベント参加にバグって参加出来てなかった",
+      "article_url": "https://note.com/notes/n8301a5d54ac3",
+      "introduced_at": "2026-10-02T15:49:57.000Z"
+    },
+    {
+      "actor": "紡えり🐱 ⁂GPT遊びに夢中⁂",
+      "article_title": "【企画？】王子🌙ホイホイ？",
+      "article_url": "https://note.com/notes/n02dbd8cba84a",
+      "introduced_at": "2026-10-02T15:06:32.000Z"
+    },
+    {
+      "actor": "ぐれんの おにぎり@ あなたを人生の主人公にする心理家",
+      "article_title": "【情弱の特徴】個人的に思う情弱の特徴はこの3つ！",
+      "article_url": "https://note.com/notes/n6c986101a383",
+      "introduced_at": "2026-10-02T15:04:41.000Z"
+    },
+    {
+      "actor": "やっさん（yasuda）",
+      "article_title": "オヤジのはじめてのおつかい｜遊びに行ったら第10代王者になったので、勝手に「note世界ヘビー級選手権」を応援します🤣🏆📣",
+      "article_url": "https://note.com/notes/ne5ef07af7c2e",
+      "introduced_at": "2026-10-02T13:40:19.000Z"
+    },
+    {
+      "actor": "なお🌿｜氣｜大自然パワーお届け隊🚙",
+      "article_title": "グイグイ広がる妄想そして…【チャコはお城をゲットした💖】",
+      "article_url": "https://note.com/notes/nb12e5bbec786",
+      "introduced_at": "2026-10-02T13:02:38.000Z"
+    },
+    {
+      "actor": "名前もと",
+      "article_title": "note世界ヘビー級第9代目チャンピオン「名前もと」です！",
+      "article_url": "https://note.com/notes/n28bbc2c46926",
+      "introduced_at": "2026-10-02T12:37:16.000Z"
+    },
+    {
+      "actor": "宇宙人かあさん",
+      "article_title": "宇宙人は『真珠の耳飾りの少女』になれるのか。",
+      "article_url": "https://note.com/notes/nccc4642dd7b3",
+      "introduced_at": "2026-10-02T11:53:05.000Z"
+    },
+    {
+      "actor": "名前もと",
+      "article_title": "アカリウム深層で新種発見｜『幻想果実』ルミナ・コクーン。",
+      "article_url": "https://note.com/notes/nb796772e4cc1",
+      "introduced_at": "2026-10-02T10:52:40.000Z"
+    },
     {
       "actor": "紡えり🐱 ⁂GPT遊びに夢中⁂",
       "article_title": "【参加】それぞれの秋【GPT】",
