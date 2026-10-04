@@ -1,8 +1,182 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T10:33:37.795Z",
-  "total_count": 484,
+  "generated_at": "2026-10-04T10:31:48.979Z",
+  "total_count": 513,
   "records": [
+    {
+      "actor": "山田、最後は勘。",
+      "article_title": "26.企画にお邪魔した山田。そして脱兎のごとく逃げます。",
+      "article_url": "https://note.com/notes/nf046054df3df",
+      "introduced_at": "2026-10-04T10:30:44.000Z"
+    },
+    {
+      "actor": "緋室ヴィオラ🌹｜元女優の第二幕｜フォロバ100",
+      "article_title": "自分には何もないなんて、自分の人生に失礼よ｜秋読コレクション🍁",
+      "article_url": "https://note.com/notes/ne10b27681a5f",
+      "introduced_at": "2026-10-04T09:51:24.000Z"
+    },
+    {
+      "actor": "月草🌱｜noteのパワースポットになりたい",
+      "article_title": "『神様の失恋』番外編 非番の最強剣士ですが、収穫祭で人助けをしたら「あーん」が待っていました🍎",
+      "article_url": "https://note.com/notes/n92355b93a192",
+      "introduced_at": "2026-10-04T09:19:32.000Z"
+    },
+    {
+      "actor": "わかモン＠フォロバ100期間限定の悪役令嬢",
+      "article_title": "仕事も初恋も迷いも、全部ラノベになりましてよ🍁✨️大人気秋ラノベ祭第３回💕遊びながら一緒にnoteを伸ばす応援団✨️🌱初見さん#note初心者 大歓迎",
+      "article_url": "https://note.com/notes/n2d9f7a14a11d",
+      "introduced_at": "2026-10-04T09:19:26.000Z"
+    },
+    {
+      "actor": "枢木 経介｜【新資本論／ネオ江戸思想家】",
+      "article_title": "♡……ご指名お願いしま～す！♡",
+      "article_url": "https://note.com/notes/na6ea5c6090ab",
+      "introduced_at": "2026-10-04T09:12:30.000Z"
+    },
+    {
+      "actor": "ヴェロニカ・ヒールズ｜相互フォローしますわよ💋",
+      "article_title": "王国の秋は、こうでしたわ｜秋読コレクション",
+      "article_url": "https://note.com/notes/n5f8189b47652",
+      "introduced_at": "2026-10-04T09:05:16.000Z"
+    },
+    {
+      "actor": "庭師ふろんた｜3兄弟パパ",
+      "article_title": "紅葉を残すか、サッパリ切るか。庭師の秋は、確認から始まる。",
+      "article_url": "https://note.com/notes/n5428fe23e796",
+      "introduced_at": "2026-10-04T08:26:30.000Z"
+    },
+    {
+      "actor": "くらげ",
+      "article_title": "想像の余白を歩くーわたしが小説を読む理由｜秋読コレクション",
+      "article_url": "https://note.com/notes/n8cc7d878c1fc",
+      "introduced_at": "2026-10-04T08:25:48.000Z"
+    },
+    {
+      "actor": "orivie | イベント『秋読コレクション』9/28〜10/4開催🍁",
+      "article_title": "【実写】結婚、できないかもしれません。",
+      "article_url": "https://note.com/notes/n27179eb661fa",
+      "introduced_at": "2026-10-04T07:37:22.000Z"
+    },
+    {
+      "actor": "くらげくら | 相互フォローします | くらげです",
+      "article_title": "またまた紹介コーナー",
+      "article_url": "https://note.com/notes/na95c48279f67",
+      "introduced_at": "2026-10-04T07:07:12.000Z"
+    },
+    {
+      "actor": "わかモン＠フォロバ100期間限定の悪役令嬢",
+      "article_title": "10月中無料公開✨️なぜ、あの新人noterは1投稿目から伸びるのか？｜今が旬の #はじめてのnote 攻略ですわ💕",
+      "article_url": "https://note.com/notes/n7eebb14b004c",
+      "introduced_at": "2026-10-04T06:25:54.000Z"
+    },
+    {
+      "actor": "まるよか",
+      "article_title": "わかモン さんの ラノベ作成 プロンプト で 小説を書いてみた #秋読コレクション #秋ラノベ祭り",
+      "article_url": "https://note.com/notes/n31817c349bff",
+      "introduced_at": "2026-10-04T06:15:05.000Z"
+    },
+    {
+      "actor": "福来モネ",
+      "article_title": "丁寧な暮らし はじめました#秋読コレクション",
+      "article_url": "https://note.com/notes/n3d0919069d76",
+      "introduced_at": "2026-10-04T06:11:56.000Z"
+    },
+    {
+      "actor": "海藻うさぎ猫",
+      "article_title": "月光 秋 ももぉ",
+      "article_url": "https://note.com/notes/n457995d7262f",
+      "introduced_at": "2026-10-04T05:56:28.000Z"
+    },
+    {
+      "actor": "KANU",
+      "article_title": "タイトル未定からの",
+      "article_url": "https://note.com/notes/ne85ff200f712",
+      "introduced_at": "2026-10-04T04:29:41.000Z"
+    },
+    {
+      "actor": "Pajama de mama*4歳娘ママ",
+      "article_title": "あなたの心を込めて書いた最高の記事、PRして下さい👐✨| #ジブンスキー称号ガチャ🐄 🛁 | 自分の企画が育っていく🌱💕",
+      "article_url": "https://note.com/notes/nc192de176b30",
+      "introduced_at": "2026-10-04T02:04:34.000Z"
+    },
+    {
+      "actor": "ちんぱん🐒耳毛〰(˙👄˙)〰",
+      "article_title": "秋の思い出を探したら、俺はずっとチャリに乗っていた。",
+      "article_url": "https://note.com/notes/n4d591a2c8d20",
+      "introduced_at": "2026-10-04T01:39:42.000Z"
+    },
+    {
+      "actor": "ぱっちー｜暮らしと挑戦の記録",
+      "article_title": "【育児漫画】紅葉を見に来たはずが。｜秋読コレクション",
+      "article_url": "https://note.com/notes/n07a113cdd83e",
+      "introduced_at": "2026-10-04T00:19:06.000Z"
+    },
+    {
+      "actor": "ミノリ・グルーヴ@Minoriからの転生",
+      "article_title": "秋読コレクションへの参加✖️しげちー🍤さんのリクエストにお応えします。",
+      "article_url": "https://note.com/notes/n9ed4b3bf04d7",
+      "introduced_at": "2026-10-03T23:56:02.000Z"
+    },
+    {
+      "actor": "ちびたぬき",
+      "article_title": "魔王なのに誰も倒していないのに、みんな「好き」を持って魔王領へ移住してくるんですが",
+      "article_url": "https://note.com/notes/n225956e0ebe9",
+      "introduced_at": "2026-10-03T23:19:15.000Z"
+    },
+    {
+      "actor": "みわからす",
+      "article_title": "20261004 No.14",
+      "article_url": "https://note.com/notes/ne8029c0c77d9",
+      "introduced_at": "2026-10-03T23:06:04.000Z"
+    },
+    {
+      "actor": "なお🌿｜氣｜大自然パワーお届け隊🚙",
+      "article_title": "謎のウィルスに感染した…😭王子…🥹",
+      "article_url": "https://note.com/notes/n262231bce811",
+      "introduced_at": "2026-10-03T20:36:10.000Z"
+    },
+    {
+      "actor": "OSHIKATSU | SeaArt AIイラストギャラリー",
+      "article_title": "秋の夜長に妄想デート！私の王子様を自慢しちゃおう！【夢の中へ】｜AIイラスト・ChatGPT・推し活",
+      "article_url": "https://note.com/notes/na61031883ab0",
+      "introduced_at": "2026-10-03T16:02:44.000Z"
+    },
+    {
+      "actor": "ぐれんの おにぎり@ あなたを人生の主人公にする心理家",
+      "article_title": "【記事紹介企画＃4】今週気になった記事は？今週気になった記事はこの4つ！",
+      "article_url": "https://note.com/notes/n925b1bca3b0c",
+      "introduced_at": "2026-10-03T15:30:09.000Z"
+    },
+    {
+      "actor": "山田、最後は勘。",
+      "article_title": "村人Aと山田。はじまりの村にて。",
+      "article_url": "https://note.com/notes/nd99796f3efdb",
+      "introduced_at": "2026-10-03T14:07:25.000Z"
+    },
+    {
+      "actor": "天界記録",
+      "article_title": "1000人より気になった。「見る人」が「動く人」に変わった、その先。｜ネロさんとわかモンさんを読んでみた",
+      "article_url": "https://note.com/notes/n21a881ec32ed",
+      "introduced_at": "2026-10-03T11:31:56.000Z"
+    },
+    {
+      "actor": "乃音めくる🌸｜文tuber📖",
+      "article_title": "noteのマガジンを使いこなそう📖｜めくるも作ってみたの🌸",
+      "article_url": "https://note.com/notes/n706c552ef954",
+      "introduced_at": "2026-10-03T11:21:38.000Z"
+    },
+    {
+      "actor": "ryuu☆PL学園コラム",
+      "article_title": "【PL学園#外伝】元プロ作家が無料プロンプトでラノベ初挑戦🍁秋読コレクション💝秋ラノベ祭り #note初心者と作家志望者へのアドバイスも！",
+      "article_url": "https://note.com/notes/n1c6d7e3641f7",
+      "introduced_at": "2026-10-03T11:19:43.000Z"
+    },
+    {
+      "actor": "雪綴ゆき",
+      "article_title": "灯りをともす時間が、すこし早くなった｜秋読コレクション #はじめてのnote",
+      "article_url": "https://note.com/notes/nc646da3600bc",
+      "introduced_at": "2026-10-03T11:05:35.000Z"
+    },
     {
       "actor": "失敗しない旅行術／花乃（かの）",
       "article_title": "生成AIスタンド診断やってみた！",
