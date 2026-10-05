@@ -1,8 +1,104 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-04T10:31:48.979Z",
-  "total_count": 513,
+  "generated_at": "2026-10-05T10:38:05.110Z",
+  "total_count": 529,
   "records": [
+    {
+      "actor": "Maharu",
+      "article_title": "『午前９時になると、図書館の本棚が一段増える――その本の続きを、まだ誰も知らない。』…遅ればせながら秋ラノベです！",
+      "article_url": "https://note.com/notes/n3632c6a834b8",
+      "introduced_at": "2026-10-05T09:18:32.000Z"
+    },
+    {
+      "actor": "むぎ",
+      "article_title": "noteをはじめて1ヶ月。振り返りと数字公開していくよー！",
+      "article_url": "https://note.com/notes/n574e537cbb52",
+      "introduced_at": "2026-10-05T08:32:24.000Z"
+    },
+    {
+      "actor": "アピオスファンクラブ｜１人気ままなアピオス文化研究",
+      "article_title": "アピオスの火をつなぐ｜ゴス祭りに参加します",
+      "article_url": "https://note.com/notes/nc253d921fdb5",
+      "introduced_at": "2026-10-05T07:07:27.000Z"
+    },
+    {
+      "actor": "FAY｜蒼梟調査隊長🦉",
+      "article_title": "預言書｜明日、創造主が生える。",
+      "article_url": "https://note.com/notes/n1b534e7d1042",
+      "introduced_at": "2026-10-05T04:27:27.000Z"
+    },
+    {
+      "actor": "紡えり🐱 ⁂GPT遊びに夢中⁂",
+      "article_title": "【1ヶ月】おめでとうと、自分に言いたい【フォロワー500人】",
+      "article_url": "https://note.com/notes/na419f41809ac",
+      "introduced_at": "2026-10-05T03:55:58.000Z"
+    },
+    {
+      "actor": "心野けいか🐹（ハムスターの人）",
+      "article_title": "【特別編】🌤️おはよう朝ふみ💌｜ふみまる20秒ラン、最速王決定！表彰式とPVお披露目🏆🐹💨 | AIゲーム制作 | Claudecode",
+      "article_url": "https://note.com/notes/na35180b88d5a",
+      "introduced_at": "2026-10-04T22:05:25.000Z"
+    },
+    {
+      "actor": "Awesome YAMAUCHI",
+      "article_title": "王都は遠いので断りたい現役竜人と、栗ご飯が冷めると怒る看板娘",
+      "article_url": "https://note.com/notes/n02ecefe36511",
+      "introduced_at": "2026-10-04T21:29:41.000Z"
+    },
+    {
+      "actor": "弁護士 岡本卓大｜アレテーを求めて～今日もトコトコ（ ・ω・）",
+      "article_title": "神武征討記外伝「仙台の誇りを繋ぐ者～カタクラノコジュウロウと独眼竜の誕生～（前編）」",
+      "article_url": "https://note.com/notes/na5fc69dd5759",
+      "introduced_at": "2026-10-04T14:51:36.000Z"
+    },
+    {
+      "actor": "神威皇帝 閻魔",
+      "article_title": "皇帝、称号を授ける。――神威帝国、最初の表彰式",
+      "article_url": "https://note.com/notes/n83b73765c7ed",
+      "introduced_at": "2026-10-04T13:30:38.000Z"
+    },
+    {
+      "actor": "きらめく感性で生きる🎹水面こは",
+      "article_title": "第2話｜魔王にまた会いにいったら、意外な一面ばかり見せてくるんですけど！？",
+      "article_url": "https://note.com/notes/n873ecccecca2",
+      "introduced_at": "2026-10-04T13:01:36.000Z"
+    },
+    {
+      "actor": "ノア｜魔王｜noteを征服したい",
+      "article_title": "魔王、【ネロ王子】の「秋」note企画に参加してみた件｜かつて剣を交えた王家｜果たして国交樹立なるか？",
+      "article_url": "https://note.com/notes/n35556fe70e83",
+      "introduced_at": "2026-10-04T12:47:06.000Z"
+    },
+    {
+      "actor": "いぬき",
+      "article_title": "【秋ラノベまつり参加】裏社会の文化祭で「お仕事体験」をやったら、なぜか私が教える側になりました",
+      "article_url": "https://note.com/notes/nfe37ede220a0",
+      "introduced_at": "2026-10-04T12:22:42.000Z"
+    },
+    {
+      "actor": "ぱっちー｜暮らしと挑戦の記録",
+      "article_title": "悪の人類増量計画、おいしいものが集まってきました｜参加作品まとめ",
+      "article_url": "https://note.com/notes/nb3355963411b",
+      "introduced_at": "2026-10-04T12:02:40.000Z"
+    },
+    {
+      "actor": "くみっきー",
+      "article_title": "秋読最終応援団",
+      "article_url": "https://note.com/notes/n36afccc66c31",
+      "introduced_at": "2026-10-04T11:47:52.000Z"
+    },
+    {
+      "actor": "がらてあ│書きたいことを書けばいい",
+      "article_title": "noterよ、鰯の中の鮫であれ｜ひとり秋読コレクション",
+      "article_url": "https://note.com/notes/n03a467056aa1",
+      "introduced_at": "2026-10-04T11:23:06.000Z"
+    },
+    {
+      "actor": "名前もと",
+      "article_title": "「オシャレな生き物」の秋が来た。｜秋読コレクション。",
+      "article_url": "https://note.com/notes/n0d19bd25bb1f",
+      "introduced_at": "2026-10-04T11:18:02.000Z"
+    },
     {
       "actor": "山田、最後は勘。",
       "article_title": "26.企画にお邪魔した山田。そして脱兎のごとく逃げます。",
