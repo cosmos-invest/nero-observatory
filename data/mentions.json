@@ -1,8 +1,98 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05T10:38:05.110Z",
-  "total_count": 529,
+  "generated_at": "2026-10-06T10:34:21.440Z",
+  "total_count": 544,
   "records": [
+    {
+      "actor": "柴犬ゆる暮らし｜柴ゆる",
+      "article_title": "おまえ！またか！！",
+      "article_url": "https://note.com/notes/n030d406c1ff1",
+      "introduced_at": "2026-10-06T09:15:40.000Z"
+    },
+    {
+      "actor": "名前もと",
+      "article_title": "🎃ご縁をつなぐ、秋のファンタジー水晶宮。🔰参加はいかが。｜🐶この記事応援成長中🎉🙏",
+      "article_url": "https://note.com/notes/ndb7a5f485598",
+      "introduced_at": "2026-10-06T05:54:48.000Z"
+    },
+    {
+      "actor": "わかモン＠フォロバ100期間限定の悪役令嬢",
+      "article_title": "1万フォロワー達成🎉noteインフルエンサー・まなつ様に分析されましたの｜見えてきた『わかモンの次の伸ばし方』💕",
+      "article_url": "https://note.com/notes/na9496805047f",
+      "introduced_at": "2026-10-06T03:35:09.000Z"
+    },
+    {
+      "actor": "スイ🎨Sui_ai_drawing",
+      "article_title": "王子に紹介されました🌙｜ネロさんの「転生」記事がうれしすぎた話",
+      "article_url": "https://note.com/notes/ne78da30311b5",
+      "introduced_at": "2026-10-06T03:20:02.000Z"
+    },
+    {
+      "actor": "ヘクたろー|緑内障でも「面白い」を残したい男",
+      "article_title": "「面白い」を書き残したい私が、今スゴいと思う人",
+      "article_url": "https://note.com/notes/n6998df54ab67",
+      "introduced_at": "2026-10-05T23:23:42.000Z"
+    },
+    {
+      "actor": "Noah",
+      "article_title": "AIがあたしに追いつけない問題♥",
+      "article_url": "https://note.com/notes/n08e0b717bd85",
+      "introduced_at": "2026-10-05T22:44:49.000Z"
+    },
+    {
+      "actor": "赤髪のあかり✨️創作で生きるnoteマン 相互フォロー中",
+      "article_title": "あかりの朝活日記 転生アカウントのすすめを出した夜と、穴あき葉っぱの実はバナナパイン味",
+      "article_url": "https://note.com/notes/n4b6fa1a6d471",
+      "introduced_at": "2026-10-05T21:02:04.000Z"
+    },
+    {
+      "actor": "ルミエル．Ｈ",
+      "article_title": "∞🌊【 白金蛸島∞遠足シリーズ② 】 『番外編秋読コレクションは魔界の入口を開く』 🖋️執筆：ルミエル・Ｈ",
+      "article_url": "https://note.com/notes/n418064e7afa3",
+      "introduced_at": "2026-10-05T18:11:51.000Z"
+    },
+    {
+      "actor": "ほろぽの33",
+      "article_title": "スライムたちがハロウィンに変身🎃へろんさんありがとう💀",
+      "article_url": "https://note.com/notes/n87c74b2d1645",
+      "introduced_at": "2026-10-05T17:23:33.000Z"
+    },
+    {
+      "actor": "ぐれんの おにぎり@ あなたを人生の主人公にする心理家",
+      "article_title": "【note再開から4か月目の振り返り】",
+      "article_url": "https://note.com/notes/n19d791497235",
+      "introduced_at": "2026-10-05T15:12:08.000Z"
+    },
+    {
+      "actor": "星ねこ｜ありのまま、そのまま。初心者さんに安心してもらえるひと。",
+      "article_title": "みんな世界観つよっ。なので、私も野望を抱いてみた。",
+      "article_url": "https://note.com/notes/n7b2f047d3187",
+      "introduced_at": "2026-10-05T14:49:31.000Z"
+    },
+    {
+      "actor": "なお🌿｜氣｜大自然パワーお届け隊🚙",
+      "article_title": "病魔ヤミーヌ、ワクワクトゥギャザーだよッ💞",
+      "article_url": "https://note.com/notes/n573d6d1d7d1f",
+      "introduced_at": "2026-10-05T14:34:08.000Z"
+    },
+    {
+      "actor": "orivie | 『秋読コレクション』まとめ記事10/10（土）公開🍁",
+      "article_title": "【探してください】海ポテトがいなくなりました。【新イベント告知】",
+      "article_url": "https://note.com/notes/nf0a59f8a31eb",
+      "introduced_at": "2026-10-05T12:15:57.000Z"
+    },
+    {
+      "actor": "阿野乙参がやってみた。",
+      "article_title": "猫も河童も宇宙人もフェルメールになった。｜「#名画になれる」参加作品を紹介します。",
+      "article_url": "https://note.com/notes/neb2326a4c7a0",
+      "introduced_at": "2026-10-05T12:03:14.000Z"
+    },
+    {
+      "actor": "緋室ヴィオラ🌹｜元女優の第二幕｜フォロバ100",
+      "article_title": "王子と皇帝から、物語をひとつずついただいたわ🌹",
+      "article_url": "https://note.com/notes/n11c0d927eee0",
+      "introduced_at": "2026-10-05T10:44:54.000Z"
+    },
     {
       "actor": "Maharu",
       "article_title": "『午前９時になると、図書館の本棚が一段増える――その本の続きを、まだ誰も知らない。』…遅ればせながら秋ラノベです！",
