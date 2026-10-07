@@ -1,8 +1,80 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-06T10:34:21.440Z",
-  "total_count": 544,
+  "generated_at": "2026-10-07T10:37:35.281Z",
+  "total_count": 556,
   "records": [
+    {
+      "actor": "Noah",
+      "article_title": "最初の依頼は...パンツ泥棒を捕まえて!!",
+      "article_url": "https://note.com/notes/n8185168c780f",
+      "introduced_at": "2026-10-07T09:11:24.000Z"
+    },
+    {
+      "actor": "弁護士 岡本卓大｜アレテーを求めて～今日もトコトコ（ ・ω・）",
+      "article_title": "【魔王軍裁判】「トラックも♂だからセーフですよね！？」魔王軍法廷に爆走BLの作者・山田降臨！",
+      "article_url": "https://note.com/notes/nd3acc08851cf",
+      "introduced_at": "2026-10-07T09:09:37.000Z"
+    },
+    {
+      "actor": "ウタ｜楽しみながら収益化を目指す人",
+      "article_title": "うわ…私のアイコン、地味過ぎ…？",
+      "article_url": "https://note.com/notes/ne8a9ad4d7382",
+      "introduced_at": "2026-10-07T07:03:25.000Z"
+    },
+    {
+      "actor": "レオン｜勇者｜相互フォロー",
+      "article_title": "【悲報】魔王をフォロバしたら、魔王軍に入っていた🤣",
+      "article_url": "https://note.com/notes/n6b5beb5f545a",
+      "introduced_at": "2026-10-07T07:01:28.000Z"
+    },
+    {
+      "actor": "山田、最後は勘。",
+      "article_title": "盟友王子に捧ぐBL",
+      "article_url": "https://note.com/notes/n62684e400875",
+      "introduced_at": "2026-10-07T05:19:51.000Z"
+    },
+    {
+      "actor": "サンタクラシ🍄",
+      "article_title": "号外を見たら入軍証がまたできた件",
+      "article_url": "https://note.com/notes/n89411e00a2bd",
+      "introduced_at": "2026-10-07T02:06:10.000Z"
+    },
+    {
+      "actor": "わかモン＠フォロバ100期間限定の悪役令嬢",
+      "article_title": "わかモンとは何なのか？|はじめてのnote お助けわかモン note初心者・初見さん歓迎ですわ💕",
+      "article_url": "https://note.com/notes/n1e649fdb5c3c",
+      "introduced_at": "2026-10-06T22:30:13.000Z"
+    },
+    {
+      "actor": "すし | 相互フォローします",
+      "article_title": "すしです。【はじめてのnote】",
+      "article_url": "https://note.com/notes/n3fc0a0fb8e5e",
+      "introduced_at": "2026-10-06T21:38:23.000Z"
+    },
+    {
+      "actor": "ママ薬剤師HONO",
+      "article_title": "まだ作品はない。でも、こんなに集まった。｜ハロウィンアート2026 参加者まとめ🎃｜Web展示受付",
+      "article_url": "https://note.com/notes/n4ff120a3fbb2",
+      "introduced_at": "2026-10-06T21:31:27.000Z"
+    },
+    {
+      "actor": "NOA＠全力でAIで遊ぶ人",
+      "article_title": "【実践検証】発信テーマを絞らず4大ジャンルを書いてみた結果：読者の反応と熱量のリアルな違い",
+      "article_url": "https://note.com/notes/nc5b7471c8c95",
+      "introduced_at": "2026-10-06T18:27:08.000Z"
+    },
+    {
+      "actor": "Hono｜実験室のマラカスネキ🪇",
+      "article_title": "【有識者求！】この夢、どう解釈しますか？王子の胸像がなんか変なんです【大喜利】",
+      "article_url": "https://note.com/notes/n4e67bca0a6f5",
+      "introduced_at": "2026-10-06T14:24:01.000Z"
+    },
+    {
+      "actor": "弁護士 岡本卓大｜アレテーを求めて～今日もトコトコ（ ・ω・）",
+      "article_title": "【進め家康くん（ ・ω・）「神武征討記」を語れ！】～次世代の胎動と独眼竜の覚醒！外伝で広がる神武征討記の世界～",
+      "article_url": "https://note.com/notes/n25e0dee182cf",
+      "introduced_at": "2026-10-06T14:05:39.000Z"
+    },
     {
       "actor": "柴犬ゆる暮らし｜柴ゆる",
       "article_title": "おまえ！またか！！",
