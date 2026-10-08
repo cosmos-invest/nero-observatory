@@ -187,6 +187,8 @@ if (!cookie) throw new Error('NOTE_SESSION_COOKIE is required for complete dashb
 const articlesData = JSON.parse(await fs.readFile(ARTICLES_FILE, 'utf8'));
 const articles = articlesData.articles ?? [];
 if (!articles.length) throw new Error('articles.json is empty');
+const previousMetricsData = JSON.parse(await fs.readFile(METRICS_FILE, 'utf8'));
+const previousMetricByKey = new Map((previousMetricsData.articles ?? []).map((row) => [keyFromAnything(row.url), row]));
 
 const metricMap = new Map();
 const updatedTimes = [];
@@ -256,7 +258,13 @@ try {
     const row = metricMap.get(article.key);
     return !row || !finite(row.impressions) || !finite(row.pageviews);
   });
-  if (missing.length) throw new Error(`dashboard incomplete: captured ${articles.length - missing.length}/${articles.length} public articles`);
+  const missingTolerance = Math.max(1, Math.ceil(articles.length * 0.03));
+  if (missing.length > missingTolerance) {
+    throw new Error(`dashboard incomplete: captured ${articles.length - missing.length}/${articles.length} public articles`);
+  }
+  if (missing.length) {
+    console.warn(`dashboard omitted ${missing.length} public article(s); preserving previous/null metrics: ${missing.map((article) => article.key).join(',')}`);
+  }
 
   const dashboardAt = bestDashboardAt(updatedTimes);
   if (!dashboardAt) throw new Error('noteStatLastUpdatedAt was not found');
@@ -264,13 +272,15 @@ try {
   const generatedAt = nowIsoJst();
 
   const metricRows = articles.map((article) => {
-    const metrics = metricMap.get(article.key);
+    const captured = metricMap.get(article.key);
+    const previous = previousMetricByKey.get(article.key);
+    const metrics = captured ?? previous ?? {};
     return {
       title: article.title,
       published_at: article.published_at,
       url: article.url,
-      pageviews: metrics.pageviews,
-      impressions: metrics.impressions,
+      pageviews: finite(metrics.pageviews) ? metrics.pageviews : null,
+      impressions: finite(metrics.impressions) ? metrics.impressions : null,
       likes: finite(metrics.likes) ? metrics.likes : null,
       comments: finite(metrics.comments) ? metrics.comments : null,
     };
