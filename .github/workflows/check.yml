@@ -35,7 +35,7 @@ jobs:
 
       - name: Guard sensitive fields
         run: |
-          if grep -R -E 'sales_yen|purchase_count|purchase_summary|buyer_email|order_id|gmail_message_id|NOTE_SESSION_COOKIE' data; then
+          if grep -R -E 'sales_yen|article_sales_28d_yen|membership_mrr_yen|gross_monthly_run_rate_yen|membership_active_members|member_name|purchase_count|purchase_summary|buyer_email|order_id|gmail_message_id|NOTE_SESSION_COOKIE' data; then
             echo 'Sensitive field detected in public data.'
             exit 1
           fi
@@ -45,7 +45,7 @@ jobs:
           node scripts/build-cloudflare.mjs
           test -f dist/index.html
           test -f dist/data/public_dashboard.json
-          if grep -R -E 'sales_yen|purchase_count|purchase_summary|buyer_email|order_id|gmail_message_id|NOTE_SESSION_COOKIE' dist; then
+          if grep -R -E 'sales_yen|article_sales_28d_yen|membership_mrr_yen|gross_monthly_run_rate_yen|membership_active_members|member_name|purchase_count|purchase_summary|buyer_email|order_id|gmail_message_id|NOTE_SESSION_COOKIE' dist; then
             echo 'Sensitive field detected in Cloudflare bundle.'
             exit 1
           fi
