@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-24T07:32:27+09:00",
+  "generated_at": "2026-10-09T06:12:04+09:00",
   "timezone": "Asia/Tokyo",
   "start_date": "2026-08-12",
-  "end_date": "2026-09-24",
+  "end_date": "2026-10-09",
   "metric_scope": "account_daily_total",
   "days": [
     {
@@ -444,6 +444,156 @@
       "comments": 4,
       "captured_at": "2026-09-24T07:32:26+09:00",
       "article_rows": 42,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-09-25",
+      "impressions": 9425,
+      "pageviews": 618,
+      "likes": 150,
+      "comments": 103,
+      "captured_at": "2026-10-09T06:11:54+09:00",
+      "article_rows": 44,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-09-26",
+      "impressions": 11018,
+      "pageviews": 718,
+      "likes": 176,
+      "comments": 77,
+      "captured_at": "2026-10-09T06:11:54+09:00",
+      "article_rows": 45,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-09-27",
+      "impressions": 16220,
+      "pageviews": 1090,
+      "likes": 316,
+      "comments": 163,
+      "captured_at": "2026-10-09T06:11:55+09:00",
+      "article_rows": 51,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-09-28",
+      "impressions": 18909,
+      "pageviews": 945,
+      "likes": 260,
+      "comments": 78,
+      "captured_at": "2026-10-09T06:11:56+09:00",
+      "article_rows": 52,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-09-29",
+      "impressions": 14525,
+      "pageviews": 765,
+      "likes": 202,
+      "comments": 86,
+      "captured_at": "2026-10-09T06:11:56+09:00",
+      "article_rows": 54,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-09-30",
+      "impressions": 12321,
+      "pageviews": 778,
+      "likes": 188,
+      "comments": 82,
+      "captured_at": "2026-10-09T06:11:57+09:00",
+      "article_rows": 55,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-01",
+      "impressions": 9615,
+      "pageviews": 688,
+      "likes": 162,
+      "comments": 76,
+      "captured_at": "2026-10-09T06:11:58+09:00",
+      "article_rows": 56,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-02",
+      "impressions": 9821,
+      "pageviews": 778,
+      "likes": 173,
+      "comments": 92,
+      "captured_at": "2026-10-09T06:11:58+09:00",
+      "article_rows": 57,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-03",
+      "impressions": 8181,
+      "pageviews": 650,
+      "likes": 133,
+      "comments": 60,
+      "captured_at": "2026-10-09T06:11:59+09:00",
+      "article_rows": 58,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-04",
+      "impressions": 11425,
+      "pageviews": 880,
+      "likes": 173,
+      "comments": 110,
+      "captured_at": "2026-10-09T06:12:00+09:00",
+      "article_rows": 59,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-05",
+      "impressions": 9535,
+      "pageviews": 645,
+      "likes": 188,
+      "comments": 52,
+      "captured_at": "2026-10-09T06:12:01+09:00",
+      "article_rows": 60,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-06",
+      "impressions": 10182,
+      "pageviews": 729,
+      "likes": 175,
+      "comments": 76,
+      "captured_at": "2026-10-09T06:12:01+09:00",
+      "article_rows": 61,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-07",
+      "impressions": 10528,
+      "pageviews": 659,
+      "likes": 147,
+      "comments": 87,
+      "captured_at": "2026-10-09T06:12:02+09:00",
+      "article_rows": 62,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-08",
+      "impressions": 19179,
+      "pageviews": 1254,
+      "likes": 338,
+      "comments": 132,
+      "captured_at": "2026-10-09T06:12:03+09:00",
+      "article_rows": 65,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-09",
+      "impressions": 1110,
+      "pageviews": 73,
+      "likes": 13,
+      "comments": 5,
+      "captured_at": "2026-10-09T06:12:03+09:00",
+      "article_rows": 50,
       "source": "note_dashboard_custom_single_day"
     }
   ]
