@@ -1,8 +1,189 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T21:09:10.339Z",
-  "total_count": 556,
+  "generated_at": "2026-10-09T10:33:25.232Z",
+  "total_count": 586,
+  "resolved_url_count": 586,
   "records": [
+    {
+      "actor": "OSHIKATSU | SeaArt AIイラストギャラリー",
+      "article_title": "季節×色/推しのメンバーカラーで描く『ぶどう狩り・Sour Grapes』｜SeaArt.AI・AIイラスト【No.21】",
+      "article_url": "https://note.com/notes/nbf3facd4d937",
+      "introduced_at": "2026-10-09T07:48:07.000Z"
+    },
+    {
+      "actor": "山田、最後は勘。",
+      "article_title": "はじめてのnote改、書きましてよ。",
+      "article_url": "https://note.com/notes/n93e632921475",
+      "introduced_at": "2026-10-09T02:00:58.000Z"
+    },
+    {
+      "actor": "シャーロット🌟＠隠さない転生者",
+      "article_title": "ネロ王子に紹介してもらえました！🌟",
+      "article_url": "https://note.com/notes/n9af571cd9261",
+      "introduced_at": "2026-10-08T23:15:32.000Z"
+    },
+    {
+      "actor": "わかモン＠フォロバ100期間限定の悪役令嬢",
+      "article_title": "#はじめてのnote 診断しました🌱|そして、フランス初コスプレイヤーの爆誕ですわ💕遊びながら一緒にnoteを伸ばす応援団✨️🌱 #note初心者 大歓迎🥰",
+      "article_url": "https://note.com/notes/nba18166e8454",
+      "introduced_at": "2026-10-08T22:41:32.000Z"
+    },
+    {
+      "actor": "赤髪のあかり✨️創作で生きるnoteマン　相互フォロー中",
+      "article_title": "あかりの朝活日記　あかりのRPG、なかまになってくれる人を募集するよ",
+      "article_url": "https://note.com/notes/n5849714bc97a",
+      "introduced_at": "2026-10-08T22:24:11.000Z"
+    },
+    {
+      "actor": "ランタン親父｜人生後半のnote相談室",
+      "article_title": "noteで繋がれる！ランタン猫の「紹介の灯りリレー」",
+      "article_url": "https://note.com/notes/n1c9afcd71868",
+      "introduced_at": "2026-10-08T21:02:27.000Z"
+    },
+    {
+      "actor": "水晶ゆめ🔮当てない占い師×夢を灯す創作家",
+      "article_title": "【朝活オラクルカード】水晶ゆめが届ける、今日の心を整える一枚｜2026年10月9日（金）｜占い・セルフケア｜ChatGPT",
+      "article_url": "https://note.com/notes/nd5993d3c9a3a",
+      "introduced_at": "2026-10-08T21:02:27.000Z"
+    },
+    {
+      "actor": "OSHIKATSU | SeaArt AIイラストギャラリー",
+      "article_title": "白いもふもふって、だいたい可愛い。可愛いは正義。『海ポテト』狩りじゃぁぁぁぁぁぁ｜企画参加・AIイラスト・ChatGPT",
+      "article_url": "https://note.com/notes/n708061599934",
+      "introduced_at": "2026-10-08T15:03:45.000Z"
+    },
+    {
+      "actor": "枢木 経介｜【新資本論／ネオ江戸思想家】",
+      "article_title": "#はじめてのnoteさんへ③noteに来たけどつまらないと感じているあなたへ――",
+      "article_url": "https://note.com/notes/nfb42ebd3a708",
+      "introduced_at": "2026-10-08T14:13:11.000Z"
+    },
+    {
+      "actor": "心野けいか🐹（ハムスターの人）",
+      "article_title": "🏅4位〜10位のみなさま｜ふみまる20秒ラン 表彰とご紹介🏆🐹💨｜ClaudeCode｜AIゲーム制作",
+      "article_url": "https://note.com/notes/n7f8e842b0a2b",
+      "introduced_at": "2026-10-08T13:45:11.000Z"
+    },
+    {
+      "actor": "名前もと",
+      "article_title": "クリエイター集結🌈これが噂の🏰ファンタジー水晶宮🐶❤️",
+      "article_url": "https://note.com/notes/naa4352587b8b",
+      "introduced_at": "2026-10-08T12:16:42.000Z"
+    },
+    {
+      "actor": "orivie | 海ポテト探してくれますか？開催中 〜10/23まで",
+      "article_title": "海ポテト 探してくれますか？【10/9（金）〜10/23（金）】",
+      "article_url": "https://note.com/notes/n573344bc7df5",
+      "introduced_at": "2026-10-08T11:02:52.000Z"
+    },
+    {
+      "actor": "赤髪のあかり✨️創作で生きるnoteマン　相互フォロー中",
+      "article_title": "アカリウム深層 新種発見｜孤島の植物園、88株を収蔵しました",
+      "article_url": "https://note.com/notes/n2dbc7888968a",
+      "introduced_at": "2026-10-08T10:52:00.000Z"
+    },
+    {
+      "actor": "ミナト汐　＠光と構図のアトリエ",
+      "article_title": "【いつもありがとう✨】紹介してくれる皆さんを紹介し返す話(*´艸`)",
+      "article_url": "https://note.com/notes/n7b09e8cc7c34",
+      "introduced_at": "2026-10-08T10:02:20.000Z"
+    },
+    {
+      "actor": "ウタ｜楽しみながら収益化を目指す人",
+      "article_title": "ネロ王子🌙の城下町で長縄跳び",
+      "article_url": "https://note.com/notes/n189c9e1ef8db",
+      "introduced_at": "2026-10-08T07:31:42.000Z"
+    },
+    {
+      "actor": "弁護士　岡本卓大｜アレテーを求めて～今日もトコトコ（　・ω・）",
+      "article_title": "ルシファー！フェンリル！テュポーン！『神武征討記』を解き明かす最強魔王軍の凄絶な設定とは？",
+      "article_url": "https://note.com/notes/n2f56789ba6ed",
+      "introduced_at": "2026-10-08T06:01:11.000Z"
+    },
+    {
+      "actor": "がらてあ│書きたいことを書けばいい",
+      "article_title": "父さん文チューバーで食っていこうと思うんだ",
+      "article_url": "https://note.com/notes/n67aefb7e7d1e",
+      "introduced_at": "2026-10-08T04:01:23.000Z"
+    },
+    {
+      "actor": "星ねこ｜ありのまま、そのまま。初心者さんに安心してもらえるひと。",
+      "article_title": "長縄跳び、いつ入るん？🤣 ——初めてのDiscord、ただいま実況中継中！",
+      "article_url": "https://note.com/notes/ncac7760a9713",
+      "introduced_at": "2026-10-08T03:35:20.000Z"
+    },
+    {
+      "actor": "山田、最後は勘。",
+      "article_title": "裁判始まっとる🤣",
+      "article_url": "https://note.com/notes/ncc5df2a96603",
+      "introduced_at": "2026-10-08T00:46:29.000Z"
+    },
+    {
+      "actor": "赤髪のあかり✨️創作で生きるnoteマン　相互フォロー中",
+      "article_title": "あかりの朝活日記　3.5キロのマンゴー缶と、1つの実から300個なる隼人瓜",
+      "article_url": "https://note.com/notes/nc22c5c24ac6c",
+      "introduced_at": "2026-10-07T22:26:27.000Z"
+    },
+    {
+      "actor": "ちゃこ｜看護と暮らし",
+      "article_title": "人間向いてない川柳♡100本ノック",
+      "article_url": "https://note.com/notes/ndd01fb822cf7",
+      "introduced_at": "2026-10-07T21:08:33.000Z"
+    },
+    {
+      "actor": "加古川あきら│フォロバ100％",
+      "article_title": "魔王軍入軍証をマガジンの古い順から紹介してみる",
+      "article_url": "https://note.com/notes/n7f2f964c7cdd",
+      "introduced_at": "2026-10-07T20:57:56.000Z"
+    },
+    {
+      "actor": "賢者スタン@相互フォロー",
+      "article_title": "予想外の反応に慌てふためく賢者。猫とマナーモードと、未知なる魔導書たち。",
+      "article_url": "https://note.com/notes/n57b2d2969c24",
+      "introduced_at": "2026-10-07T16:38:35.000Z"
+    },
+    {
+      "actor": "アイル",
+      "article_title": "あなたのキャラ、闇堕ちさせます。🐕👿",
+      "article_url": "https://note.com/notes/n034f9879f746",
+      "introduced_at": "2026-10-07T15:29:58.000Z"
+    },
+    {
+      "actor": "OSHIKATSU | SeaArt AIイラストギャラリー",
+      "article_title": "【はじめてのnote？】OSHIKATSUの自己紹介｜SeaArt.AIでキャラクターイラストをつくる人",
+      "article_url": "https://note.com/notes/n9e2d635b8184",
+      "introduced_at": "2026-10-07T15:18:22.000Z"
+    },
+    {
+      "actor": "しろ夫",
+      "article_title": "【秋読コレクション】もち子の魔法クリスマス 番外編　レルヴァ秋の大収穫祭〜幻の紅蜜芋🍠を求めて〜",
+      "article_url": "https://note.com/notes/ne515779ceb74",
+      "introduced_at": "2026-10-07T14:54:47.000Z"
+    },
+    {
+      "actor": "わかモン＠フォロバ100期間限定の悪役令嬢",
+      "article_title": "セツ敗北1000✨️上等！！||はじめてのnote お助けわかモン",
+      "article_url": "https://note.com/notes/n0a0690ed9e30",
+      "introduced_at": "2026-10-07T14:23:46.000Z"
+    },
+    {
+      "actor": "KANU",
+      "article_title": "『おはぎ三つ子ちゃんから広がった、和菓子擬人化の輪。』",
+      "article_url": "https://note.com/notes/ncfe96faa44d0",
+      "introduced_at": "2026-10-07T12:48:47.000Z"
+    },
+    {
+      "actor": "名前もと",
+      "article_title": "熱量｜凛々しき、神威皇帝 閻魔様に熱視線、集中。ファンタジーの波に感謝。",
+      "article_url": "https://note.com/notes/nb88774d2606c",
+      "introduced_at": "2026-10-07T12:14:43.000Z"
+    },
+    {
+      "actor": "すい＠夜型のエンジニア⭐️",
+      "article_title": "【応援 今日は負けないで！！】セツ千人斬り、あと6人。魔王が勝手に予告編を作りました",
+      "article_url": "https://note.com/notes/ne92a99e032ef",
+      "introduced_at": "2026-10-07T12:10:00.000Z"
+    },
     {
       "actor": "Noah",
       "article_title": "最初の依頼は...パンツ泥棒を捕まえて!!",
