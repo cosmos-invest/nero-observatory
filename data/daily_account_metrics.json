@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T06:12:04+09:00",
+  "generated_at": "2026-10-09T19:35:34+09:00",
   "timezone": "Asia/Tokyo",
   "start_date": "2026-08-12",
   "end_date": "2026-10-09",
@@ -572,7 +572,7 @@
       "pageviews": 659,
       "likes": 147,
       "comments": 87,
-      "captured_at": "2026-10-09T06:12:02+09:00",
+      "captured_at": "2026-10-09T19:35:33+09:00",
       "article_rows": 62,
       "source": "note_dashboard_custom_single_day"
     },
@@ -582,18 +582,18 @@
       "pageviews": 1254,
       "likes": 338,
       "comments": 132,
-      "captured_at": "2026-10-09T06:12:03+09:00",
+      "captured_at": "2026-10-09T19:35:33+09:00",
       "article_rows": 65,
       "source": "note_dashboard_custom_single_day"
     },
     {
       "date": "2026-10-09",
-      "impressions": 1110,
-      "pageviews": 73,
-      "likes": 13,
-      "comments": 5,
-      "captured_at": "2026-10-09T06:12:03+09:00",
-      "article_rows": 50,
+      "impressions": 8194,
+      "pageviews": 476,
+      "likes": 119,
+      "comments": 43,
+      "captured_at": "2026-10-09T19:35:34+09:00",
+      "article_rows": 66,
       "source": "note_dashboard_custom_single_day"
     }
   ]
