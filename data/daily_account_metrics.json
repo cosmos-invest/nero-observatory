@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T19:35:34+09:00",
+  "generated_at": "2026-11-14T10:01:35+09:00",
   "timezone": "Asia/Tokyo",
   "start_date": "2026-08-12",
-  "end_date": "2026-10-09",
+  "end_date": "2026-11-14",
   "metric_scope": "account_daily_total",
   "days": [
     {
@@ -594,6 +594,366 @@
       "comments": 43,
       "captured_at": "2026-10-09T19:35:34+09:00",
       "article_rows": 66,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-10",
+      "impressions": 11557,
+      "pageviews": 801,
+      "likes": 176,
+      "comments": 42,
+      "captured_at": "2026-11-14T10:01:09+09:00",
+      "article_rows": 69,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-11",
+      "impressions": 11399,
+      "pageviews": 797,
+      "likes": 215,
+      "comments": 81,
+      "captured_at": "2026-11-14T10:01:09+09:00",
+      "article_rows": 71,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-12",
+      "impressions": 8404,
+      "pageviews": 413,
+      "likes": 133,
+      "comments": 30,
+      "captured_at": "2026-11-14T10:01:10+09:00",
+      "article_rows": 72,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-13",
+      "impressions": 7148,
+      "pageviews": 369,
+      "likes": 96,
+      "comments": 19,
+      "captured_at": "2026-11-14T10:01:11+09:00",
+      "article_rows": 73,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-14",
+      "impressions": 7001,
+      "pageviews": 446,
+      "likes": 78,
+      "comments": 65,
+      "captured_at": "2026-11-14T10:01:12+09:00",
+      "article_rows": 74,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-15",
+      "impressions": 11297,
+      "pageviews": 796,
+      "likes": 207,
+      "comments": 109,
+      "captured_at": "2026-11-14T10:01:12+09:00",
+      "article_rows": 75,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-16",
+      "impressions": 9252,
+      "pageviews": 582,
+      "likes": 125,
+      "comments": 74,
+      "captured_at": "2026-11-14T10:01:12+09:00",
+      "article_rows": 76,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-17",
+      "impressions": 9902,
+      "pageviews": 899,
+      "likes": 191,
+      "comments": 86,
+      "captured_at": "2026-11-14T10:01:13+09:00",
+      "article_rows": 78,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-18",
+      "impressions": 8749,
+      "pageviews": 565,
+      "likes": 139,
+      "comments": 44,
+      "captured_at": "2026-11-14T10:01:14+09:00",
+      "article_rows": 79,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-19",
+      "impressions": 8863,
+      "pageviews": 613,
+      "likes": 146,
+      "comments": 46,
+      "captured_at": "2026-11-14T10:01:14+09:00",
+      "article_rows": 78,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-20",
+      "impressions": 8996,
+      "pageviews": 533,
+      "likes": 158,
+      "comments": 33,
+      "captured_at": "2026-11-14T10:01:15+09:00",
+      "article_rows": 81,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-21",
+      "impressions": 8950,
+      "pageviews": 689,
+      "likes": 150,
+      "comments": 94,
+      "captured_at": "2026-11-14T10:01:16+09:00",
+      "article_rows": 82,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-22",
+      "impressions": 10238,
+      "pageviews": 876,
+      "likes": 142,
+      "comments": 88,
+      "captured_at": "2026-11-14T10:01:16+09:00",
+      "article_rows": 83,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-23",
+      "impressions": 10464,
+      "pageviews": 606,
+      "likes": 150,
+      "comments": 21,
+      "captured_at": "2026-11-14T10:01:17+09:00",
+      "article_rows": 84,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-24",
+      "impressions": 9958,
+      "pageviews": 644,
+      "likes": 155,
+      "comments": 56,
+      "captured_at": "2026-11-14T10:01:18+09:00",
+      "article_rows": 85,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-25",
+      "impressions": 11768,
+      "pageviews": 785,
+      "likes": 175,
+      "comments": 62,
+      "captured_at": "2026-11-14T10:01:18+09:00",
+      "article_rows": 87,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-26",
+      "impressions": 9203,
+      "pageviews": 434,
+      "likes": 112,
+      "comments": 26,
+      "captured_at": "2026-11-14T10:01:19+09:00",
+      "article_rows": 88,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-27",
+      "impressions": 9542,
+      "pageviews": 594,
+      "likes": 169,
+      "comments": 55,
+      "captured_at": "2026-11-14T10:01:19+09:00",
+      "article_rows": 90,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-28",
+      "impressions": 9919,
+      "pageviews": 497,
+      "likes": 144,
+      "comments": 46,
+      "captured_at": "2026-11-14T10:01:20+09:00",
+      "article_rows": 91,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-29",
+      "impressions": 12598,
+      "pageviews": 768,
+      "likes": 218,
+      "comments": 68,
+      "captured_at": "2026-11-14T10:01:21+09:00",
+      "article_rows": 87,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-30",
+      "impressions": 16787,
+      "pageviews": 615,
+      "likes": 252,
+      "comments": 55,
+      "captured_at": "2026-11-14T10:01:22+09:00",
+      "article_rows": 96,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-10-31",
+      "impressions": 16866,
+      "pageviews": 801,
+      "likes": 272,
+      "comments": 43,
+      "captured_at": "2026-11-14T10:01:22+09:00",
+      "article_rows": 98,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-11-01",
+      "impressions": 14398,
+      "pageviews": 811,
+      "likes": 253,
+      "comments": 73,
+      "captured_at": "2026-11-14T10:01:22+09:00",
+      "article_rows": 100,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-11-02",
+      "impressions": 15797,
+      "pageviews": 708,
+      "likes": 252,
+      "comments": 56,
+      "captured_at": "2026-11-14T10:01:23+09:00",
+      "article_rows": 102,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-11-03",
+      "impressions": 11889,
+      "pageviews": 395,
+      "likes": 194,
+      "comments": 45,
+      "captured_at": "2026-11-14T10:01:24+09:00",
+      "article_rows": 103,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-11-04",
+      "impressions": 10005,
+      "pageviews": 444,
+      "likes": 167,
+      "comments": 36,
+      "captured_at": "2026-11-14T10:01:26+09:00",
+      "article_rows": 105,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-11-05",
+      "impressions": 16197,
+      "pageviews": 529,
+      "likes": 242,
+      "comments": 33,
+      "captured_at": "2026-11-14T10:01:26+09:00",
+      "article_rows": 107,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-11-06",
+      "impressions": 16377,
+      "pageviews": 452,
+      "likes": 156,
+      "comments": 48,
+      "captured_at": "2026-11-14T10:01:27+09:00",
+      "article_rows": 108,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-11-07",
+      "impressions": 16153,
+      "pageviews": 400,
+      "likes": 140,
+      "comments": 11,
+      "captured_at": "2026-11-14T10:01:28+09:00",
+      "article_rows": 109,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-11-08",
+      "impressions": 13472,
+      "pageviews": 332,
+      "likes": 116,
+      "comments": 35,
+      "captured_at": "2026-11-14T10:01:29+09:00",
+      "article_rows": 110,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-11-09",
+      "impressions": 12529,
+      "pageviews": 350,
+      "likes": 124,
+      "comments": 21,
+      "captured_at": "2026-11-14T10:01:30+09:00",
+      "article_rows": 111,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-11-10",
+      "impressions": 12123,
+      "pageviews": 312,
+      "likes": 120,
+      "comments": 20,
+      "captured_at": "2026-11-14T10:01:31+09:00",
+      "article_rows": 112,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-11-11",
+      "impressions": 40863,
+      "pageviews": 639,
+      "likes": 273,
+      "comments": 34,
+      "captured_at": "2026-11-14T10:01:32+09:00",
+      "article_rows": 113,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-11-12",
+      "impressions": 54741,
+      "pageviews": 685,
+      "likes": 284,
+      "comments": 39,
+      "captured_at": "2026-11-14T10:01:33+09:00",
+      "article_rows": 114,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-11-13",
+      "impressions": 21840,
+      "pageviews": 451,
+      "likes": 145,
+      "comments": 35,
+      "captured_at": "2026-11-14T10:01:34+09:00",
+      "article_rows": 115,
+      "source": "note_dashboard_custom_single_day"
+    },
+    {
+      "date": "2026-11-14",
+      "impressions": 3222,
+      "pageviews": 89,
+      "likes": 30,
+      "comments": 10,
+      "captured_at": "2026-11-14T10:01:35+09:00",
+      "article_rows": 72,
       "source": "note_dashboard_custom_single_day"
     }
   ]

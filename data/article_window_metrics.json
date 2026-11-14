@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T06:11:42+09:00",
+  "generated_at": "2026-11-14T10:00:57+09:00",
   "windows": [
     3,
     7,
@@ -9,39 +9,2128 @@
   ],
   "articles": [
     {
+      "key": "n2274f8a62a5d",
+      "title": "🌙 王子、百人一首になりました。ちびたぬきさんの挑戦！",
+      "published_at": "2026-11-13T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n2274f8a62a5d",
+      "metrics": {}
+    },
+    {
+      "key": "n55a72e525c2f",
+      "title": "🌙 メンバーシップを始める前の王子へ",
+      "published_at": "2026-11-12T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n55a72e525c2f",
+      "metrics": {}
+    },
+    {
+      "key": "n44dcd5fab9ee",
+      "title": "🌙 王子ごっこP-1大会、開幕！！いきなりコラボで遊んでる🤣",
+      "published_at": "2026-11-11T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n44dcd5fab9ee",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-11-11",
+          "end": "2026-11-13",
+          "impressions": 4373,
+          "pageviews": 236,
+          "likes": 91,
+          "comments": 20,
+          "captured_at": "2026-11-14T10:00:56+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "ncb723bf4808c",
+      "title": "🌙 王子のゴルフ｜１００切り目指した最後のパット⛳️",
+      "published_at": "2026-11-10T22:00:40+09:00",
+      "url": "https://note.com/nero_notelover/n/ncb723bf4808c",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-11-10",
+          "end": "2026-11-12",
+          "impressions": 3946,
+          "pageviews": 222,
+          "likes": 106,
+          "comments": 23,
+          "captured_at": "2026-11-14T10:00:55+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "nb6cdb0f181a1",
+      "title": "有料記事の「読んでよかった」の作り方🌙",
+      "published_at": "2026-11-09T21:06:31+09:00",
+      "url": "https://note.com/nero_notelover/n/nb6cdb0f181a1",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-11-09",
+          "end": "2026-11-11",
+          "impressions": 4092,
+          "pageviews": 202,
+          "likes": 73,
+          "comments": 17,
+          "captured_at": "2026-11-14T10:00:54+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "nc4d3fb9cfec3",
+      "title": "🌙 王子、2000人ありがとう！赤いリボンのプリンセスと、幸せな一日。",
+      "published_at": "2026-11-08T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/nc4d3fb9cfec3",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-11-08",
+          "end": "2026-11-10",
+          "impressions": 3519,
+          "pageviews": 240,
+          "likes": 107,
+          "comments": 44,
+          "captured_at": "2026-11-14T10:00:53+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n230e1cf05131",
+      "title": "🌙 王子の城下町、2ヶ月目へ！",
+      "published_at": "2026-11-07T07:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n230e1cf05131",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-11-07",
+          "end": "2026-11-09",
+          "impressions": 3284,
+          "pageviews": 219,
+          "likes": 105,
+          "comments": 7,
+          "captured_at": "2026-11-14T10:00:52+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-11-07",
+          "end": "2026-11-13",
+          "impressions": 4723,
+          "pageviews": 236,
+          "likes": 108,
+          "comments": 7,
+          "captured_at": "2026-11-14T10:00:52+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n1dfcf3c18d24",
+      "title": "🌙 王子の朝活｜60分の神曲と、帰ってきた最終回！？",
+      "published_at": "2026-11-06T07:01:06+09:00",
+      "url": "https://note.com/nero_notelover/n/n1dfcf3c18d24",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-11-06",
+          "end": "2026-11-08",
+          "impressions": 2925,
+          "pageviews": 165,
+          "likes": 81,
+          "comments": 21,
+          "captured_at": "2026-11-14T10:00:50+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-11-06",
+          "end": "2026-11-12",
+          "impressions": 4160,
+          "pageviews": 178,
+          "likes": 84,
+          "comments": 21,
+          "captured_at": "2026-11-14T10:00:51+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n25e6c5294aa3",
+      "title": "🌙 あなたの名前の本｜図書館｜地図にない灯り",
+      "published_at": "2026-11-05T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n25e6c5294aa3",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-11-05",
+          "end": "2026-11-07",
+          "impressions": 3866,
+          "pageviews": 168,
+          "likes": 104,
+          "comments": 10,
+          "captured_at": "2026-11-14T10:00:48+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-11-05",
+          "end": "2026-11-11",
+          "impressions": 4904,
+          "pageviews": 191,
+          "likes": 113,
+          "comments": 10,
+          "captured_at": "2026-11-14T10:00:49+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "nf6d9a0a7fc46",
+      "title": "🌙 王子の朝活｜いいご縁の日！777人が2人",
+      "published_at": "2026-11-05T08:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/nf6d9a0a7fc46",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-11-05",
+          "end": "2026-11-07",
+          "impressions": 3258,
+          "pageviews": 149,
+          "likes": 82,
+          "comments": 13,
+          "captured_at": "2026-11-14T10:00:48+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-11-05",
+          "end": "2026-11-11",
+          "impressions": 4016,
+          "pageviews": 166,
+          "likes": 85,
+          "comments": 13,
+          "captured_at": "2026-11-14T10:00:49+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n7d0e4ca8bc70",
+      "title": "🌙通知に潰されたので、ショート動画みたいにnoteを読めるようにしてみた。【王子のツール】",
+      "published_at": "2026-11-04T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n7d0e4ca8bc70",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-11-04",
+          "end": "2026-11-06",
+          "impressions": 2892,
+          "pageviews": 285,
+          "likes": 76,
+          "comments": 32,
+          "captured_at": "2026-11-14T10:00:46+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-11-04",
+          "end": "2026-11-10",
+          "impressions": 3949,
+          "pageviews": 315,
+          "likes": 81,
+          "comments": 32,
+          "captured_at": "2026-11-14T10:00:47+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n3bf669d15322",
+      "title": "🌙 王子の朝活｜大根のおじさんと、ピンク色の月🌙",
+      "published_at": "2026-11-04T09:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n3bf669d15322",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-11-04",
+          "end": "2026-11-06",
+          "impressions": 3593,
+          "pageviews": 133,
+          "likes": 88,
+          "comments": 4,
+          "captured_at": "2026-11-14T10:00:46+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-11-04",
+          "end": "2026-11-10",
+          "impressions": 4124,
+          "pageviews": 139,
+          "likes": 88,
+          "comments": 4,
+          "captured_at": "2026-11-14T10:00:47+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "nbe088c1cdd79",
+      "title": "🌙 王子の朝活｜文化の日といえば？",
+      "published_at": "2026-11-03T07:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/nbe088c1cdd79",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-11-03",
+          "end": "2026-11-05",
+          "impressions": 3332,
+          "pageviews": 188,
+          "likes": 119,
+          "comments": 17,
+          "captured_at": "2026-11-14T10:00:45+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-11-03",
+          "end": "2026-11-09",
+          "impressions": 4688,
+          "pageviews": 208,
+          "likes": 122,
+          "comments": 17,
+          "captured_at": "2026-11-14T10:00:45+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n91c03cdd9338",
+      "title": "🐶王子、もふもふに包囲されました🌙",
+      "published_at": "2026-11-02T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n91c03cdd9338",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-11-02",
+          "end": "2026-11-04",
+          "impressions": 4236,
+          "pageviews": 259,
+          "likes": 103,
+          "comments": 31,
+          "captured_at": "2026-11-14T10:00:43+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-11-02",
+          "end": "2026-11-08",
+          "impressions": 4978,
+          "pageviews": 287,
+          "likes": 107,
+          "comments": 32,
+          "captured_at": "2026-11-14T10:00:44+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n7dafe723e128",
+      "title": "🌙 王子の朝活｜月夜の広場が開幕！第３期メンバー募集で51人に🌙",
+      "published_at": "2026-11-02T07:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n7dafe723e128",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-11-02",
+          "end": "2026-11-04",
+          "impressions": 3329,
+          "pageviews": 136,
+          "likes": 79,
+          "comments": 7,
+          "captured_at": "2026-11-14T10:00:43+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-11-02",
+          "end": "2026-11-08",
+          "impressions": 3819,
+          "pageviews": 144,
+          "likes": 81,
+          "comments": 7,
+          "captured_at": "2026-11-14T10:00:44+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n9ac31804edbf",
+      "title": "【参加受付】🌙月夜の広場│王子の共同運営マガジン",
+      "published_at": "2026-11-01T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n9ac31804edbf",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-11-01",
+          "end": "2026-11-03",
+          "impressions": 5096,
+          "pageviews": 365,
+          "likes": 139,
+          "comments": 82,
+          "captured_at": "2026-11-14T10:00:41+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-11-01",
+          "end": "2026-11-07",
+          "impressions": 7410,
+          "pageviews": 503,
+          "likes": 194,
+          "comments": 103,
+          "captured_at": "2026-11-14T10:00:42+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "nd47eb46636f3",
+      "title": "🌙 王子の朝活｜9時からハロハロラストレター💌",
+      "published_at": "2026-11-01T07:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/nd47eb46636f3",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-11-01",
+          "end": "2026-11-03",
+          "impressions": 6967,
+          "pageviews": 275,
+          "likes": 129,
+          "comments": 8,
+          "captured_at": "2026-11-14T10:00:41+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-11-01",
+          "end": "2026-11-07",
+          "impressions": 8034,
+          "pageviews": 290,
+          "likes": 133,
+          "comments": 8,
+          "captured_at": "2026-11-14T10:00:42+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "nfbf12cf1ecd6",
+      "title": "🎃ハロハロウィーン、ありがとう🌙｜主催7人から最後のプレゼント💌",
+      "published_at": "2026-10-31T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/nfbf12cf1ecd6",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-31",
+          "end": "2026-11-02",
+          "impressions": 3191,
+          "pageviews": 439,
+          "likes": 115,
+          "comments": 54,
+          "captured_at": "2026-11-14T10:00:38+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-31",
+          "end": "2026-11-06",
+          "impressions": 3843,
+          "pageviews": 452,
+          "likes": 121,
+          "comments": 55,
+          "captured_at": "2026-11-14T10:00:39+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-31",
+          "end": "2026-11-13",
+          "impressions": 4369,
+          "pageviews": 459,
+          "likes": 122,
+          "comments": 55,
+          "captured_at": "2026-11-14T10:00:40+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n5673d8a2a1e7",
+      "title": "🌙王子の朝活｜1000人突破と、平安の百鬼夜行！",
+      "published_at": "2026-10-31T08:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n5673d8a2a1e7",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-31",
+          "end": "2026-11-02",
+          "impressions": 4849,
+          "pageviews": 197,
+          "likes": 113,
+          "comments": 3,
+          "captured_at": "2026-11-14T10:00:38+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-31",
+          "end": "2026-11-06",
+          "impressions": 5522,
+          "pageviews": 206,
+          "likes": 119,
+          "comments": 3,
+          "captured_at": "2026-11-14T10:00:39+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-31",
+          "end": "2026-11-13",
+          "impressions": 6035,
+          "pageviews": 212,
+          "likes": 120,
+          "comments": 3,
+          "captured_at": "2026-11-14T10:00:40+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "nfa7b2615b2e1",
+      "title": "旅の思い出は飯テロ🌙【悪の人類増量計画】",
+      "published_at": "2026-10-30T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/nfa7b2615b2e1",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-30",
+          "end": "2026-11-01",
+          "impressions": 4865,
+          "pageviews": 181,
+          "likes": 109,
+          "comments": 25,
+          "captured_at": "2026-11-14T10:00:35+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-30",
+          "end": "2026-11-05",
+          "impressions": 5578,
+          "pageviews": 192,
+          "likes": 112,
+          "comments": 25,
+          "captured_at": "2026-11-14T10:00:36+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-30",
+          "end": "2026-11-12",
+          "impressions": 6290,
+          "pageviews": 198,
+          "likes": 113,
+          "comments": 25,
+          "captured_at": "2026-11-14T10:00:37+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "na49c548a0363",
+      "title": "🌙 王子の朝活｜50店舗を巡った方が、50人目に！",
+      "published_at": "2026-10-30T07:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/na49c548a0363",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-30",
+          "end": "2026-11-01",
+          "impressions": 2790,
+          "pageviews": 140,
+          "likes": 77,
+          "comments": 9,
+          "captured_at": "2026-11-14T10:00:35+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-30",
+          "end": "2026-11-05",
+          "impressions": 3197,
+          "pageviews": 150,
+          "likes": 80,
+          "comments": 9,
+          "captured_at": "2026-11-14T10:00:36+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-30",
+          "end": "2026-11-12",
+          "impressions": 3630,
+          "pageviews": 153,
+          "likes": 80,
+          "comments": 9,
+          "captured_at": "2026-11-14T10:00:37+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n92ed11ea0560",
+      "title": "一杯目のコーヒーは、まだ温かい｜喫茶店｜地図にない灯り🌙",
+      "published_at": "2026-10-29T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n92ed11ea0560",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-29",
+          "end": "2026-10-31",
+          "impressions": 7263,
+          "pageviews": 261,
+          "likes": 148,
+          "comments": 33,
+          "captured_at": "2026-11-14T10:00:33+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-29",
+          "end": "2026-11-04",
+          "impressions": 10256,
+          "pageviews": 293,
+          "likes": 162,
+          "comments": 33,
+          "captured_at": "2026-11-14T10:00:33+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-29",
+          "end": "2026-11-11",
+          "impressions": 19241,
+          "pageviews": 358,
+          "likes": 198,
+          "comments": 34,
+          "captured_at": "2026-11-14T10:00:35+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n6daf17e1b9f2",
+      "title": "有料記事を出したら、スキが減った？🌙｜王子の数字が少し違う理由",
+      "published_at": "2026-10-29T12:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n6daf17e1b9f2",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-29",
+          "end": "2026-10-31",
+          "impressions": 9821,
+          "pageviews": 337,
+          "likes": 95,
+          "comments": 18,
+          "captured_at": "2026-11-14T10:00:33+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-29",
+          "end": "2026-11-04",
+          "impressions": 11489,
+          "pageviews": 400,
+          "likes": 101,
+          "comments": 18,
+          "captured_at": "2026-11-14T10:00:33+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-29",
+          "end": "2026-11-11",
+          "impressions": 68602,
+          "pageviews": 942,
+          "likes": 330,
+          "comments": 18,
+          "captured_at": "2026-11-14T10:00:35+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n8efd25ad865b",
+      "title": "🌙 王子の朝活｜城下町は49人へ",
+      "published_at": "2026-10-29T07:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n8efd25ad865b",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-29",
+          "end": "2026-10-31",
+          "impressions": 2476,
+          "pageviews": 189,
+          "likes": 61,
+          "comments": 27,
+          "captured_at": "2026-11-14T10:00:33+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-29",
+          "end": "2026-11-04",
+          "impressions": 2784,
+          "pageviews": 196,
+          "likes": 61,
+          "comments": 27,
+          "captured_at": "2026-11-14T10:00:33+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-29",
+          "end": "2026-11-11",
+          "impressions": 3180,
+          "pageviews": 200,
+          "likes": 61,
+          "comments": 27,
+          "captured_at": "2026-11-14T10:00:35+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n24d789d1d832",
+      "title": "🌙 王子の朝活｜イワシで溢れた城下町",
+      "published_at": "2026-10-28T10:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n24d789d1d832",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-28",
+          "end": "2026-10-30",
+          "impressions": 3121,
+          "pageviews": 248,
+          "likes": 84,
+          "comments": 30,
+          "captured_at": "2026-11-14T10:00:30+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-28",
+          "end": "2026-11-03",
+          "impressions": 3621,
+          "pageviews": 274,
+          "likes": 90,
+          "comments": 30,
+          "captured_at": "2026-11-14T10:00:31+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-28",
+          "end": "2026-11-10",
+          "impressions": 3967,
+          "pageviews": 278,
+          "likes": 90,
+          "comments": 30,
+          "captured_at": "2026-11-14T10:00:32+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "nce0eaef2ecff",
+      "title": "【Pollo AI協賛】変でもいい、響けばいい。｜はじめてのMV「ハロハロウィーン🎃」",
+      "published_at": "2026-10-27T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/nce0eaef2ecff",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-27",
+          "end": "2026-10-29",
+          "impressions": 3175,
+          "pageviews": 277,
+          "likes": 90,
+          "comments": 57,
+          "captured_at": "2026-11-14T10:00:27+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-27",
+          "end": "2026-11-02",
+          "impressions": 4052,
+          "pageviews": 345,
+          "likes": 106,
+          "comments": 60,
+          "captured_at": "2026-11-14T10:00:29+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-27",
+          "end": "2026-11-09",
+          "impressions": 4584,
+          "pageviews": 353,
+          "likes": 109,
+          "comments": 60,
+          "captured_at": "2026-11-14T10:00:29+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "nabd2c1f9084e",
+      "title": "🌙 王子の朝活｜第100代チャンピオンになりました！",
+      "published_at": "2026-10-27T07:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/nabd2c1f9084e",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-27",
+          "end": "2026-10-29",
+          "impressions": 3013,
+          "pageviews": 237,
+          "likes": 92,
+          "comments": 25,
+          "captured_at": "2026-11-14T10:00:27+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-27",
+          "end": "2026-11-02",
+          "impressions": 3540,
+          "pageviews": 250,
+          "likes": 94,
+          "comments": 25,
+          "captured_at": "2026-11-14T10:00:29+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-27",
+          "end": "2026-11-09",
+          "impressions": 3949,
+          "pageviews": 251,
+          "likes": 94,
+          "comments": 25,
+          "captured_at": "2026-11-14T10:00:29+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n2d77b106b5fa",
+      "title": "🌙 王子の朝活｜47、48人目と、今日の6人",
+      "published_at": "2026-10-26T08:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n2d77b106b5fa",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-26",
+          "end": "2026-10-28",
+          "impressions": 3626,
+          "pageviews": 216,
+          "likes": 78,
+          "comments": 19,
+          "captured_at": "2026-11-14T10:00:25+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-26",
+          "end": "2026-11-01",
+          "impressions": 4238,
+          "pageviews": 227,
+          "likes": 80,
+          "comments": 19,
+          "captured_at": "2026-11-14T10:00:26+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-26",
+          "end": "2026-11-08",
+          "impressions": 4572,
+          "pageviews": 230,
+          "likes": 80,
+          "comments": 19,
+          "captured_at": "2026-11-14T10:00:27+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n204d9285366f",
+      "title": "【メンバーシップ向け】王子の収益化研究、始めます🌙",
+      "published_at": "2026-10-25T08:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n204d9285366f",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-25",
+          "end": "2026-10-27",
+          "impressions": 3026,
+          "pageviews": 282,
+          "likes": 66,
+          "comments": 35,
+          "captured_at": "2026-11-14T10:00:22+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-25",
+          "end": "2026-10-31",
+          "impressions": 4155,
+          "pageviews": 307,
+          "likes": 67,
+          "comments": 35,
+          "captured_at": "2026-11-14T10:00:23+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-25",
+          "end": "2026-11-07",
+          "impressions": 5432,
+          "pageviews": 365,
+          "likes": 67,
+          "comments": 49,
+          "captured_at": "2026-11-14T10:00:24+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "nd4818ee00393",
+      "title": " 🌙王子の朝活｜新しい2人と、収益化について。",
+      "published_at": "2026-10-25T07:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/nd4818ee00393",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-25",
+          "end": "2026-10-27",
+          "impressions": 2960,
+          "pageviews": 269,
+          "likes": 72,
+          "comments": 19,
+          "captured_at": "2026-11-14T10:00:22+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-25",
+          "end": "2026-10-31",
+          "impressions": 3574,
+          "pageviews": 288,
+          "likes": 76,
+          "comments": 19,
+          "captured_at": "2026-11-14T10:00:23+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-25",
+          "end": "2026-11-07",
+          "impressions": 3876,
+          "pageviews": 290,
+          "likes": 77,
+          "comments": 19,
+          "captured_at": "2026-11-14T10:00:24+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "nca840b916450",
+      "title": "🌙  王子の朝活｜新しい仲間と、旅先からのお知らせ",
+      "published_at": "2026-10-24T07:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/nca840b916450",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-24",
+          "end": "2026-10-26",
+          "impressions": 3770,
+          "pageviews": 286,
+          "likes": 98,
+          "comments": 32,
+          "captured_at": "2026-11-14T10:00:20+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-24",
+          "end": "2026-10-30",
+          "impressions": 4405,
+          "pageviews": 302,
+          "likes": 101,
+          "comments": 32,
+          "captured_at": "2026-11-14T10:00:20+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-24",
+          "end": "2026-11-06",
+          "impressions": 4836,
+          "pageviews": 306,
+          "likes": 102,
+          "comments": 32,
+          "captured_at": "2026-11-14T10:00:21+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n6a638b4cdc9c",
+      "title": "🌙 今日から王子の朝活を始めます！",
+      "published_at": "2026-10-23T07:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n6a638b4cdc9c",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-23",
+          "end": "2026-10-25",
+          "impressions": 3032,
+          "pageviews": 266,
+          "likes": 96,
+          "comments": 19,
+          "captured_at": "2026-11-14T10:00:18+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-23",
+          "end": "2026-10-29",
+          "impressions": 3765,
+          "pageviews": 292,
+          "likes": 103,
+          "comments": 19,
+          "captured_at": "2026-11-14T10:00:18+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-23",
+          "end": "2026-11-05",
+          "impressions": 4177,
+          "pageviews": 295,
+          "likes": 104,
+          "comments": 19,
+          "captured_at": "2026-11-14T10:00:19+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "ndf701a30f804",
+      "title": "30店舗で終わりだと思った？🌙｜まだ見ぬハロハロウィーン🎃",
+      "published_at": "2026-10-22T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/ndf701a30f804",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-22",
+          "end": "2026-10-24",
+          "impressions": 4185,
+          "pageviews": 263,
+          "likes": 86,
+          "comments": 37,
+          "captured_at": "2026-11-14T10:00:16+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-22",
+          "end": "2026-10-28",
+          "impressions": 5364,
+          "pageviews": 297,
+          "likes": 102,
+          "comments": 37,
+          "captured_at": "2026-11-14T10:00:16+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-22",
+          "end": "2026-11-04",
+          "impressions": 5872,
+          "pageviews": 319,
+          "likes": 104,
+          "comments": 37,
+          "captured_at": "2026-11-14T10:00:17+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n6614109484e6",
+      "title": "王子はここでバトンを止めます🌙",
+      "published_at": "2026-10-21T21:31:47+09:00",
+      "url": "https://note.com/nero_notelover/n/n6614109484e6",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-21",
+          "end": "2026-10-23",
+          "impressions": 5252,
+          "pageviews": 896,
+          "likes": 166,
+          "comments": 66,
+          "captured_at": "2026-11-14T10:00:14+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-21",
+          "end": "2026-10-27",
+          "impressions": 7775,
+          "pageviews": 1063,
+          "likes": 202,
+          "comments": 71,
+          "captured_at": "2026-11-14T10:00:14+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-21",
+          "end": "2026-11-03",
+          "impressions": 8687,
+          "pageviews": 1106,
+          "likes": 211,
+          "comments": 71,
+          "captured_at": "2026-11-14T10:00:15+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n888d088cb751",
+      "title": "【FROFES 2026】最終日に王子登場🌙｜全4曲のスペシャルライブ！",
+      "published_at": "2026-10-20T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n888d088cb751",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-20",
+          "end": "2026-10-22",
+          "impressions": 4736,
+          "pageviews": 310,
+          "likes": 94,
+          "comments": 46,
+          "captured_at": "2026-11-14T10:00:11+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-20",
+          "end": "2026-10-26",
+          "impressions": 6296,
+          "pageviews": 329,
+          "likes": 104,
+          "comments": 46,
+          "captured_at": "2026-11-14T10:00:12+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-20",
+          "end": "2026-11-02",
+          "impressions": 7009,
+          "pageviews": 337,
+          "likes": 106,
+          "comments": 46,
+          "captured_at": "2026-11-14T10:00:13+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n76a630334117",
+      "title": "ハロウィンアート2026、王子も参戦🎃🌙",
+      "published_at": "2026-10-19T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n76a630334117",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-19",
+          "end": "2026-10-21",
+          "impressions": 4384,
+          "pageviews": 405,
+          "likes": 147,
+          "comments": 59,
+          "captured_at": "2026-11-14T10:00:09+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-19",
+          "end": "2026-10-25",
+          "impressions": 6504,
+          "pageviews": 453,
+          "likes": 167,
+          "comments": 61,
+          "captured_at": "2026-11-14T10:00:09+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-19",
+          "end": "2026-11-01",
+          "impressions": 7994,
+          "pageviews": 492,
+          "likes": 177,
+          "comments": 63,
+          "captured_at": "2026-11-14T10:00:10+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n9c329a589955",
+      "title": "王子、ボスに👍してしまう🌙｜Minaさんの名采配と、友達100人の魔法【ハロハロウィーン】",
+      "published_at": "2026-10-18T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n9c329a589955",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-18",
+          "end": "2026-10-20",
+          "impressions": 4469,
+          "pageviews": 206,
+          "likes": 93,
+          "comments": 19,
+          "captured_at": "2026-11-14T10:00:07+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-18",
+          "end": "2026-10-24",
+          "impressions": 5628,
+          "pageviews": 247,
+          "likes": 102,
+          "comments": 22,
+          "captured_at": "2026-11-14T10:00:07+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-18",
+          "end": "2026-10-31",
+          "impressions": 6414,
+          "pageviews": 267,
+          "likes": 102,
+          "comments": 22,
+          "captured_at": "2026-11-14T10:00:08+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n045caddfdeb2",
+      "title": "王子、平安のあやかしになったら「王子ホイホイ」が呪術だった🌙【平安部】",
+      "published_at": "2026-10-17T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n045caddfdeb2",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-17",
+          "end": "2026-10-19",
+          "impressions": 3841,
+          "pageviews": 239,
+          "likes": 103,
+          "comments": 15,
+          "captured_at": "2026-11-14T10:00:03+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-17",
+          "end": "2026-10-23",
+          "impressions": 5195,
+          "pageviews": 282,
+          "likes": 110,
+          "comments": 22,
+          "captured_at": "2026-11-14T10:00:04+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-17",
+          "end": "2026-10-30",
+          "impressions": 6203,
+          "pageviews": 292,
+          "likes": 113,
+          "comments": 22,
+          "captured_at": "2026-11-14T10:00:05+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-10-17",
+          "end": "2026-11-13",
+          "impressions": 6691,
+          "pageviews": 303,
+          "likes": 115,
+          "comments": 23,
+          "captured_at": "2026-11-14T10:00:06+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n599b78d349cb",
+      "title": "サイト復活│【イベント】ハロハロおかしラリー🎃｜Hello Halloween詳細発表🌙",
+      "published_at": "2026-10-17T07:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n599b78d349cb",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-17",
+          "end": "2026-10-19",
+          "impressions": 3384,
+          "pageviews": 769,
+          "likes": 127,
+          "comments": 64,
+          "captured_at": "2026-11-14T10:00:03+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-17",
+          "end": "2026-10-23",
+          "impressions": 6114,
+          "pageviews": 1153,
+          "likes": 166,
+          "comments": 90,
+          "captured_at": "2026-11-14T10:00:04+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-17",
+          "end": "2026-10-30",
+          "impressions": 9950,
+          "pageviews": 1616,
+          "likes": 216,
+          "comments": 110,
+          "captured_at": "2026-11-14T10:00:05+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-10-17",
+          "end": "2026-11-13",
+          "impressions": 12014,
+          "pageviews": 1784,
+          "likes": 256,
+          "comments": 116,
+          "captured_at": "2026-11-14T10:00:06+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "ncb2e8df1ba60",
+      "title": "🌙王子のこれからの目標",
+      "published_at": "2026-10-16T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/ncb2e8df1ba60",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-16",
+          "end": "2026-10-18",
+          "impressions": 3126,
+          "pageviews": 470,
+          "likes": 87,
+          "comments": 75,
+          "captured_at": "2026-11-14T09:59:59+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-16",
+          "end": "2026-10-22",
+          "impressions": 4511,
+          "pageviews": 534,
+          "likes": 91,
+          "comments": 76,
+          "captured_at": "2026-11-14T10:00:00+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-16",
+          "end": "2026-10-29",
+          "impressions": 5789,
+          "pageviews": 600,
+          "likes": 98,
+          "comments": 76,
+          "captured_at": "2026-11-14T10:00:01+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-10-16",
+          "end": "2026-11-12",
+          "impressions": 6861,
+          "pageviews": 621,
+          "likes": 100,
+          "comments": 76,
+          "captured_at": "2026-11-14T10:00:02+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n034e02d1ebe4",
+      "title": "王子ホイホイ、もう誰でも使っていいよ🌙｜ついに歌までできました♫",
+      "published_at": "2026-10-15T21:30:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n034e02d1ebe4",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-15",
+          "end": "2026-10-17",
+          "impressions": 3526,
+          "pageviews": 340,
+          "likes": 105,
+          "comments": 35,
+          "captured_at": "2026-11-14T09:59:57+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-15",
+          "end": "2026-10-21",
+          "impressions": 4566,
+          "pageviews": 368,
+          "likes": 107,
+          "comments": 40,
+          "captured_at": "2026-11-14T09:59:57+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-15",
+          "end": "2026-10-28",
+          "impressions": 5200,
+          "pageviews": 396,
+          "likes": 108,
+          "comments": 41,
+          "captured_at": "2026-11-14T09:59:58+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-10-15",
+          "end": "2026-11-11",
+          "impressions": 5630,
+          "pageviews": 408,
+          "likes": 109,
+          "comments": 41,
+          "captured_at": "2026-11-14T09:59:59+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n6c980c7258f4",
+      "title": "王子のファースト・キス🌙│誰でもBLになれるプロンプト",
+      "published_at": "2026-10-14T23:47:05+09:00",
+      "url": "https://note.com/nero_notelover/n/n6c980c7258f4",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-14",
+          "end": "2026-10-16",
+          "impressions": 5929,
+          "pageviews": 490,
+          "likes": 108,
+          "comments": 91,
+          "captured_at": "2026-11-14T09:59:53+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-14",
+          "end": "2026-10-20",
+          "impressions": 7345,
+          "pageviews": 567,
+          "likes": 118,
+          "comments": 103,
+          "captured_at": "2026-11-14T09:59:54+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-14",
+          "end": "2026-10-27",
+          "impressions": 8467,
+          "pageviews": 624,
+          "likes": 125,
+          "comments": 104,
+          "captured_at": "2026-11-14T09:59:55+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-10-14",
+          "end": "2026-11-10",
+          "impressions": 9668,
+          "pageviews": 656,
+          "likes": 129,
+          "comments": 104,
+          "captured_at": "2026-11-14T09:59:56+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "nfaa6a8e6b0f0",
+      "title": "「ぶ」っ飛びすぎる城下町🌙｜仲間がつながり、ファンクラブが生まれ、王子は逃げる【魔王軍しりとり】",
+      "published_at": "2026-10-13T21:00:01+09:00",
+      "url": "https://note.com/nero_notelover/n/nfaa6a8e6b0f0",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-13",
+          "end": "2026-10-15",
+          "impressions": 3221,
+          "pageviews": 330,
+          "likes": 100,
+          "comments": 51,
+          "captured_at": "2026-11-14T09:59:50+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-13",
+          "end": "2026-10-19",
+          "impressions": 4667,
+          "pageviews": 363,
+          "likes": 106,
+          "comments": 51,
+          "captured_at": "2026-11-14T09:59:51+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-13",
+          "end": "2026-10-26",
+          "impressions": 5602,
+          "pageviews": 380,
+          "likes": 107,
+          "comments": 51,
+          "captured_at": "2026-11-14T09:59:52+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-10-13",
+          "end": "2026-11-09",
+          "impressions": 6120,
+          "pageviews": 397,
+          "likes": 109,
+          "comments": 51,
+          "captured_at": "2026-11-14T09:59:53+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n47ddff9e7eec",
+      "title": "王子の城下町、探検スタート｜城下町は35人になりました🌙",
+      "published_at": "2026-10-12T06:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n47ddff9e7eec",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-12",
+          "end": "2026-10-14",
+          "impressions": 2669,
+          "pageviews": 203,
+          "likes": 76,
+          "comments": 11,
+          "captured_at": "2026-11-14T09:59:46+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-12",
+          "end": "2026-10-18",
+          "impressions": 3591,
+          "pageviews": 217,
+          "likes": 83,
+          "comments": 11,
+          "captured_at": "2026-11-14T09:59:47+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-12",
+          "end": "2026-10-25",
+          "impressions": 4060,
+          "pageviews": 231,
+          "likes": 86,
+          "comments": 11,
+          "captured_at": "2026-11-14T09:59:48+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-10-12",
+          "end": "2026-11-08",
+          "impressions": 4363,
+          "pageviews": 241,
+          "likes": 86,
+          "comments": 11,
+          "captured_at": "2026-11-14T09:59:49+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "ndb32628bcead",
+      "title": "プリンセスの水泳大会。王子は応援席にすら入れなかった🌙",
+      "published_at": "2026-10-11T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/ndb32628bcead",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-11",
+          "end": "2026-10-13",
+          "impressions": 3194,
+          "pageviews": 226,
+          "likes": 109,
+          "comments": 41,
+          "captured_at": "2026-11-14T09:59:44+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-11",
+          "end": "2026-10-17",
+          "impressions": 4274,
+          "pageviews": 285,
+          "likes": 119,
+          "comments": 57,
+          "captured_at": "2026-11-14T09:59:44+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-11",
+          "end": "2026-10-24",
+          "impressions": 4709,
+          "pageviews": 300,
+          "likes": 122,
+          "comments": 59,
+          "captured_at": "2026-11-14T09:59:45+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-10-11",
+          "end": "2026-11-07",
+          "impressions": 5213,
+          "pageviews": 321,
+          "likes": 127,
+          "comments": 60,
+          "captured_at": "2026-11-14T09:59:46+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "ncf8842e9aace",
+      "title": "【緊急・拡散希望】名前もとさんの愛犬ハッピーちゃん。免疫介在性溶血性貧血の治療・輸血情報を求めています。",
+      "published_at": "2026-10-11T04:44:15+09:00",
+      "url": "https://note.com/nero_notelover/n/ncf8842e9aace",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-11",
+          "end": "2026-10-13",
+          "impressions": 3090,
+          "pageviews": 281,
+          "likes": 83,
+          "comments": 12,
+          "captured_at": "2026-11-14T09:59:44+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-11",
+          "end": "2026-10-17",
+          "impressions": 3959,
+          "pageviews": 298,
+          "likes": 90,
+          "comments": 12,
+          "captured_at": "2026-11-14T09:59:44+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-11",
+          "end": "2026-10-24",
+          "impressions": 4445,
+          "pageviews": 306,
+          "likes": 90,
+          "comments": 12,
+          "captured_at": "2026-11-14T09:59:45+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-10-11",
+          "end": "2026-11-07",
+          "impressions": 4887,
+          "pageviews": 308,
+          "likes": 91,
+          "comments": 12,
+          "captured_at": "2026-11-14T09:59:46+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "nb47d463637ca",
+      "title": "秋読コレクションフィナーレ🍁│79人の秋が集まりました🍁🌙",
+      "published_at": "2026-10-10T19:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/nb47d463637ca",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-10",
+          "end": "2026-10-12",
+          "impressions": 3228,
+          "pageviews": 407,
+          "likes": 97,
+          "comments": 53,
+          "captured_at": "2026-11-14T09:59:41+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-10",
+          "end": "2026-10-16",
+          "impressions": 4168,
+          "pageviews": 441,
+          "likes": 101,
+          "comments": 57,
+          "captured_at": "2026-11-14T09:59:42+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-10",
+          "end": "2026-10-23",
+          "impressions": 4697,
+          "pageviews": 450,
+          "likes": 103,
+          "comments": 57,
+          "captured_at": "2026-11-14T09:59:43+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-10-10",
+          "end": "2026-11-06",
+          "impressions": 5171,
+          "pageviews": 462,
+          "likes": 105,
+          "comments": 57,
+          "captured_at": "2026-11-14T09:59:43+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "nbf6803ffad71",
+      "title": "王子の城下町、31人になりました🌙｜長縄跳びから玉入れへ",
+      "published_at": "2026-10-10T09:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/nbf6803ffad71",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-10",
+          "end": "2026-10-12",
+          "impressions": 3186,
+          "pageviews": 164,
+          "likes": 65,
+          "comments": 8,
+          "captured_at": "2026-11-14T09:59:41+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-10",
+          "end": "2026-10-16",
+          "impressions": 3779,
+          "pageviews": 171,
+          "likes": 65,
+          "comments": 8,
+          "captured_at": "2026-11-14T09:59:42+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-10",
+          "end": "2026-10-23",
+          "impressions": 4094,
+          "pageviews": 183,
+          "likes": 68,
+          "comments": 8,
+          "captured_at": "2026-11-14T09:59:43+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-10-10",
+          "end": "2026-11-06",
+          "impressions": 4351,
+          "pageviews": 189,
+          "likes": 68,
+          "comments": 8,
+          "captured_at": "2026-11-14T09:59:43+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
+      "key": "n0bac383f3a06",
+      "title": "あなたの記事、｢買いたくなる理由｣はある？｜3つのお財布のお話🌙",
+      "published_at": "2026-10-09T21:00:00+09:00",
+      "url": "https://note.com/nero_notelover/n/n0bac383f3a06",
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-09",
+          "end": "2026-10-11",
+          "impressions": 4041,
+          "pageviews": 217,
+          "likes": 54,
+          "comments": 18,
+          "captured_at": "2026-11-14T09:59:38+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-09",
+          "end": "2026-10-15",
+          "impressions": 4721,
+          "pageviews": 257,
+          "likes": 56,
+          "comments": 21,
+          "captured_at": "2026-11-14T09:59:39+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-09",
+          "end": "2026-10-22",
+          "impressions": 5271,
+          "pageviews": 303,
+          "likes": 59,
+          "comments": 22,
+          "captured_at": "2026-11-14T09:59:40+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-10-09",
+          "end": "2026-11-05",
+          "impressions": 6006,
+          "pageviews": 348,
+          "likes": 62,
+          "comments": 22,
+          "captured_at": "2026-11-14T09:59:40+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
+    },
+    {
       "key": "n2499a4347e8e",
       "title": "城下町に、また仲間が増えました🌙｜第2期メンバーのご紹介",
       "published_at": "2026-10-09T06:01:18+09:00",
       "url": "https://note.com/nero_notelover/n/n2499a4347e8e",
-      "metrics": {}
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-09",
+          "end": "2026-10-11",
+          "impressions": 2867,
+          "pageviews": 205,
+          "likes": 76,
+          "comments": 14,
+          "captured_at": "2026-11-14T09:59:38+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-09",
+          "end": "2026-10-15",
+          "impressions": 3367,
+          "pageviews": 212,
+          "likes": 79,
+          "comments": 14,
+          "captured_at": "2026-11-14T09:59:39+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-09",
+          "end": "2026-10-22",
+          "impressions": 3805,
+          "pageviews": 237,
+          "likes": 80,
+          "comments": 16,
+          "captured_at": "2026-11-14T09:59:40+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-10-09",
+          "end": "2026-11-05",
+          "impressions": 4090,
+          "pageviews": 245,
+          "likes": 80,
+          "comments": 16,
+          "captured_at": "2026-11-14T09:59:40+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
     },
     {
       "key": "nb0a5f55005a3",
       "title": "王子、ついに家を手に入れる🌙｜月環遊宮《ネロクリア》ルームツアー",
       "published_at": "2026-10-08T21:00:00+09:00",
       "url": "https://note.com/nero_notelover/n/nb0a5f55005a3",
-      "metrics": {}
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-08",
+          "end": "2026-10-10",
+          "impressions": 4121,
+          "pageviews": 312,
+          "likes": 105,
+          "comments": 56,
+          "captured_at": "2026-11-14T09:59:34+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-08",
+          "end": "2026-10-14",
+          "impressions": 4944,
+          "pageviews": 352,
+          "likes": 109,
+          "comments": 60,
+          "captured_at": "2026-11-14T09:59:35+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-08",
+          "end": "2026-10-21",
+          "impressions": 5669,
+          "pageviews": 366,
+          "likes": 109,
+          "comments": 60,
+          "captured_at": "2026-11-14T09:59:36+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-10-08",
+          "end": "2026-11-04",
+          "impressions": 6439,
+          "pageviews": 379,
+          "likes": 109,
+          "comments": 60,
+          "captured_at": "2026-11-14T09:59:37+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
     },
     {
       "key": "n12ddd2bfe6b0",
       "title": "王子の城下町🌙のはじめての企画",
       "published_at": "2026-10-08T18:00:00+09:00",
       "url": "https://note.com/nero_notelover/n/n12ddd2bfe6b0",
-      "metrics": {}
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-08",
+          "end": "2026-10-10",
+          "impressions": 2600,
+          "pageviews": 315,
+          "likes": 55,
+          "comments": 41,
+          "captured_at": "2026-11-14T09:59:34+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-08",
+          "end": "2026-10-14",
+          "impressions": 3154,
+          "pageviews": 387,
+          "likes": 57,
+          "comments": 45,
+          "captured_at": "2026-11-14T09:59:35+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-08",
+          "end": "2026-10-21",
+          "impressions": 3636,
+          "pageviews": 412,
+          "likes": 59,
+          "comments": 45,
+          "captured_at": "2026-11-14T09:59:36+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-10-08",
+          "end": "2026-11-04",
+          "impressions": 4165,
+          "pageviews": 431,
+          "likes": 60,
+          "comments": 45,
+          "captured_at": "2026-11-14T09:59:37+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
     },
     {
       "key": "n4b23b90da27a",
       "title": "王子の城下町に、最初に来てくれた20人🌙",
       "published_at": "2026-10-08T06:00:00+09:00",
       "url": "https://note.com/nero_notelover/n/n4b23b90da27a",
-      "metrics": {}
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-08",
+          "end": "2026-10-10",
+          "impressions": 3523,
+          "pageviews": 400,
+          "likes": 106,
+          "comments": 28,
+          "captured_at": "2026-11-14T09:59:34+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-08",
+          "end": "2026-10-14",
+          "impressions": 4211,
+          "pageviews": 421,
+          "likes": 109,
+          "comments": 28,
+          "captured_at": "2026-11-14T09:59:35+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-08",
+          "end": "2026-10-21",
+          "impressions": 4650,
+          "pageviews": 434,
+          "likes": 112,
+          "comments": 30,
+          "captured_at": "2026-11-14T09:59:36+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-10-08",
+          "end": "2026-11-04",
+          "impressions": 5010,
+          "pageviews": 442,
+          "likes": 112,
+          "comments": 30,
+          "captured_at": "2026-11-14T09:59:37+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
     },
     {
       "key": "ne84e56557461",
       "title": "王子、メンバーシップを始めます🌙｜遊びながら、収益化を目指す場所",
       "published_at": "2026-10-07T22:34:55+09:00",
       "url": "https://note.com/nero_notelover/n/ne84e56557461",
-      "metrics": {}
+      "metrics": {
+        "3": {
+          "days": 3,
+          "start": "2026-10-07",
+          "end": "2026-10-09",
+          "impressions": 9320,
+          "pageviews": 475,
+          "likes": 143,
+          "comments": 67,
+          "captured_at": "2026-11-14T09:59:32+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-07",
+          "end": "2026-10-13",
+          "impressions": 10356,
+          "pageviews": 516,
+          "likes": 149,
+          "comments": 67,
+          "captured_at": "2026-11-14T09:59:33+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-07",
+          "end": "2026-10-20",
+          "impressions": 12118,
+          "pageviews": 589,
+          "likes": 178,
+          "comments": 67,
+          "captured_at": "2026-11-14T09:59:33+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-10-07",
+          "end": "2026-11-03",
+          "impressions": 13072,
+          "pageviews": 611,
+          "likes": 180,
+          "comments": 67,
+          "captured_at": "2026-11-14T09:59:34+09:00",
+          "source": "note_dashboard_custom_range"
+        }
+      }
     },
     {
       "key": "n2c5543293164",
@@ -58,6 +2147,39 @@
           "likes": 133,
           "comments": 61,
           "captured_at": "2026-10-09T06:11:41+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-06",
+          "end": "2026-10-12",
+          "impressions": 5615,
+          "pageviews": 447,
+          "likes": 140,
+          "comments": 65,
+          "captured_at": "2026-11-14T09:59:29+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-06",
+          "end": "2026-10-19",
+          "impressions": 6247,
+          "pageviews": 466,
+          "likes": 141,
+          "comments": 65,
+          "captured_at": "2026-11-14T09:59:30+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-10-06",
+          "end": "2026-11-02",
+          "impressions": 6936,
+          "pageviews": 497,
+          "likes": 143,
+          "comments": 65,
+          "captured_at": "2026-11-14T09:59:31+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -78,6 +2200,39 @@
           "comments": 82,
           "captured_at": "2026-10-09T06:11:40+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-05",
+          "end": "2026-10-11",
+          "impressions": 6537,
+          "pageviews": 542,
+          "likes": 138,
+          "comments": 85,
+          "captured_at": "2026-11-14T09:59:28+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-05",
+          "end": "2026-10-18",
+          "impressions": 7293,
+          "pageviews": 572,
+          "likes": 140,
+          "comments": 85,
+          "captured_at": "2026-11-14T09:59:28+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-10-05",
+          "end": "2026-11-01",
+          "impressions": 8090,
+          "pageviews": 597,
+          "likes": 141,
+          "comments": 86,
+          "captured_at": "2026-11-14T09:59:29+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -97,6 +2252,39 @@
           "comments": 25,
           "captured_at": "2026-10-09T06:11:40+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-04",
+          "end": "2026-10-10",
+          "impressions": 4553,
+          "pageviews": 331,
+          "likes": 115,
+          "comments": 25,
+          "captured_at": "2026-11-14T09:59:26+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-04",
+          "end": "2026-10-17",
+          "impressions": 4886,
+          "pageviews": 344,
+          "likes": 117,
+          "comments": 25,
+          "captured_at": "2026-11-14T09:59:27+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-10-04",
+          "end": "2026-10-31",
+          "impressions": 5061,
+          "pageviews": 348,
+          "likes": 117,
+          "comments": 25,
+          "captured_at": "2026-11-14T09:59:27+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -115,6 +2303,39 @@
           "likes": 127,
           "comments": 61,
           "captured_at": "2026-10-09T06:11:38+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "7": {
+          "days": 7,
+          "start": "2026-10-03",
+          "end": "2026-10-09",
+          "impressions": 7004,
+          "pageviews": 481,
+          "likes": 140,
+          "comments": 67,
+          "captured_at": "2026-11-14T09:59:24+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-03",
+          "end": "2026-10-16",
+          "impressions": 7802,
+          "pageviews": 493,
+          "likes": 143,
+          "comments": 69,
+          "captured_at": "2026-11-14T09:59:25+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-10-03",
+          "end": "2026-10-30",
+          "impressions": 8484,
+          "pageviews": 497,
+          "likes": 146,
+          "comments": 69,
+          "captured_at": "2026-11-14T09:59:26+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -146,6 +2367,28 @@
           "comments": 63,
           "captured_at": "2026-10-09T06:11:37+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-02",
+          "end": "2026-10-15",
+          "impressions": 6185,
+          "pageviews": 491,
+          "likes": 127,
+          "comments": 65,
+          "captured_at": "2026-11-14T09:59:23+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-10-02",
+          "end": "2026-10-29",
+          "impressions": 7154,
+          "pageviews": 499,
+          "likes": 128,
+          "comments": 65,
+          "captured_at": "2026-11-14T09:59:24+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -175,6 +2418,28 @@
           "likes": 120,
           "comments": 50,
           "captured_at": "2026-10-09T06:11:36+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-10-01",
+          "end": "2026-10-14",
+          "impressions": 5819,
+          "pageviews": 497,
+          "likes": 122,
+          "comments": 50,
+          "captured_at": "2026-11-14T09:59:22+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-10-01",
+          "end": "2026-10-28",
+          "impressions": 6150,
+          "pageviews": 513,
+          "likes": 125,
+          "comments": 50,
+          "captured_at": "2026-11-14T09:59:22+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -206,6 +2471,28 @@
           "comments": 51,
           "captured_at": "2026-10-09T06:11:35+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-09-30",
+          "end": "2026-10-13",
+          "impressions": 5658,
+          "pageviews": 502,
+          "likes": 127,
+          "comments": 51,
+          "captured_at": "2026-11-14T09:59:20+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-30",
+          "end": "2026-10-27",
+          "impressions": 5975,
+          "pageviews": 508,
+          "likes": 129,
+          "comments": 51,
+          "captured_at": "2026-11-14T09:59:21+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -235,6 +2522,28 @@
           "likes": 161,
           "comments": 62,
           "captured_at": "2026-10-09T06:11:33+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-09-29",
+          "end": "2026-10-12",
+          "impressions": 7467,
+          "pageviews": 611,
+          "likes": 168,
+          "comments": 64,
+          "captured_at": "2026-11-14T09:59:19+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-29",
+          "end": "2026-10-26",
+          "impressions": 8402,
+          "pageviews": 649,
+          "likes": 174,
+          "comments": 64,
+          "captured_at": "2026-11-14T09:59:20+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -266,6 +2575,28 @@
           "comments": 24,
           "captured_at": "2026-10-09T06:11:33+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-09-29",
+          "end": "2026-10-12",
+          "impressions": 3948,
+          "pageviews": 167,
+          "likes": 68,
+          "comments": 24,
+          "captured_at": "2026-11-14T09:59:19+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-29",
+          "end": "2026-10-26",
+          "impressions": 4139,
+          "pageviews": 170,
+          "likes": 68,
+          "comments": 24,
+          "captured_at": "2026-11-14T09:59:20+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -295,6 +2626,28 @@
           "likes": 95,
           "comments": 35,
           "captured_at": "2026-10-09T06:11:32+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-09-28",
+          "end": "2026-10-11",
+          "impressions": 5361,
+          "pageviews": 299,
+          "likes": 101,
+          "comments": 35,
+          "captured_at": "2026-11-14T09:59:18+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-28",
+          "end": "2026-10-25",
+          "impressions": 5884,
+          "pageviews": 303,
+          "likes": 102,
+          "comments": 35,
+          "captured_at": "2026-11-14T09:59:19+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -326,6 +2679,28 @@
           "comments": 33,
           "captured_at": "2026-10-09T06:11:31+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-09-27",
+          "end": "2026-10-10",
+          "impressions": 14880,
+          "pageviews": 291,
+          "likes": 149,
+          "comments": 34,
+          "captured_at": "2026-11-14T09:59:17+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-27",
+          "end": "2026-10-24",
+          "impressions": 15964,
+          "pageviews": 299,
+          "likes": 149,
+          "comments": 34,
+          "captured_at": "2026-11-14T09:59:18+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -355,6 +2730,28 @@
           "likes": 74,
           "comments": 11,
           "captured_at": "2026-10-09T06:11:31+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-09-27",
+          "end": "2026-10-10",
+          "impressions": 4858,
+          "pageviews": 196,
+          "likes": 76,
+          "comments": 12,
+          "captured_at": "2026-11-14T09:59:17+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-27",
+          "end": "2026-10-24",
+          "impressions": 5122,
+          "pageviews": 207,
+          "likes": 79,
+          "comments": 12,
+          "captured_at": "2026-11-14T09:59:18+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -386,6 +2783,28 @@
           "comments": 23,
           "captured_at": "2026-10-09T06:11:31+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-09-27",
+          "end": "2026-10-10",
+          "impressions": 3705,
+          "pageviews": 221,
+          "likes": 74,
+          "comments": 26,
+          "captured_at": "2026-11-14T09:59:17+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-27",
+          "end": "2026-10-24",
+          "impressions": 4053,
+          "pageviews": 231,
+          "likes": 78,
+          "comments": 26,
+          "captured_at": "2026-11-14T09:59:18+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -415,6 +2834,28 @@
           "likes": 63,
           "comments": 17,
           "captured_at": "2026-10-09T06:11:31+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-09-27",
+          "end": "2026-10-10",
+          "impressions": 5186,
+          "pageviews": 193,
+          "likes": 63,
+          "comments": 18,
+          "captured_at": "2026-11-14T09:59:17+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-27",
+          "end": "2026-10-24",
+          "impressions": 5455,
+          "pageviews": 200,
+          "likes": 66,
+          "comments": 18,
+          "captured_at": "2026-11-14T09:59:18+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -446,6 +2887,28 @@
           "comments": 20,
           "captured_at": "2026-10-09T06:11:31+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-09-27",
+          "end": "2026-10-10",
+          "impressions": 4436,
+          "pageviews": 169,
+          "likes": 54,
+          "comments": 20,
+          "captured_at": "2026-11-14T09:59:17+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-27",
+          "end": "2026-10-24",
+          "impressions": 4682,
+          "pageviews": 173,
+          "likes": 55,
+          "comments": 20,
+          "captured_at": "2026-11-14T09:59:18+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -476,6 +2939,28 @@
           "comments": 30,
           "captured_at": "2026-10-09T06:11:31+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-09-27",
+          "end": "2026-10-10",
+          "impressions": 5204,
+          "pageviews": 236,
+          "likes": 68,
+          "comments": 30,
+          "captured_at": "2026-11-14T09:59:17+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-27",
+          "end": "2026-10-24",
+          "impressions": 5465,
+          "pageviews": 238,
+          "likes": 68,
+          "comments": 30,
+          "captured_at": "2026-11-14T09:59:18+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -505,6 +2990,28 @@
           "likes": 190,
           "comments": 223,
           "captured_at": "2026-10-09T06:11:30+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "14": {
+          "days": 14,
+          "start": "2026-09-26",
+          "end": "2026-10-09",
+          "impressions": 12332,
+          "pageviews": 1785,
+          "likes": 263,
+          "comments": 261,
+          "captured_at": "2026-11-14T09:59:16+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-26",
+          "end": "2026-10-23",
+          "impressions": 14663,
+          "pageviews": 1852,
+          "likes": 284,
+          "comments": 261,
+          "captured_at": "2026-11-14T09:59:16+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -547,6 +3054,17 @@
           "comments": 61,
           "captured_at": "2026-10-09T06:11:29+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-25",
+          "end": "2026-10-22",
+          "impressions": 9053,
+          "pageviews": 567,
+          "likes": 158,
+          "comments": 61,
+          "captured_at": "2026-11-14T09:59:15+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -587,6 +3105,17 @@
           "likes": 107,
           "comments": 15,
           "captured_at": "2026-10-09T06:11:27+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-24",
+          "end": "2026-10-21",
+          "impressions": 4947,
+          "pageviews": 293,
+          "likes": 108,
+          "comments": 15,
+          "captured_at": "2026-11-14T09:59:15+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -629,6 +3158,17 @@
           "comments": 100,
           "captured_at": "2026-10-09T06:11:25+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-23",
+          "end": "2026-10-20",
+          "impressions": 9709,
+          "pageviews": 638,
+          "likes": 153,
+          "comments": 100,
+          "captured_at": "2026-11-14T09:59:14+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -669,6 +3209,17 @@
           "likes": 118,
           "comments": 54,
           "captured_at": "2026-10-09T06:11:25+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-23",
+          "end": "2026-10-20",
+          "impressions": 5579,
+          "pageviews": 744,
+          "likes": 121,
+          "comments": 54,
+          "captured_at": "2026-11-14T09:59:14+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -711,6 +3262,17 @@
           "comments": 67,
           "captured_at": "2026-10-09T06:11:23+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-22",
+          "end": "2026-10-19",
+          "impressions": 7098,
+          "pageviews": 429,
+          "likes": 97,
+          "comments": 67,
+          "captured_at": "2026-11-14T09:59:13+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -751,6 +3313,17 @@
           "likes": 132,
           "comments": 65,
           "captured_at": "2026-10-09T06:11:20+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-21",
+          "end": "2026-10-18",
+          "impressions": 7831,
+          "pageviews": 458,
+          "likes": 133,
+          "comments": 65,
+          "captured_at": "2026-11-14T09:59:13+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -793,6 +3366,17 @@
           "comments": 49,
           "captured_at": "2026-10-09T06:11:18+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-20",
+          "end": "2026-10-17",
+          "impressions": 7920,
+          "pageviews": 449,
+          "likes": 124,
+          "comments": 49,
+          "captured_at": "2026-11-14T09:59:12+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -833,6 +3417,17 @@
           "likes": 92,
           "comments": 54,
           "captured_at": "2026-10-09T06:11:16+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-19",
+          "end": "2026-10-16",
+          "impressions": 5758,
+          "pageviews": 401,
+          "likes": 92,
+          "comments": 54,
+          "captured_at": "2026-11-14T09:59:12+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -875,6 +3470,17 @@
           "comments": 57,
           "captured_at": "2026-10-09T06:11:15+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-18",
+          "end": "2026-10-15",
+          "impressions": 5854,
+          "pageviews": 372,
+          "likes": 101,
+          "comments": 57,
+          "captured_at": "2026-11-14T09:59:11+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -915,6 +3521,17 @@
           "likes": 73,
           "comments": 20,
           "captured_at": "2026-10-09T06:11:15+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-18",
+          "end": "2026-10-15",
+          "impressions": 3861,
+          "pageviews": 160,
+          "likes": 73,
+          "comments": 20,
+          "captured_at": "2026-11-14T09:59:11+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -957,6 +3574,17 @@
           "comments": 36,
           "captured_at": "2026-10-09T06:11:14+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-17",
+          "end": "2026-10-14",
+          "impressions": 4652,
+          "pageviews": 341,
+          "likes": 78,
+          "comments": 36,
+          "captured_at": "2026-11-14T09:59:11+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -997,6 +3625,17 @@
           "likes": 111,
           "comments": 42,
           "captured_at": "2026-10-09T06:11:14+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-17",
+          "end": "2026-10-14",
+          "impressions": 5042,
+          "pageviews": 297,
+          "likes": 114,
+          "comments": 43,
+          "captured_at": "2026-11-14T09:59:11+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -1039,6 +3678,17 @@
           "comments": 4,
           "captured_at": "2026-10-09T06:11:13+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-16",
+          "end": "2026-10-13",
+          "impressions": 5091,
+          "pageviews": 207,
+          "likes": 69,
+          "comments": 4,
+          "captured_at": "2026-11-14T09:59:10+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -1079,6 +3729,17 @@
           "likes": 64,
           "comments": 42,
           "captured_at": "2026-10-09T06:11:13+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-16",
+          "end": "2026-10-13",
+          "impressions": 8804,
+          "pageviews": 604,
+          "likes": 69,
+          "comments": 46,
+          "captured_at": "2026-11-14T09:59:10+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -1121,6 +3782,17 @@
           "comments": 41,
           "captured_at": "2026-10-09T06:11:12+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-15",
+          "end": "2026-10-12",
+          "impressions": 9193,
+          "pageviews": 330,
+          "likes": 133,
+          "comments": 41,
+          "captured_at": "2026-11-14T09:59:10+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -1161,6 +3833,17 @@
           "likes": 160,
           "comments": 75,
           "captured_at": "2026-10-09T06:11:11+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-14",
+          "end": "2026-10-11",
+          "impressions": 8205,
+          "pageviews": 660,
+          "likes": 161,
+          "comments": 75,
+          "captured_at": "2026-11-14T09:59:09+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
@@ -1203,6 +3886,17 @@
           "comments": 56,
           "captured_at": "2026-10-09T06:11:10+09:00",
           "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-13",
+          "end": "2026-10-10",
+          "impressions": 10562,
+          "pageviews": 516,
+          "likes": 123,
+          "comments": 56,
+          "captured_at": "2026-11-14T09:59:08+09:00",
+          "source": "note_dashboard_custom_range"
         }
       }
     },
@@ -1243,6 +3937,17 @@
           "likes": 110,
           "comments": 37,
           "captured_at": "2026-10-09T06:11:10+09:00",
+          "source": "note_dashboard_custom_range"
+        },
+        "28": {
+          "days": 28,
+          "start": "2026-09-12",
+          "end": "2026-10-09",
+          "impressions": 9118,
+          "pageviews": 426,
+          "likes": 112,
+          "comments": 37,
+          "captured_at": "2026-11-14T09:59:07+09:00",
           "source": "note_dashboard_custom_range"
         }
       }
