@@ -2,10 +2,7 @@ name: Update Nero Observatory
 
 on:
   workflow_dispatch:
-  # Replaces the paused external daily dispatcher for public metrics only.
-  # Run after note's evening dashboard rollup (20:40 JST).
-  schedule:
-    - cron: '40 11 * * *'
+  # Daily schedule paused because this standalone site is not in active use.
   push:
     branches: [main]
     paths:
