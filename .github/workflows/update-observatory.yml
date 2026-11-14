@@ -2,6 +2,10 @@ name: Update Nero Observatory
 
 on:
   workflow_dispatch:
+  # Replaces the paused external daily dispatcher for public metrics only.
+  # Run after note's evening dashboard rollup (20:40 JST).
+  schedule:
+    - cron: '40 11 * * *'
   push:
     branches: [main]
     paths:
@@ -15,8 +19,8 @@ on:
       - scripts/read-dashboard-sales-json.mjs
       - .github/workflows/update-observatory.yml
 
-# daily orchestration is handled by the exact 19:32 JST Nero Observatory Daily Sync
-# fallback kick marker: 2026-09-24T23:04:00+09:00
+# Public metrics daily collection is scheduled here. Private Gmail introduction
+# and membership syncing is intentionally not enabled by this workflow.
 permissions:
   contents: write
 
